@@ -1,0 +1,602 @@
+[0.024s] Invoking command in '/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds -DBUILD_IDLC=AUTO -DCMAKE_INSTALL_PREFIX=/home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds
+[0.078s] -- The C compiler identification is GNU 11.4.0
+[0.085s] -- Detecting C compiler ABI info
+[0.142s] -- Detecting C compiler ABI info - done
+[0.149s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.149s] -- Detecting C compile features
+[0.149s] -- Detecting C compile features - done
+[0.150s] -- Setting build type to 'RelWithDebInfo' as none was specified.
+[0.155s] -- Looking for getopt.h
+[0.216s] -- Looking for getopt.h - found
+[0.279s] -- Building with OpenSSL support
+[0.286s] -- Looking for stdint.h
+[0.342s] -- Looking for stdint.h - found
+[0.342s] -- Looking for inttypes.h
+[0.399s] -- Looking for inttypes.h - found
+[0.399s] -- Looking for sys/types.h
+[0.459s] -- Looking for sys/types.h - found
+[0.460s] -- Looking for stdint.h
+[0.520s] -- Looking for stdint.h - found
+[0.520s] -- Looking for stddef.h
+[0.580s] -- Looking for stddef.h - found
+[0.580s] -- Check size of intmax_t
+[0.646s] -- Check size of intmax_t - done
+[0.647s] -- Looking for stpcpy
+[0.709s] -- Looking for stpcpy - found
+[0.710s] -- Looking for strlcpy
+[0.736s] -- Looking for strlcpy - not found
+[0.736s] -- Looking for strlcat
+[0.762s] -- Looking for strlcat - not found
+[0.763s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[0.821s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[0.822s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[0.881s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Failed
+[0.881s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[0.938s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[0.943s] -- Looking for gethostname
+[1.003s] -- Looking for gethostname - found
+[1.003s] -- Looking for inet_ntop
+[1.066s] -- Looking for inet_ntop - found
+[1.066s] -- Looking for inet_pton
+[1.123s] -- Looking for inet_pton - found
+[1.123s] -- Looking for getaddrinfo
+[1.180s] -- Looking for getaddrinfo - found
+[1.180s] -- Looking for gethostbyname_r
+[1.242s] -- Looking for gethostbyname_r - found
+[1.243s] -- Check size of struct sockaddr_in6
+[1.303s] -- Check size of struct sockaddr_in6 - done
+[1.304s] -- Looking for pthread.h
+[1.361s] -- Looking for pthread.h - found
+[1.362s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.423s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.424s] -- Found Threads: TRUE  
+[1.424s] -- Looking for clock_gettime in c
+[1.479s] -- Looking for clock_gettime in c - found
+[1.743s] -- Configuring done
+[1.840s] -- Generating done
+[1.844s] -- Build files have been written to: /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds
+[1.851s] Invoked command in '/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds -DBUILD_IDLC=AUTO -DCMAKE_INSTALL_PREFIX=/home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds
+[1.856s] Invoking command in '/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds -- -j20 -l20
+[1.922s] [  0%] [34m[1mGenerating include/idl/endian.h[0m
+[1.923s] [  0%] [34m[1mGenerating src/md5.c[0m
+[1.926s] [  1%] [34m[1mGenerating include/idl/attributes.h[0m
+[1.934s] [  1%] [34m[1mGenerating include/idl/misc.h[0m
+[1.934s] [  2%] [34m[1mGenerating include/idl/md5.h[0m
+[1.947s] [  2%] Built target _confgen
+[1.947s] [  3%] [32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/directive.c.o[0m
+[1.947s] [  3%] [32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/mbchar.c.o[0m
+[1.948s] [  4%] [32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/support.c.o[0m
+[1.951s] [  4%] [32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/eval.c.o[0m
+[1.954s] [  5%] [32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/expand.c.o[0m
+[1.957s] [  5%] [32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/main.c.o[0m
+[1.960s] [  6%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/bswap.c.o[0m
+[1.961s] [  6%] [32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/system.c.o[0m
+[1.964s] [  6%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/avl.c.o[0m
+[1.969s] [  7%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/atomics.c.o[0m
+[1.970s] [  7%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/log.c.o[0m
+[1.978s] [  7%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/io.c.o[0m
+[1.983s] [  8%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/retcode.c.o[0m
+[1.991s] [  8%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/strtod.c.o[0m
+[1.993s] [  8%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/mh3.c.o[0m
+[2.003s] [  9%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/strtol.c.o[0m
+[2.006s] [  9%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/environ.c.o[0m
+[2.017s] [ 10%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/expand_vars.c.o[0m
+[2.019s] [ 10%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_eth.c.o[0m
+[2.022s] [ 10%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/symbol.c.o[0m
+[2.072s] [ 10%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/fibheap.c.o[0m
+[2.094s] [ 11%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ssl.c.o[0m
+[2.120s] [ 11%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tcp.c.o[0m
+[2.123s] [ 11%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/hopscotch.c.o[0m
+[2.193s] [ 12%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/directive.c.o[0m
+[2.211s] [ 12%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tran.c.o[0m
+[2.243s] [ 12%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/expression.c.o[0m
+[2.253s] [ 13%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_udp.c.o[0m
+[2.278s] [ 14%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/circlist.c.o[0m
+[2.301s] [ 14%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_raweth.c.o[0m
+[2.332s] [ 14%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/file.c.o[0m
+[2.366s] [ 14%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/threads.c.o[0m
+[2.395s] [ 15%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/string.c.o[0m
+[2.404s] [ 15%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/sockets.c.o[0m
+[2.457s] [ 15%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_vnet.c.o[0m
+[2.463s] [ 16%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/processor.c.o[0m
+[2.535s] [ 17%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ipaddr.c.o[0m
+[2.598s] [ 17%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_mcgroup.c.o[0m
+[2.617s] [ 17%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/scanner.c.o[0m
+[2.670s] [ 18%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_util.c.o[0m
+[2.678s] [ 18%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/md5.c.o[0m
+[2.701s] [ 18%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_omg.c.o[0m
+[2.718s] [ 19%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/xmlparser.c.o[0m
+[2.755s] [ 19%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/ifaddrs.c.o[0m
+[2.757s] [ 19%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_portmapping.c.o[0m
+[2.823s] [ 20%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_handshake.c.o[0m
+[2.862s] [ 21%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/string.c.o[0m
+[2.873s] [ 22%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/cdtors.c.o[0m
+[2.876s] [ 22%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata.c.o[0m
+[2.886s] [ 22%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/random.c.o[0m
+[2.931s] [ 22%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/time.c.o[0m
+[2.963s] [ 23%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/ifaddrs/posix/ifaddrs.c.o[0m
+[2.975s] [ 23%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/annotation.c.o[0m
+[3.014s] [ 23%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/scope.c.o[0m
+[3.063s] [ 24%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/tree.c.o[0m
+[3.087s] [ 24%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/sockets/posix/socket.c.o[0m
+[3.090s] [ 24%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/visit.c.o[0m
+[3.115s] [ 24%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_default.c.o[0m
+[3.131s] [ 25%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_pserop.c.o[0m
+[3.134s] [ 25%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/print.c.o[0m
+[3.140s] [ 25%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_plist.c.o[0m
+[3.179s] [ 26%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertype.c.o[0m
+[3.179s] [ 26%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/sockets/posix/gethostname.c.o[0m
+[3.247s] [ 26%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertype_default.c.o[0m
+[3.292s] [ 27%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/heap/posix/heap.c.o[0m
+[3.295s] [ 27%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/dynlib/posix/dynlib.c.o[0m
+[3.299s] [ 27%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertype_pserop.c.o[0m
+[3.335s] [ 28%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/environ/posix/environ.c.o[0m
+[3.355s] [ 29%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/keylist.c.o[0m
+[3.384s] [ 29%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/filesystem/posix/filesystem.c.o[0m
+[3.403s] [ 30%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertype_plist.c.o[0m
+[3.452s] [ 30%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertopic.c.o[0m
+[3.470s] [ 30%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/process/posix/process.c.o[0m
+[3.485s] [ 31%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_statistics.c.o[0m
+[3.489s] [ 32%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/random/posix/random.c.o[0m
+[3.490s] [ 32%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/hashid.c.o[0m
+[3.496s] [ 32%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_iid.c.o[0m
+[3.512s] [ 32%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tkmap.c.o[0m
+[3.535s] [ 32%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/sync/posix/sync.c.o[0m
+[3.577s] [ 33%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_vendor.c.o[0m
+[3.595s] [ 34%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/parser.c.o[0m
+[3.596s] [ 34%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/threads/posix/threads.c.o[0m
+[3.605s] [ 34%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/md5.c.o[0m
+[3.610s] [ 34%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_threadmon.c.o[0m
+[3.652s] [ 35%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/netstat/linux/netstat.c.o[0m
+[3.657s] [ 35%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_rhc.c.o[0m
+[3.665s] [ 35%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_entity_index.c.o[0m
+[3.679s] [ 36%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_pmd.c.o[0m
+[3.697s] [ 36%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/time/posix/time.c.o[0m
+[3.713s] [ 36%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_deliver_locally.c.o[0m
+[3.719s] [ 36%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_plist.c.o[0m
+[3.720s] [ 37%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_deadline.c.o[0m
+[3.722s] [ 38%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/rusage/posix/rusage.c.o[0m
+[3.741s] [ 39%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_cdrstream.c.o[0m
+[3.742s] [ 39%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_config.c.o[0m
+[3.805s] [ 39%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_time.c.o[0m
+[3.818s] [ 40%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ownip.c.o[0m
+[3.821s] [ 40%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_acknack.c.o[0m
+[3.855s] [ 41%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_list_genptr.c.o[0m
+[3.932s] [ 41%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_typelib.c.o[0m
+[3.948s] [ 41%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_wraddrset.c.o[0m
+[3.969s] [ 42%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_entity.c.o[0m
+[3.997s] [ 43%] [32m[1mLinking C static library ../../../lib/libidlpp.a[0m
+[4.025s] [ 43%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_entity_match.c.o[0m
+[4.074s] [ 44%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_participant.c.o[0m
+[4.095s] [ 44%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_proxy_participant.c.o[0m
+[4.095s] [ 44%] [32m[1mLinking C static library ../../lib/libddsrt-internal.a[0m
+[4.116s] [ 44%] Built target idlpp
+[4.119s] [ 44%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_topic.c.o[0m
+[4.140s] [ 45%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_endpoint.c.o[0m
+[4.152s] [ 45%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_proxy_endpoint.c.o[0m
+[4.251s] [ 45%] Built target ddsrt-internal
+[4.289s] [ 45%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_addrset.c.o[0m
+[4.335s] [ 46%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_bitset_inlines.c.o[0m
+[4.503s] [ 46%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_bswap.c.o[0m
+[4.593s] [ 47%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_ddsi_discovery.c.o[0m
+[4.699s] [ 47%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_debmon.c.o[0m
+[4.783s] [ 47%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_gc.c.o[0m
+[5.514s] [ 48%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_init.c.o[0m
+[5.563s] [ 48%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_lat_estim.c.o[0m
+[5.586s] [ 49%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_lease.c.o[0m
+[5.599s] [ 49%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_pcap.c.o[0m
+[5.600s] [ 49%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_misc.c.o[0m
+[5.634s] [ 50%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_qosmatch.c.o[0m
+[5.652s] [ 50%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_receive.c.o[0m
+[5.668s] [ 50%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_thread.c.o[0m
+[5.677s] [ 50%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_radmin.c.o[0m
+[5.685s] [ 51%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_sockwaitset.c.o[0m
+[5.730s] [ 52%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_transmit.c.o[0m
+[5.794s] [ 52%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_inverse_uint32_set.c.o[0m
+[5.880s] [ 52%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_whc.c.o[0m
+[5.921s] [ 53%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_xevent.c.o[0m
+[5.933s] [ 53%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_xmsg.c.o[0m
+[5.948s] [ 53%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_freelist.c.o[0m
+[6.026s] [ 54%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/sysdeps.c.o[0m
+[6.152s] [ 54%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_lifespan.c.o[0m
+[6.172s] [ 55%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_xt_typeinfo.c.o[0m
+[6.268s] [ 55%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_xt_typelookup.c.o[0m
+[6.332s] [ 55%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_xt_typemap.c.o[0m
+[6.408s] [ 56%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_typelookup.c.o[0m
+[6.473s] [ 56%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_typewrap.c.o[0m
+[6.477s] [ 57%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_typebuilder.c.o[0m
+[6.492s] [ 57%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_msg.c.o[0m
+[6.499s] [ 57%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_exchange.c.o[0m
+[6.545s] [ 58%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_shm_transport.c.o[0m
+[6.598s] [ 58%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/defconfig.c.o[0m
+[6.617s] [ 58%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_alloc.c.o[0m
+[6.688s] [ 59%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_builtin.c.o[0m
+[6.898s] [ 59%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_coherent.c.o[0m
+[6.937s] [ 60%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_participant.c.o[0m
+[6.948s] [ 60%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_reader.c.o[0m
+[6.955s] [ 60%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_writer.c.o[0m
+[6.995s] [ 61%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_init.c.o[0m
+[7.036s] [ 61%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_publisher.c.o[0m
+[7.059s] [ 61%] [32m[1mLinking C shared library ../../lib/libcycloneddsidl.so[0m
+[7.131s] [ 61%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_rhc.c.o[0m
+[7.265s] [ 62%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_rhc_default.c.o[0m
+[7.266s] [ 62%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_domain.c.o[0m
+[7.306s] [ 63%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_instance.c.o[0m
+[7.364s] [ 63%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_qos.c.o[0m
+[7.454s] [ 63%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_handles.c.o[0m
+[7.463s] [ 63%] Built target idl
+[7.485s] [ 63%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_matched.c.o[0m
+[7.489s] [ 64%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_entity.c.o[0m
+[7.641s] [ 65%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_querycond.c.o[0m
+[7.880s] [ 65%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_topic.c.o[0m
+[7.963s] [ 65%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_listener.c.o[0m
+[8.037s] [ 66%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_read.c.o[0m
+[8.114s] [ 66%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_readcond.c.o[0m
+[8.124s] [ 66%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_waitset.c.o[0m
+[8.146s] [ 67%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_guardcond.c.o[0m
+[8.167s] [ 67%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_statistics.c.o[0m
+[8.208s] [ 68%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_subscriber.c.o[0m
+[8.228s] [ 68%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_write.c.o[0m
+[8.305s] [ 68%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_whc.c.o[0m
+[8.395s] [ 69%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_whc_builtintopic.c.o[0m
+[8.482s] [ 69%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_serdata_builtintopic.c.o[0m
+[8.529s] [ 70%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_sertype_builtintopic.c.o[0m
+[8.564s] [ 70%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_data_allocator.c.o[0m
+[8.609s] [ 70%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_loan.c.o[0m
+[8.689s] [ 70%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_serialize.c.o[0m
+[8.699s] [ 71%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/shm_monitor.c.o[0m
+[8.724s] [ 71%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_utils.c.o[0m
+[8.817s] [ 71%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/shared_secret.c.o[0m
+[8.817s] [ 72%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_plugins.c.o[0m
+[8.885s] [ 73%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_fsm.c.o[0m
+[8.922s] [ 73%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_timed_cb.c.o[0m
+[8.970s] [ 73%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/atomics.c.o[0m
+[8.991s] [ 74%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/avl.c.o[0m
+[9.020s] [ 74%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/bswap.c.o[0m
+[9.062s] [ 74%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/io.c.o[0m
+[9.130s] [ 75%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/log.c.o[0m
+[9.144s] [ 75%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/retcode.c.o[0m
+[9.163s] [ 76%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/strtod.c.o[0m
+[9.212s] [ 76%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/strtol.c.o[0m
+[9.218s] [ 76%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/mh3.c.o[0m
+[9.241s] [ 77%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/environ.c.o[0m
+[9.273s] [ 77%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/expand_vars.c.o[0m
+[9.294s] [ 78%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/fibheap.c.o[0m
+[9.308s] [ 78%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/hopscotch.c.o[0m
+[9.309s] [ 78%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/circlist.c.o[0m
+[9.357s] [ 79%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/threads.c.o[0m
+[9.392s] [ 79%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets.c.o[0m
+[9.400s] [ 79%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/string.c.o[0m
+[9.433s] [ 80%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/md5.c.o[0m
+[9.452s] [ 80%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/xmlparser.c.o[0m
+[9.462s] [ 80%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/cdtors.c.o[0m
+[9.475s] [ 81%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/ifaddrs.c.o[0m
+[9.492s] [ 81%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/random.c.o[0m
+[9.526s] [ 82%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/time.c.o[0m
+[9.529s] [ 82%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/ifaddrs/posix/ifaddrs.c.o[0m
+[9.599s] [ 82%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets/posix/socket.c.o[0m
+[9.666s] [ 83%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets/posix/gethostname.c.o[0m
+[9.714s] [ 83%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/heap/posix/heap.c.o[0m
+[9.731s] [ 83%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/environ/posix/environ.c.o[0m
+[9.738s] [ 83%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/filesystem/posix/filesystem.c.o[0m
+[9.741s] [ 84%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/dynlib/posix/dynlib.c.o[0m
+[9.746s] [ 85%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/process/posix/process.c.o[0m
+[9.773s] [ 85%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/random/posix/random.c.o[0m
+[9.784s] [ 86%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sync/posix/sync.c.o[0m
+[9.807s] [ 86%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/netstat/linux/netstat.c.o[0m
+[9.808s] [ 86%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/threads/posix/threads.c.o[0m
+[9.816s] [ 87%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/time/posix/time.c.o[0m
+[9.854s] [ 87%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/rusage/posix/rusage.c.o[0m
+[10.321s] [ 87%] [32m[1mLinking C shared library ../../lib/libddsc.so[0m
+[10.629s] [ 87%] Built target ddsc
+[10.673s] [ 88%] [32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/idlc.c.o[0m
+[10.683s] [ 88%] [32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/plugin.c.o[0m
+[10.689s] [ 89%] [32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/options.c.o[0m
+[10.690s] [ 89%] [32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/generator.c.o[0m
+[10.695s] [ 89%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_key_factory.c.o[0m
+[10.695s] [ 89%] [32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/descriptor.c.o[0m
+[10.696s] [ 89%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_parser.c.o[0m
+[10.696s] [ 90%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_objects.c.o[0m
+[10.705s] [ 91%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_cipher.c.o[0m
+[10.705s] [ 91%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_key_exchange.c.o[0m
+[10.706s] [ 91%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_objects.c.o[0m
+[10.713s] [ 91%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/__/__/openssl/src/openssl_support.c.o[0m
+[10.713s] [ 92%] [32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/types.c.o[0m
+[10.717s] [ 93%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_transform.c.o[0m
+[10.719s] [ 94%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_utils.c.o[0m
+[10.720s] [ 91%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control.c.o[0m
+[10.722s] [ 91%] [32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/src/authentication.c.o[0m
+[10.724s] [ 93%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_utils.c.o[0m
+[10.725s] [ 93%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/cryptography.c.o[0m
+[10.725s] [ 92%] [32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/descriptor_type_meta.c.o[0m
+[11.039s] [ 94%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/__/__/openssl/src/openssl_support.c.o[0m
+[11.179s] [ 95%] [32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/src/auth_utils.c.o[0m
+[11.231s] [ 95%] [32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/__/__/openssl/src/openssl_support.c.o[0m
+[12.141s] [ 96%] [32m[1mLinking C shared library ../../../../lib/libdds_security_ac.so[0m
+[12.313s] [ 96%] Built target dds_security_ac
+[12.449s] [ 97%] [32m[1mLinking C shared library ../../../../lib/libdds_security_crypto.so[0m
+[12.643s] [ 97%] Built target dds_security_crypto
+[12.707s] [ 97%] [32m[1mLinking C shared library ../../../../lib/libdds_security_auth.so[0m
+[12.820s] [ 97%] [32m[1mLinking C executable ../../../bin/idlc[0m
+[12.854s] [ 97%] Built target dds_security_auth
+[13.028s] [ 97%] Built target idlc
+[13.096s] [ 97%] [34m[1mGenerating ddsperf_types.c, ddsperf_types.h[0m
+[13.177s] [ 97%] Built target ddsperf_types_generate
+[13.251s] [ 97%] [32mBuilding C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/ddsperf.c.o[0m
+[13.251s] [ 98%] [32mBuilding C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/cputime.c.o[0m
+[13.258s] [ 99%] [32mBuilding C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/ddsperf_types.c.o[0m
+[13.260s] [ 99%] [32mBuilding C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/async_listener.c.o[0m
+[13.271s] [ 99%] [32mBuilding C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/netload.c.o[0m
+[14.661s] [ 99%] [32m[1mLinking C executable ../../../bin/ddsperf[0m
+[14.894s] [100%] Built target ddsperf
+[14.922s] Invoked command in '/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds -- -j20 -l20
+[14.967s] Invoking command in '/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds
+[14.977s] -- Install configuration: "RelWithDebInfo"
+[14.977s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/lib/cmake/CycloneDDS/CycloneDDSConfig.cmake
+[14.977s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/lib/cmake/CycloneDDS/CycloneDDSConfigVersion.cmake
+[14.977s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/lib/cmake/CycloneDDS/CycloneDDSTargets.cmake
+[14.977s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/lib/cmake/CycloneDDS/CycloneDDSTargets-relwithdebinfo.cmake
+[14.978s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/lib/pkgconfig/CycloneDDS.pc
+[14.979s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/idlc
+[14.979s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/idlc/options.h
+[14.979s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/idlc/generator.h
+[14.979s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/bin/idlc
+[14.982s] -- Set runtime path of "/home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/bin/idlc" to "$ORIGIN/../lib"
+[14.982s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/lib/cmake/CycloneDDS/idlc/Generate.cmake
+[14.982s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/bin/ddsperf
+[14.983s] -- Set runtime path of "/home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/bin/ddsperf" to "$ORIGIN/../lib"
+[14.983s] -- Up-to-date: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include
+[14.983s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds
+[14.983s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt
+[14.983s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/io.h
+[14.983s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/environ.h
+[14.983s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/sync
+[14.983s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/sync/freertos.h
+[14.983s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/sync/windows.h
+[14.983s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/sync/posix.h
+[14.984s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/dynlib.h
+[14.984s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/threads.h
+[14.984s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/static_assert.h
+[14.984s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/types.h
+[14.985s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/cdtors.h
+[14.985s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/avl.h
+[14.985s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/strtod.h
+[14.985s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/rusage.h
+[14.985s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/align.h
+[14.985s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/random.h
+[14.985s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/iovec.h
+[14.985s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/misc.h
+[14.986s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/threads
+[14.986s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/threads/freertos.h
+[14.986s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/threads/windows.h
+[14.986s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/threads/posix.h
+[14.986s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/filesystem
+[14.986s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/filesystem/windows.h
+[14.986s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/filesystem/posix.h
+[14.986s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/arch.h
+[14.986s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/atomics
+[14.986s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/atomics/arm.h
+[14.986s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/atomics/gcc.h
+[14.986s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/atomics/msvc.h
+[14.987s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/atomics/sun.h
+[14.987s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/bswap.h
+[14.987s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/types
+[14.987s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/types/windows.h
+[14.987s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/types/vxworks.h
+[14.987s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/types/posix.h
+[14.987s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/sockets.h
+[14.988s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/netstat.h
+[14.988s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/fibheap.h
+[14.988s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/process.h
+[14.988s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/strtol.h
+[14.988s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/xmlparser.h
+[14.988s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/md5.h
+[14.989s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/attributes.h
+[14.989s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/hopscotch.h
+[14.989s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/retcode.h
+[14.989s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/filesystem.h
+[14.989s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/sync.h
+[14.989s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/endian.h
+[14.989s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/expand_vars.h
+[14.989s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/circlist.h
+[14.989s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/log.h
+[14.989s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/sockets
+[14.989s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/sockets/windows.h
+[14.989s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/sockets/posix.h
+[14.989s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/time.h
+[14.989s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/ifaddrs.h
+[14.989s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/countargs.h
+[14.990s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/atomics.h
+[14.990s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/heap.h
+[14.990s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/time
+[14.990s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/time/freertos.h
+[14.990s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/sched.h
+[14.990s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/mh3.h
+[14.990s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsrt/string.h
+[14.991s] -- Up-to-date: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include
+[14.991s] -- Up-to-date: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds
+[14.991s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/features.h
+[14.991s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/version.h
+[14.991s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/config.h
+[14.991s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/idl
+[14.991s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/idl/stream.h
+[14.993s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/idl/expression.h
+[14.994s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/idl/scope.h
+[14.995s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/idl/file.h
+[14.995s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/idl/visit.h
+[14.995s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/idl/print.h
+[14.995s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/idl/processor.h
+[14.995s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/idl/retcode.h
+[14.995s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/idl/tree.h
+[14.995s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/idl/symbol.h
+[14.995s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/idl/string.h
+[14.995s] -- Up-to-date: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/idl
+[14.996s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/idl/export.h
+[14.996s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/idl/misc.h
+[14.996s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/idl/md5.h
+[14.996s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/idl/attributes.h
+[14.996s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/idl/version.h
+[14.996s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/idl/endian.h
+[14.996s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/lib/libcycloneddsidl.so.0.10.5
+[14.996s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/lib/libcycloneddsidl.so.0
+[14.996s] -- Set runtime path of "/home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/lib/libcycloneddsidl.so.0.10.5" to "$ORIGIN/../lib"
+[14.996s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/lib/libcycloneddsidl.so
+[14.996s] -- Up-to-date: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include
+[14.996s] -- Up-to-date: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds
+[14.997s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/security
+[14.997s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/security/dds_security_api_types.h
+[14.997s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/security/dds_security_api_cryptography.h
+[14.997s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/security/dds_security_api_defs.h
+[14.997s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/security/dds_security_api_err.h
+[14.997s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/security/dds_security_api.h
+[14.997s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/security/dds_security_api_access_control.h
+[14.997s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/security/dds_security_api_authentication.h
+[14.997s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/security/core/
+[14.997s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/security/core//dds_security_utils.h
+[14.997s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/security/core//dds_security_types.h
+[14.997s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/security/core//shared_secret.h
+[14.998s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/security/core//dds_security_plugins.h
+[14.998s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/security/core//dds_security_timed_cb.h
+[14.998s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/security/core//dds_security_fsm.h
+[14.998s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/security/core//dds_security_serialize.h
+[14.998s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/lib/libdds_security_ac.so
+[14.998s] -- Set runtime path of "/home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/lib/libdds_security_ac.so" to "$ORIGIN/../lib"
+[14.998s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/lib/libdds_security_auth.so
+[14.998s] -- Set runtime path of "/home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/lib/libdds_security_auth.so" to "$ORIGIN/../lib"
+[14.998s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/lib/libdds_security_crypto.so
+[14.998s] -- Set runtime path of "/home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/lib/libdds_security_crypto.so" to "$ORIGIN/../lib"
+[14.998s] -- Up-to-date: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include
+[14.998s] -- Up-to-date: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds
+[14.998s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi
+[14.999s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/q_thread.h
+[14.999s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_ipaddr.h
+[14.999s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_topic.h
+[15.000s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/q_xevent.h
+[15.000s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_entity_match.h
+[15.000s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/q_whc.h
+[15.000s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/q_gc.h
+[15.000s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/q_xmsg.h
+[15.000s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_ownip.h
+[15.000s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/q_misc.h
+[15.000s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_typelib.h
+[15.001s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_domaingv.h
+[15.001s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_serdata_plist.h
+[15.001s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/q_lease.h
+[15.001s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_handshake.h
+[15.001s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/q_unused.h
+[15.001s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_xt_typelookup.idl
+[15.001s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_guid.h
+[15.001s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_cfgunits.h
+[15.001s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_mcgroup.h
+[15.001s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_security_omg.h
+[15.001s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_sertopic.h
+[15.001s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_xqos.h
+[15.002s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/q_rtps.h
+[15.002s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_pmd.h
+[15.002s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_statistics.h
+[15.002s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/q_sockwaitset.h
+[15.002s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/q_lat_estim.h
+[15.002s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/q_inverse_uint32_set.h
+[15.002s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_rhc.h
+[15.002s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/q_radmin.h
+[15.003s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_xt_typemap.idl
+[15.003s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_udp.h
+[15.003s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_xt_typeinfo.h
+[15.003s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_lifespan.h
+[15.003s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/q_pcap.h
+[15.003s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_portmapping.h
+[15.003s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_locator.h
+[15.003s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_security_exchange.h
+[15.003s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_time.h
+[15.004s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_acknack.h
+[15.004s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_cfgelems.h
+[15.004s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_xt_typeinfo.idl
+[15.004s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_deliver_locally.h
+[15.004s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_config.h
+[15.005s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_participant.h
+[15.005s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_ssl.h
+[15.005s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_endpoint.h
+[15.005s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_tran.h
+[15.005s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_list_tmpl.h
+[15.005s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_list_genptr.h
+[15.005s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/q_qosmatch.h
+[15.006s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_deadline.h
+[15.006s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_iid.h
+[15.006s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_raweth.h
+[15.006s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_config_impl.h
+[15.006s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_vnet.h
+[15.006s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/q_ddsi_discovery.h
+[15.006s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_xt_impl.h
+[15.006s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/q_log.h
+[15.006s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_serdata.h
+[15.006s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_plist.h
+[15.006s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/q_init.h
+[15.006s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/q_freelist.h
+[15.006s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/q_transmit.h
+[15.006s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_security_util.h
+[15.006s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_security_msg.h
+[15.006s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_wraddrset.h
+[15.006s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_proxy_participant.h
+[15.006s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_cdrstream.h
+[15.007s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_proxy_endpoint.h
+[15.007s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_builtin_topic_if.h
+[15.007s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/q_bswap.h
+[15.007s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_shm_transport.h
+[15.007s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/q_receive.h
+[15.007s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_vendor.h
+[15.007s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_typebuilder.h
+[15.007s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_tkmap.h
+[15.007s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/q_feature_check.h
+[15.007s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/q_debmon.h
+[15.007s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_typelookup.h
+[15.007s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_entity_index.h
+[15.007s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_keyhash.h
+[15.007s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/q_addrset.h
+[15.008s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/q_hbcontrol.h
+[15.008s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_serdata_default.h
+[15.008s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_xt_typelookup.h
+[15.009s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_sertype.h
+[15.009s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/sysdeps.h
+[15.009s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_serdata_pserop.h
+[15.009s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/q_protocol.h
+[15.009s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_entity.h
+[15.009s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_tcp.h
+[15.009s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_xt_typemap.h
+[15.009s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_plist_generic.h
+[15.009s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/q_bitset.h
+[15.010s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_typewrap.h
+[15.010s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsi/ddsi_threadmon.h
+[15.010s] -- Up-to-date: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include
+[15.010s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/ddsc
+[15.010s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/ddsc/dds.h
+[15.010s] -- Up-to-date: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds
+[15.010s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsc
+[15.010s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsc/dds_rhc.h
+[15.010s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsc/dds_public_alloc.h
+[15.010s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsc/dds_data_allocator.h
+[15.010s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsc/dds_public_impl.h
+[15.010s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsc/dds_public_listener.h
+[15.010s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsc/dds_basic_types.h
+[15.010s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsc/dds_public_status.h
+[15.010s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsc/dds_opcodes.h
+[15.011s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsc/dds_statistics.h
+[15.011s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsc/dds_public_qos.h
+[15.011s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsc/dds_internal_api.h
+[15.011s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsc/dds_public_error.h
+[15.011s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsc/dds_public_qosdefs.h
+[15.011s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/ddsc/dds_loan_api.h
+[15.011s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/dds.h
+[15.011s] -- Up-to-date: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include
+[15.011s] -- Up-to-date: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds
+[15.011s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/include/dds/export.h
+[15.011s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/lib/libddsc.so.0.10.5
+[15.018s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/lib/libddsc.so.0
+[15.018s] -- Set runtime path of "/home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/lib/libddsc.so.0.10.5" to "$ORIGIN/../lib"
+[15.018s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/lib/libddsc.so
+[15.018s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/share/doc/CycloneDDS/CONTRIBUTING.md
+[15.018s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/share/doc/CycloneDDS/CYCLONEDDS_QUALITY_DECLARATION.md
+[15.020s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/share/doc/CycloneDDS/LICENSE
+[15.020s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/share/doc/CycloneDDS/NOTICE.md
+[15.020s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/share/doc/CycloneDDS/README.md
+[15.020s] -- Installing: /home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/share/doc/CycloneDDS/CHANGELOG.rst
+[15.023s] Invoked command in '/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds

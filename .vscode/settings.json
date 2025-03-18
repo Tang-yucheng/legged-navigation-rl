@@ -1,0 +1,22 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/tang-yucheng/ROS2_WorkSpace/Vision2024/install/calibration_interfaces/local/lib/python3.10/dist-packages",
+        "/home/tang-yucheng/ROS2_WorkSpace/RoboGame2024/install/chariot_msgs/local/lib/python3.10/dist-packages",
+        "/home/tang-yucheng/ROS2_WorkSpace/Engineer2024/install/engineer_msg/local/lib/python3.10/dist-packages",
+        "/home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_hg/local/lib/python3.10/dist-packages",
+        "/home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_go/local/lib/python3.10/dist-packages",
+        "/home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/tang-yucheng/ROS2_WorkSpace/Vision2024/install/calibration_interfaces/local/lib/python3.10/dist-packages",
+        "/home/tang-yucheng/ROS2_WorkSpace/RoboGame2024/install/chariot_msgs/local/lib/python3.10/dist-packages",
+        "/home/tang-yucheng/ROS2_WorkSpace/Engineer2024/install/engineer_msg/local/lib/python3.10/dist-packages",
+        "/home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_hg/local/lib/python3.10/dist-packages",
+        "/home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_go/local/lib/python3.10/dist-packages",
+        "/home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

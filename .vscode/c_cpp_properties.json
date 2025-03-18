@@ -1,0 +1,34 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/tang-yucheng/Cartpole/install/cartpole_control/include/**",
+        "/home/tang-yucheng/Cartpole/install/interfaces/include/**",
+        "/home/tang-yucheng/ROS2_WorkSpace/Vision2024/install/armor_observer/include/**",
+        "/home/tang-yucheng/ROS2_WorkSpace/Vision2024/install/vision_interfaces/include/**",
+        "/home/tang-yucheng/ROS2_WorkSpace/Vision2024/install/infantry_interfaces/include/**",
+        "/home/tang-yucheng/ROS2_WorkSpace/Vision2024/install/imu_camera_calibration/include/**",
+        "/home/tang-yucheng/ROS2_WorkSpace/Vision2024/install/camera_bridge/include/**",
+        "/home/tang-yucheng/ROS2_WorkSpace/Vision2024/install/calibration_interfaces/include/**",
+        "/home/tang-yucheng/ROS2_WorkSpace/RoboGame2024/install/chariot_msgs/include/**",
+        "/home/tang-yucheng/ROS2_WorkSpace/Engineer2024/install/engineer_msg/include/**",
+        "/home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_hg/include/**",
+        "/home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_go/include/**",
+        "/home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

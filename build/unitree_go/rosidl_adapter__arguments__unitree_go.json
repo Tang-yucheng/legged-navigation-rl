@@ -1,0 +1,29 @@
+{
+  "package_name": "unitree_go",
+  "non_idl_tuples": [
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/AudioData.msg",
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/BmsCmd.msg",
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/BmsState.msg",
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/Error.msg",
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/Go2FrontVideoData.msg",
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/HeightMap.msg",
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/IMUState.msg",
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/InterfaceConfig.msg",
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/LidarState.msg",
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/LowCmd.msg",
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/LowState.msg",
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/MotorCmd.msg",
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/MotorCmds.msg",
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/MotorState.msg",
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/MotorStates.msg",
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/PathPoint.msg",
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/Req.msg",
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/Res.msg",
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/SportModeCmd.msg",
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/SportModeState.msg",
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/TimeSpec.msg",
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/UwbState.msg",
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/UwbSwitch.msg",
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/WirelessController.msg"
+  ]
+}
