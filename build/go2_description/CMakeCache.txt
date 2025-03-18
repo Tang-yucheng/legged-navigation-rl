@@ -293,7 +293,7 @@ go2_description_BINARY_DIR:STATIC=/home/tang-yucheng/Desktop/legged_nav_rl/build
 go2_description_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-go2_description_SOURCE_DIR:STATIC=/home/tang-yucheng/Desktop/legged_nav_rl/src/GO2_URDF
+go2_description_SOURCE_DIR:STATIC=/home/tang-yucheng/Desktop/legged_nav_rl/src/go2_description
 
 
 ########################
@@ -380,7 +380,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/tang-yucheng/Desktop/legged_nav_rl/src/GO2_URDF
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/tang-yucheng/Desktop/legged_nav_rl/src/go2_description
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

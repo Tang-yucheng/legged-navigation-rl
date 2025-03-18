@@ -1,4 +1,4 @@
-# Install script for directory: /home/tang-yucheng/Desktop/legged_nav_rl/src/GO2_URDF
+# Install script for directory: /home/tang-yucheng/Desktop/legged_nav_rl/src/go2_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,11 +44,11 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/go2_description" TYPE DIRECTORY FILES
-    "/home/tang-yucheng/Desktop/legged_nav_rl/src/GO2_URDF/config"
-    "/home/tang-yucheng/Desktop/legged_nav_rl/src/GO2_URDF/dae"
-    "/home/tang-yucheng/Desktop/legged_nav_rl/src/GO2_URDF/launch"
-    "/home/tang-yucheng/Desktop/legged_nav_rl/src/GO2_URDF/meshes"
-    "/home/tang-yucheng/Desktop/legged_nav_rl/src/GO2_URDF/urdf"
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/go2_description/config"
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/go2_description/dae"
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/go2_description/launch"
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/go2_description/meshes"
+    "/home/tang-yucheng/Desktop/legged_nav_rl/src/go2_description/urdf"
     )
 endif()
 
@@ -108,7 +108,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/go2_description" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/src/GO2_URDF/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/go2_description" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/src/go2_description/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/src/GO2_URDF
+CMAKE_SOURCE_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/src/go2_description
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_description
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tang-yucheng/Desktop/legged_nav_rl/src/GO2_URDF /home/tang-yucheng/Desktop/legged_nav_rl/src/GO2_URDF /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_description /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_description /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_description/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tang-yucheng/Desktop/legged_nav_rl/src/go2_description /home/tang-yucheng/Desktop/legged_nav_rl/src/go2_description /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_description /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_description /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_description/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 
