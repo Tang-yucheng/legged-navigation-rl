@@ -1,6 +1,6 @@
 # generated from ament_cmake_export_dependencies/cmake/ament_cmake_export_dependencies-extras.cmake.in
 
-set(_exported_dependencies "rclcpp;rclcpp_components;sensor_msgs;visualization_msgs;unitree_go")
+set(_exported_dependencies "rclcpp;rclcpp_components;tf2;tf2_geometry_msgs;tf2_ros;sensor_msgs;visualization_msgs;unitree_go")
 
 find_package(ament_cmake_libraries QUIET REQUIRED)
 

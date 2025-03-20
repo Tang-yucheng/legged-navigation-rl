@@ -14,7 +14,15 @@
 /* ros库 */
 #include <rclcpp/rclcpp.hpp>
 
+#include <tf2_geometry_msgs/tf2_geometry_msgs.h>
+#include <tf2_ros/buffer.h>
+#include <tf2_ros/create_timer_ros.h>
+#include <tf2_ros/transform_listener.h>
+#include <tf2_ros/transform_broadcaster.h>
+
 /* msg头文件 */
+#include <geometry_msgs/msg/transform_stamped.hpp>
+#include <sensor_msgs/msg/imu.hpp>
 #include <sensor_msgs/msg/joint_state.hpp>
 #include <visualization_msgs/msg/marker.hpp>
 #include <visualization_msgs/msg/marker_array.hpp>
@@ -44,8 +52,8 @@ private:
     /* ---------------------------------------- 函数 --------------------------------------------- */
 
     // 初始化函数
+    void Declare_Parameter();
     void Init_Msg();
-    void Init_Marker_Msg();
 
     // 回调函数
     void Legged_State_Callback(const unitree_go::msg::LowState::ConstSharedPtr legged_state);
@@ -59,23 +67,38 @@ private:
     // 发布者
     rclcpp::Publisher                                       /*!< 关节状态消息发布对象 */
     <sensor_msgs::msg::JointState>::SharedPtr pub_joint_state;
+    rclcpp::Publisher                                       /*!< IMU-base 消息发布对象 */
+    <sensor_msgs::msg::Imu>::SharedPtr pub_imu_base;
+    rclcpp::Publisher                                       /*!< Marker 消息发布对象 */
+    <visualization_msgs::msg::MarkerArray>::SharedPtr pub_marker;
     
     // 订阅者
-    rclcpp::Subscription                                    /*!< 足式机器人状态消息订阅对象 */
+    rclcpp::Subscription                                    /*!< 机器人状态消息订阅对象 */
     <unitree_go::msg::LowState>::SharedPtr sub_legged_state;
 
     // 服务端
+
+    // tf变换
+    std::shared_ptr                                         /*!< tf缓冲区 */
+    <tf2_ros::Buffer> tf_buffer;
+    std::shared_ptr                                         /*!< tf监听对象 */
+    <tf2_ros::TransformListener> tf_listener;
+    std::shared_ptr                                         /*!< tf广播对象 */
+    <tf2_ros::TransformBroadcaster> tf_broadcaster;
 
     /* ---------------------------------------- 变量 --------------------------------------------- */
 
     // 核心变量
     std::vector<std::string> joint_names;                   /*!< 关节名称 */
     sensor_msgs::msg::JointState msg_joint_state;           /*!< 关节状态消息 */
+    sensor_msgs::msg::Imu msg_imu_base;                     /*!< IMU-base 消息 */
+    tf2::Transform base_imu;                                /*!< base-imu 变换 */
 
     // 时间相关
 
     // Marker 相关
-    visualization_msgs::msg::Marker marker_armor;           /*!< Marker 消息（识别到装甲板） */
+    visualization_msgs::msg::MarkerArray marker_array;      /*!< MarkerArray 消息 */
+    visualization_msgs::msg::Marker marker_footforce;       /*!< Marker 消息（足端力） */
 
     // debug 相关
 };

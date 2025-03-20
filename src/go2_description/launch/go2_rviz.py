@@ -1,7 +1,7 @@
 import os
 import yaml
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument, Shutdown
+from launch.actions import DeclareLaunchArgument, Shutdown, TimerAction
 from launch_ros.actions import Node
 from launch_ros.actions import ComposableNodeContainer
 from launch_ros.descriptions import ComposableNode
@@ -12,13 +12,7 @@ def generate_launch_description():
     go2_description_path = get_package_share_directory('go2_description')
     urdf_file = os.path.join(go2_description_path, 'urdf', 'go2_description.urdf')
     rviz_config_file = os.path.join(go2_description_path, 'launch', 'check_joint.rviz')
-    joint_config_file = os.path.join(go2_description_path, 'config', 'joint_names_go2_description.yaml')
-
-    # 参数读取
-    with open(joint_config_file, 'r') as file:
-        config_params = yaml.safe_load(file)
-    # 提取 YAML 中的字符串数组
-    joint_names = config_params.get('legged_joint_names', [])
+    legged_config_file = os.path.join(go2_description_path, 'config', 'joint_names_go2_description.yaml')
 
     # 声明 launch 参数
     user_debug = DeclareLaunchArgument(
@@ -34,13 +28,13 @@ def generate_launch_description():
         parameters=[{'robot_description': open(urdf_file).read(), 'publish_frequency': 1000.0}]
     )
 
-    # # 定义 joint_state_publisher_gui
-    # joint_state_publisher_gui = Node(
-    #     package='joint_state_publisher_gui',
-    #     executable='joint_state_publisher_gui',
-    #     name='joint_state_publisher_gui',
-    #     parameters=[{'use_gui': True}]
-    # )
+    # 定义 joint_state_publisher_gui
+    joint_state_publisher_gui = Node(
+        package='joint_state_publisher_gui',
+        executable='joint_state_publisher_gui',
+        name='joint_state_publisher_gui',
+        parameters=[{'use_gui': True}]
+    )
 
     legged_interaction_container = ComposableNodeContainer(
         name='legged_interaction_container',
@@ -52,14 +46,22 @@ def generate_launch_description():
                 package='go2_interaction',
                 plugin='legged::Class_Legged_Interaction',
                 name='legged_interaction_node',
-                parameters=[{'joint_names': joint_names}]
+                parameters=[legged_config_file]
+                # parameters=[{'joint_names': joint_names}]
             )
         ],
-        output = 'both',
-        emulate_tty = True,
-        ros_arguments = ['--ros-args', '--log-level', 'legged_interaction_node:=INFO'],
-        on_exit = Shutdown()
+        output='both',
+        emulate_tty=True,
+        ros_arguments=['--ros-args', '--log-level', 'legged_interaction_node:=INFO'],
+        on_exit=Shutdown()
     )
+
+    # legged_interaction_container_delay = TimerAction(
+    #     period='1',  # 延迟时间
+    #     actions=[
+    #         legged_interaction_container
+    #     ]
+    # )
 
     # 定义 RViz 节点
     rviz_node = Node(
@@ -74,6 +76,7 @@ def generate_launch_description():
         user_debug,
         robot_state_publisher,
         # joint_state_publisher_gui,
+        # legged_interaction_container_delay,
         legged_interaction_container,
         rviz_node
     ])
