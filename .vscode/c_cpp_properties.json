@@ -20,6 +20,8 @@
         "/home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_go/include/**",
         "/home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/include/**",
         "/home/tang-yucheng/Desktop/legged_nav_rl/src/go2_interaction/include/**",
+        "/home/tang-yucheng/Desktop/legged_nav_rl/src/Point-LIO/include/**",
+        "/home/tang-yucheng/Desktop/livox_ws/install/livox_ros_driver2/include/**",
         "/opt/ros/humble/include/**",
         "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/**",
         "/usr/include/**"

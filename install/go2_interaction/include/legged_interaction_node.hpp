@@ -27,6 +27,8 @@
 #include <visualization_msgs/msg/marker.hpp>
 #include <visualization_msgs/msg/marker_array.hpp>
 
+#include <sensor_msgs/msg/point_cloud2.hpp>
+
 #include "unitree_go/msg/low_state.hpp"
 #include "unitree_go/msg/imu_state.hpp"
 #include "unitree_go/msg/motor_state.hpp"
@@ -58,6 +60,9 @@ private:
     // 回调函数
     void Legged_State_Callback(const unitree_go::msg::LowState::ConstSharedPtr legged_state);
 
+    void Utlidar_Cloud_Callback(const sensor_msgs::msg::PointCloud2 point_cloud);
+    void Utlidar_Imu_Callback(const sensor_msgs::msg::Imu imu);
+
     // 核心功能实现函数
 
     // debug 相关函数
@@ -75,6 +80,15 @@ private:
     // 订阅者
     rclcpp::Subscription                                    /*!< 机器人状态消息订阅对象 */
     <unitree_go::msg::LowState>::SharedPtr sub_legged_state;
+
+    rclcpp::Subscription                                    /*!< 机器人状态消息订阅对象 */
+    <sensor_msgs::msg::PointCloud2>::SharedPtr sub_utlidar_cloud;
+    rclcpp::Subscription                                    /*!< 机器人状态消息订阅对象 */
+    <sensor_msgs::msg::Imu>::SharedPtr sub_utlidar_imu;
+    rclcpp::Publisher                                    /*!< 机器人状态消息订阅对象 */
+    <sensor_msgs::msg::PointCloud2>::SharedPtr pub_utlidar_cloud;
+    rclcpp::Publisher                                    /*!< 机器人状态消息订阅对象 */
+    <sensor_msgs::msg::Imu>::SharedPtr pub_utlidar_imu;
 
     // 服务端
 

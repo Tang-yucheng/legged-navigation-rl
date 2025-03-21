@@ -55,7 +55,17 @@ Class_Legged_Interaction::Class_Legged_Interaction(const rclcpp::NodeOptions & o
                               ("/legged/marker", 10);
     
     this->sub_legged_state  = this->create_subscription<unitree_go::msg::LowState>
-                              ("/lowstate", rclcpp::SensorDataQoS(), std::bind(&Class_Legged_Interaction::Legged_State_Callback, this, _1));    
+                              ("/lowstate", rclcpp::SensorDataQoS(), std::bind(&Class_Legged_Interaction::Legged_State_Callback, this, _1));
+
+
+    this->sub_utlidar_cloud  = this->create_subscription<sensor_msgs::msg::PointCloud2>
+                              ("/utlidar/cloud", 1000, std::bind(&Class_Legged_Interaction::Utlidar_Cloud_Callback, this, _1));
+    this->sub_utlidar_imu  = this->create_subscription<sensor_msgs::msg::Imu>
+                              ("/utlidar/imu", rclcpp::SensorDataQoS(), std::bind(&Class_Legged_Interaction::Utlidar_Imu_Callback, this, _1));
+    this->pub_utlidar_cloud     = this->create_publisher<sensor_msgs::msg::PointCloud2>
+                              ("/utlidar/cloud_sync", 1000);
+    this->pub_utlidar_imu        = this->create_publisher<sensor_msgs::msg::Imu>
+                              ("/utlidar/imu_sync", rclcpp::SensorDataQoS());
 }
 
 /************************************************************************************************************************
@@ -142,6 +152,20 @@ void Class_Legged_Interaction::Legged_State_Callback(const unitree_go::msg::LowS
     this->tf_broadcaster->sendTransform(transformStamped);
 }
 
+void Class_Legged_Interaction::Utlidar_Cloud_Callback(const sensor_msgs::msg::PointCloud2 point_cloud)
+{
+    sensor_msgs::msg::PointCloud2 msg = point_cloud;
+    msg.header.stamp = this->now();
+    this->pub_utlidar_cloud->publish(msg);
+}
+
+void Class_Legged_Interaction::Utlidar_Imu_Callback(const sensor_msgs::msg::Imu imu)
+{
+    sensor_msgs::msg::Imu msg = imu;
+    msg.header.stamp = this->now();
+    this->pub_utlidar_imu->publish(msg);
+}
+
 /************************************************************************************************************************
  * @brief   参数声明函数
  ***********************************************************************************************************************/
@@ -181,23 +205,23 @@ void Class_Legged_Interaction::Init_Msg()
     this->marker_footforce.ns = "footforce";
     this->marker_footforce.type = visualization_msgs::msg::Marker::ARROW;
     this->marker_footforce.action = visualization_msgs::msg::Marker::ADD;
-    // 设置起点
+        // 设置起点
     geometry_msgs::msg::Point start_point;
     start_point.x = 0.02;
     start_point.y = 0.0;
     start_point.z = 0.0;
     this->marker_footforce.points.resize(2);
     this->marker_footforce.points[0] = start_point;
-    // 设置箭头大小
+        // 设置箭头大小
     this->marker_footforce.scale.x = 0.01;  // 箭杆直径
     this->marker_footforce.scale.y = 0.02;  // 箭头直径
     this->marker_footforce.scale.z = 0.02;  // 箭头长度
-    // 设置颜色
+        // 设置颜色
     this->marker_footforce.color.r = 0.0;
     this->marker_footforce.color.g = 1.0;
     this->marker_footforce.color.b = 0.0;
     this->marker_footforce.color.a = 1.0;
-    // 设置持续时间
+        // 设置持续时间
     this->marker_footforce.lifetime = rclcpp::Duration(0, 1e7); // 10ms 持续时间
 }
 

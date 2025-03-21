@@ -1,4 +1,0 @@
-Invoking command in '/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go -- -j20 -l20
-Invoked command in '/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go -- -j20 -l20
-Invoking command in '/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go
-Invoked command in '/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go
