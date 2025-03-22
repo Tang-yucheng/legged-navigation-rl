@@ -164,6 +164,24 @@ void Class_Legged_Interaction::Utlidar_Imu_Callback(const sensor_msgs::msg::Imu 
     sensor_msgs::msg::Imu msg = imu;
     msg.header.stamp = this->now();
     this->pub_utlidar_imu->publish(msg);
+
+    auto tf_base_lidar = this->tf_buffer->lookupTransform("base_link", "utlidar_lidar", tf2::TimePointZero);
+    // tf2::Transform base_lidar;
+    // tf2::fromMsg(tf_base_lidar.transform, base_lidar);
+
+    geometry_msgs::msg::TransformStamped transformStamped;
+    transformStamped.header.stamp = msg.header.stamp;
+    transformStamped.header.frame_id = "base_link"; // 父坐标系
+    transformStamped.child_frame_id = "utlidar_imu";       // 子坐标系
+    // transformStamped.transform = tf2::toMsg(baselink_base);
+    transformStamped.transform.translation = tf_base_lidar.transform.translation;
+
+    tf2::Quaternion q_orig;
+    tf2::fromMsg(msg.orientation, q_orig);
+    tf2::Quaternion q_inv = q_orig.inverse();  // 👈 反四元数
+    transformStamped.transform.rotation = tf2::toMsg(q_inv);
+    // transformStamped.transform.rotation = tf2::toMsg(q_orig);
+    this->tf_broadcaster->sendTransform(transformStamped);
 }
 
 /************************************************************************************************************************

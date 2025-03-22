@@ -1,19 +1,19 @@
 Determining if the strlcpy exist failed with the following output:
 Change Dir: /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f418f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f418f.dir/build.make CMakeFiles/cmTC_f418f.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b25ca/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b25ca.dir/build.make CMakeFiles/cmTC_b25ca.dir/build
 gmake[1]: 进入目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_f418f.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_f418f.dir/CheckSymbolExists.c.o -c /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_b25ca.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_b25ca.dir/CheckSymbolExists.c.o -c /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
 /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘strlcpy’ undeclared (first use in this function); did you mean ‘strncpy’?
     8 |   return ((int*)(&strlcpy))[argc];
       |                   ^~~~~~~
       |                   strncpy
 /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
-gmake[1]: *** [CMakeFiles/cmTC_f418f.dir/build.make:78：CMakeFiles/cmTC_f418f.dir/CheckSymbolExists.c.o] 错误 1
+gmake[1]: *** [CMakeFiles/cmTC_b25ca.dir/build.make:78：CMakeFiles/cmTC_b25ca.dir/CheckSymbolExists.c.o] 错误 1
 gmake[1]: 离开目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
-gmake: *** [Makefile:127：cmTC_f418f/fast] 错误 2
+gmake: *** [Makefile:127：cmTC_b25ca/fast] 错误 2
 
 
 File /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -33,19 +33,19 @@ int main(int argc, char** argv)
 Determining if the strlcat exist failed with the following output:
 Change Dir: /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_49691/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_49691.dir/build.make CMakeFiles/cmTC_49691.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cb892/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cb892.dir/build.make CMakeFiles/cmTC_cb892.dir/build
 gmake[1]: 进入目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_49691.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_49691.dir/CheckSymbolExists.c.o -c /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_cb892.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_cb892.dir/CheckSymbolExists.c.o -c /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
 /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘strlcat’ undeclared (first use in this function); did you mean ‘strncat’?
     8 |   return ((int*)(&strlcat))[argc];
       |                   ^~~~~~~
       |                   strncat
 /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
-gmake[1]: *** [CMakeFiles/cmTC_49691.dir/build.make:78：CMakeFiles/cmTC_49691.dir/CheckSymbolExists.c.o] 错误 1
+gmake[1]: *** [CMakeFiles/cmTC_cb892.dir/build.make:78：CMakeFiles/cmTC_cb892.dir/CheckSymbolExists.c.o] 错误 1
 gmake[1]: 离开目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
-gmake: *** [Makefile:127：cmTC_49691/fast] 错误 2
+gmake: *** [Makefile:127：cmTC_cb892/fast] 错误 2
 
 
 File /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -65,14 +65,14 @@ int main(int argc, char** argv)
 Performing C SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY failed with the following output:
 Change Dir: /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b61de/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b61de.dir/build.make CMakeFiles/cmTC_b61de.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_02ff8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_02ff8.dir/build.make CMakeFiles/cmTC_02ff8.dir/build
 gmake[1]: Entering directory '/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b61de.dir/src.c.o
-/usr/bin/cc -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -fvisibility-inlines-hidden -std=gnu99 -o CMakeFiles/cmTC_b61de.dir/src.c.o -c /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_02ff8.dir/src.c.o
+/usr/bin/cc -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -fvisibility-inlines-hidden -std=gnu99 -o CMakeFiles/cmTC_02ff8.dir/src.c.o -c /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/src.c
 cc1: warning: command-line option '-fvisibility-inlines-hidden' is valid for C++/ObjC++ but not for C
-Linking C executable cmTC_b61de
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b61de.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_b61de.dir/src.c.o -o cmTC_b61de 
+Linking C executable cmTC_02ff8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02ff8.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_02ff8.dir/src.c.o -o cmTC_02ff8 
 gmake[1]: Leaving directory '/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
 
 
