@@ -27,7 +27,7 @@ Class_Legged_Interaction::Class_Legged_Interaction(const rclcpp::NodeOptions & o
     /* 初始化消息 */
     Init_Msg();
 
-    /* tf变换对象 */
+    /* 创建tf变换对象 */
     this->tf_buffer = std::make_shared<tf2_ros::Buffer>(this->get_clock());
     auto timer_interface = std::make_shared<tf2_ros::CreateTimerROS>(
         this->get_node_base_interface(),
