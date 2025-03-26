@@ -13,11 +13,42 @@ from .common.remote_controller import RemoteController, KeyMap
 from .common.command_helper import create_damping_cmd, create_zero_cmd, init_cmd
 from .common.rotation_helper import get_gravity_orientation, transform_imu_data
 
+from collections import deque
+
+
+class ObsHistoryBuffer:
+    def __init__(self, obs_dim=45, history_len=6):
+        self.obs_dim = obs_dim
+        self.history_len = history_len
+        self.buffer = deque(maxlen=history_len)
+        self.reset()
+
+    def reset(self, init_obs=None):
+        self.buffer.clear()
+        if init_obs is not None:
+            for _ in range(self.history_len):
+                self.buffer.append(np.copy(init_obs).astype(np.float32))
+
+    def append(self, obs):
+        assert obs.shape[-1] == self.obs_dim, f"obs shape mismatch: {obs.shape}"
+        self.buffer.append(np.copy(obs))
+
+    def get(self):
+        # 返回 shape: (1, obs_dim * history_len)
+        # 左侧为最新的观测数据
+        return np.concatenate(list(reversed(self.buffer)), axis=0).reshape(1, -1)
+    
+    def is_ready(self):
+        return len(self.buffer) == self.history_len
+
 class Controller:
     def __init__(self, config: Config) -> None:
 
         self.config = config
         self.remote_controller = RemoteController()
+
+        # 观测队列
+        self.obs_buffer = ObsHistoryBuffer(obs_dim=45, history_len=6)
 
         # Initialize the policy network
         self.policy = torch.jit.load(config.policy_path)
@@ -78,6 +109,7 @@ class Controller:
             if self.remote_controller.button[KeyMap.A] == 1:
                 print("Enter rl control mode.", flush=True)
                 print("Press Button B to exit", flush=True)
+                self.obs_buffer.reset()
                 self.rl_control()
                 self.fsm_state = "RL_CONTROL"
             else:
@@ -173,32 +205,44 @@ class Controller:
         dqj_obs = dqj_obs * self.config.dof_vel_scale
         ang_vel = ang_vel * self.config.ang_vel_scale
 
-        print(gravity_orientation, flush=True)
-
         self.cmd[0] = self.remote_controller.ly
         self.cmd[1] = self.remote_controller.lx * -1
         self.cmd[2] = self.remote_controller.rx * -1
 
         num_actions = self.config.num_actions
-        self.obs[:3] = ang_vel
-        self.obs[3:6] = gravity_orientation
-        self.obs[6:9] = self.cmd * self.config.cmd_scale * self.config.max_cmd
+        # self.obs[:3] = ang_vel
+        # self.obs[3:6] = gravity_orientation
+        # self.obs[6:9] = self.cmd * self.config.cmd_scale * self.config.max_cmd
+        # self.obs[9 : 9 + num_actions] = qj_obs
+        # self.obs[9 + num_actions : 9 + num_actions * 2] = dqj_obs
+        # self.obs[9 + num_actions * 2 : 9 + num_actions * 3] = self.action
+        # # Get the action from the policy network
+        # obs_tensor = torch.from_numpy(self.obs).unsqueeze(0)
+        # self.action = self.policy(obs_tensor).detach().numpy().squeeze()
+
+        self.obs[:3] = self.cmd * self.config.cmd_scale * self.config.max_cmd
+        self.obs[3:6] = ang_vel
+        self.obs[6:9] = gravity_orientation
         self.obs[9 : 9 + num_actions] = qj_obs
         self.obs[9 + num_actions : 9 + num_actions * 2] = dqj_obs
         self.obs[9 + num_actions * 2 : 9 + num_actions * 3] = self.action
-
         # Get the action from the policy network
-        obs_tensor = torch.from_numpy(self.obs).unsqueeze(0)
-        self.action = self.policy(obs_tensor).detach().numpy().squeeze()
+        self.obs_buffer.append(self.obs)        # 加入历史缓冲
+        if self.obs_buffer.is_ready():
+            obs_history = self.obs_buffer.get()     # shape: (1, 270)
+            obs_tensor = torch.from_numpy(obs_history).float()
+            self.action = self.policy(obs_tensor).detach().numpy().squeeze()
+        else:
+            print("[INFO] Buffer not ready, skipping control step.", flush=True)
         
         # transform action to target_dof_pos
         target_dof_pos = self.config.default_angles_stand + self.action * self.config.action_scale
 
-        # # Build low cmd
-        # for i in range(len(self.config.leg_joint2motor_idx)):
-        #     motor_idx = self.config.leg_joint2motor_idx[i]
-        #     self.low_cmd.motor_cmd[motor_idx].q = target_dof_pos[i]
-        #     self.low_cmd.motor_cmd[motor_idx].dq = 0.0
-        #     self.low_cmd.motor_cmd[motor_idx].kp = self.config.kps[i]
-        #     self.low_cmd.motor_cmd[motor_idx].kd = self.config.kds[i]
-        #     self.low_cmd.motor_cmd[motor_idx].tau = 0.0
+        # Build low cmd
+        for i in range(len(self.config.leg_joint2motor_idx)):
+            motor_idx = self.config.leg_joint2motor_idx[i]
+            self.low_cmd.motor_cmd[motor_idx].q = target_dof_pos[i]
+            self.low_cmd.motor_cmd[motor_idx].dq = 0.0
+            self.low_cmd.motor_cmd[motor_idx].kp = self.config.kps[i]
+            self.low_cmd.motor_cmd[motor_idx].kd = self.config.kds[i]
+            self.low_cmd.motor_cmd[motor_idx].tau = 0.0
