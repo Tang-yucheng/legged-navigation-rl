@@ -58,14 +58,14 @@ Class_Legged_Interaction::Class_Legged_Interaction(const rclcpp::NodeOptions & o
                               ("/lowstate", rclcpp::SensorDataQoS(), std::bind(&Class_Legged_Interaction::Legged_State_Callback, this, _1));
 
 
-    this->sub_utlidar_cloud  = this->create_subscription<sensor_msgs::msg::PointCloud2>
-                              ("/utlidar/cloud", 1000, std::bind(&Class_Legged_Interaction::Utlidar_Cloud_Callback, this, _1));
-    this->sub_utlidar_imu  = this->create_subscription<sensor_msgs::msg::Imu>
-                              ("/utlidar/imu", rclcpp::SensorDataQoS(), std::bind(&Class_Legged_Interaction::Utlidar_Imu_Callback, this, _1));
-    this->pub_utlidar_cloud     = this->create_publisher<sensor_msgs::msg::PointCloud2>
-                              ("/utlidar/cloud_sync", 1000);
-    this->pub_utlidar_imu        = this->create_publisher<sensor_msgs::msg::Imu>
-                              ("/utlidar/imu_sync", rclcpp::SensorDataQoS());
+    // this->sub_utlidar_cloud  = this->create_subscription<sensor_msgs::msg::PointCloud2>
+    //                           ("/utlidar/cloud", 1000, std::bind(&Class_Legged_Interaction::Utlidar_Cloud_Callback, this, _1));
+    // this->sub_utlidar_imu  = this->create_subscription<sensor_msgs::msg::Imu>
+    //                           ("/utlidar/imu", rclcpp::SensorDataQoS(), std::bind(&Class_Legged_Interaction::Utlidar_Imu_Callback, this, _1));
+    // this->pub_utlidar_cloud     = this->create_publisher<sensor_msgs::msg::PointCloud2>
+    //                           ("/utlidar/cloud_sync", 1000);
+    // this->pub_utlidar_imu        = this->create_publisher<sensor_msgs::msg::Imu>
+    //                           ("/utlidar/imu_sync", rclcpp::SensorDataQoS());
 }
 
 /************************************************************************************************************************
@@ -139,17 +139,17 @@ void Class_Legged_Interaction::Legged_State_Callback(const unitree_go::msg::LowS
     // tf2::fromMsg(tf_baselink_imu.transform, baselink_imu);
     // // auto baselink_base = baselink_imu.inverse() * base_imu;
     // auto baselink_base = baselink_imu * base_imu.inverse();
-        // 填充消息
-    geometry_msgs::msg::TransformStamped transformStamped;
-    transformStamped.header.stamp = frame_now;
-    transformStamped.header.frame_id = "base_link"; // 父坐标系
-    transformStamped.child_frame_id = "base";       // 子坐标系
-    // transformStamped.transform = tf2::toMsg(baselink_base);
-    transformStamped.transform.translation.x = 0.0;
-    transformStamped.transform.translation.y = 0.0;
-    transformStamped.transform.translation.z = 0.0;
-    transformStamped.transform.rotation = this->msg_imu_base.orientation;
-    this->tf_broadcaster->sendTransform(transformStamped);
+    //     // 填充消息
+    // geometry_msgs::msg::TransformStamped transformStamped;
+    // transformStamped.header.stamp = frame_now;
+    // transformStamped.header.frame_id = "base_link"; // 父坐标系
+    // transformStamped.child_frame_id = "base";       // 子坐标系
+    // // transformStamped.transform = tf2::toMsg(baselink_base);
+    // transformStamped.transform.translation.x = 0.0;
+    // transformStamped.transform.translation.y = 0.0;
+    // transformStamped.transform.translation.z = 0.0;
+    // transformStamped.transform.rotation = this->msg_imu_base.orientation;
+    // this->tf_broadcaster->sendTransform(transformStamped);
 }
 
 void Class_Legged_Interaction::Utlidar_Cloud_Callback(const sensor_msgs::msg::PointCloud2 point_cloud)

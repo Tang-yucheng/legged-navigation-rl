@@ -1,8 +1,8 @@
-# Install script for directory: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/rmw_cyclonedds/rmw_cyclonedds_cpp
+# Install script for directory: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/rmw_cyclonedds/rmw_cyclonedds_cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tang-yucheng/Desktop/legged_nav_rl/install/rmw_cyclonedds_cpp")
+  set(CMAKE_INSTALL_PREFIX "/home/legged/Desktop/legged_nav_rl/install/rmw_cyclonedds_cpp")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,23 +43,23 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rmw_typesupport_c" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_index/share/ament_index/resource_index/rmw_typesupport_c/rmw_cyclonedds_cpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rmw_typesupport_c" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_index/share/ament_index/resource_index/rmw_typesupport_c/rmw_cyclonedds_cpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rmw_typesupport_cpp" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_index/share/ament_index/resource_index/rmw_typesupport_cpp/rmw_cyclonedds_cpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rmw_typesupport_cpp" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_index/share/ament_index/resource_index/rmw_typesupport_cpp/rmw_cyclonedds_cpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rmw_typesupport" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_index/share/ament_index/resource_index/rmw_typesupport/rmw_cyclonedds_cpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rmw_typesupport" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_index/share/ament_index/resource_index/rmw_typesupport/rmw_cyclonedds_cpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rmw_cyclonedds_cpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rmw_cyclonedds_cpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rmw_cyclonedds_cpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rmw_cyclonedds_cpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -67,7 +67,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rmw_cyclonedds_cpp/environment" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rmw_cyclonedds_cpp/environment" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -75,38 +75,38 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rmw_cyclonedds_cpp/environment" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rmw_cyclonedds_cpp/environment" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rmw_cyclonedds_cpp" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rmw_cyclonedds_cpp" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rmw_cyclonedds_cpp" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rmw_cyclonedds_cpp" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rmw_cyclonedds_cpp" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rmw_cyclonedds_cpp" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rmw_cyclonedds_cpp" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rmw_cyclonedds_cpp" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rmw_cyclonedds_cpp" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rmw_cyclonedds_cpp" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_index/share/ament_index/resource_index/packages/rmw_cyclonedds_cpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_index/share/ament_index/resource_index/packages/rmw_cyclonedds_cpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/rmw_cyclonedds_cpp/cmake/export_rmw_cyclonedds_cppExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/rmw_cyclonedds_cpp/cmake/export_rmw_cyclonedds_cppExport.cmake"
-         "/home/tang-yucheng/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/CMakeFiles/Export/share/rmw_cyclonedds_cpp/cmake/export_rmw_cyclonedds_cppExport.cmake")
+         "/home/legged/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/CMakeFiles/Export/share/rmw_cyclonedds_cpp/cmake/export_rmw_cyclonedds_cppExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/rmw_cyclonedds_cpp/cmake/export_rmw_cyclonedds_cppExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -115,29 +115,29 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rmw_cyclonedds_cpp/cmake" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/CMakeFiles/Export/share/rmw_cyclonedds_cpp/cmake/export_rmw_cyclonedds_cppExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rmw_cyclonedds_cpp/cmake" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/CMakeFiles/Export/share/rmw_cyclonedds_cpp/cmake/export_rmw_cyclonedds_cppExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rmw_cyclonedds_cpp/cmake" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/CMakeFiles/Export/share/rmw_cyclonedds_cpp/cmake/export_rmw_cyclonedds_cppExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rmw_cyclonedds_cpp/cmake" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/CMakeFiles/Export/share/rmw_cyclonedds_cpp/cmake/export_rmw_cyclonedds_cppExport-noconfig.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rmw_cyclonedds_cpp/cmake" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rmw_cyclonedds_cpp/cmake" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rmw_cyclonedds_cpp/cmake" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rmw_cyclonedds_cpp/cmake" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rmw_cyclonedds_cpp/cmake" TYPE FILE FILES
-    "/home/tang-yucheng/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_core/rmw_cyclonedds_cppConfig.cmake"
-    "/home/tang-yucheng/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_core/rmw_cyclonedds_cppConfig-version.cmake"
+    "/home/legged/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_core/rmw_cyclonedds_cppConfig.cmake"
+    "/home/legged/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_core/rmw_cyclonedds_cppConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rmw_cyclonedds_cpp" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/rmw_cyclonedds/rmw_cyclonedds_cpp/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rmw_cyclonedds_cpp" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/rmw_cyclonedds/rmw_cyclonedds_cpp/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -147,12 +147,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librmw_cyclonedds_cpp.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/librmw_cyclonedds_cpp.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/legged/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/librmw_cyclonedds_cpp.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librmw_cyclonedds_cpp.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librmw_cyclonedds_cpp.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librmw_cyclonedds_cpp.so"
-         OLD_RPATH "/home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/legged/Desktop/legged_nav_rl/install/cyclonedds/lib:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librmw_cyclonedds_cpp.so")
@@ -164,7 +164,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rmw_output_patterns" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_index/share/ament_index/resource_index/rmw_output_patterns/rmw_cyclonedds_cpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rmw_output_patterns" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/ament_cmake_index/share/ament_index/resource_index/rmw_output_patterns/rmw_cyclonedds_cpp")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -175,5 +175,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tang-yucheng/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/legged/Desktop/legged_nav_rl/build/rmw_cyclonedds_cpp/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

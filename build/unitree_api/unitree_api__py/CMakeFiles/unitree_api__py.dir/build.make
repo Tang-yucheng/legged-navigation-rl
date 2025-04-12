@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api
+CMAKE_SOURCE_DIR = /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api
+CMAKE_BINARY_DIR = /home/legged/Desktop/legged_nav_rl/build/unitree_api
 
 # Utility rule file for unitree_api__py.
 
@@ -168,8 +168,8 @@ rosidl_generator_py/unitree_api/_unitree_api_s.ep.rosidl_typesupport_fastrtps_c.
 rosidl_generator_py/unitree_api/_unitree_api_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_generator_py/unitree_api/_unitree_api_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_generator_py/unitree_api/_unitree_api_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/unitree_api__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/legged/Desktop/legged_nav_rl/build/unitree_api/unitree_api__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/legged/Desktop/legged_nav_rl/build/unitree_api/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/unitree_api/_unitree_api_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/unitree_api/_unitree_api_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/unitree_api/_unitree_api_s.ep.rosidl_typesupport_introspection_c.c
@@ -257,10 +257,10 @@ unitree_api__py/CMakeFiles/unitree_api__py.dir/build: unitree_api__py
 .PHONY : unitree_api__py/CMakeFiles/unitree_api__py.dir/build
 
 unitree_api__py/CMakeFiles/unitree_api__py.dir/clean:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/unitree_api__py && $(CMAKE_COMMAND) -P CMakeFiles/unitree_api__py.dir/cmake_clean.cmake
+	cd /home/legged/Desktop/legged_nav_rl/build/unitree_api/unitree_api__py && $(CMAKE_COMMAND) -P CMakeFiles/unitree_api__py.dir/cmake_clean.cmake
 .PHONY : unitree_api__py/CMakeFiles/unitree_api__py.dir/clean
 
 unitree_api__py/CMakeFiles/unitree_api__py.dir/depend:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/unitree_api__py /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/unitree_api__py /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/unitree_api__py/CMakeFiles/unitree_api__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/legged/Desktop/legged_nav_rl/build/unitree_api && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api /home/legged/Desktop/legged_nav_rl/build/unitree_api/unitree_api__py /home/legged/Desktop/legged_nav_rl/build/unitree_api /home/legged/Desktop/legged_nav_rl/build/unitree_api/unitree_api__py /home/legged/Desktop/legged_nav_rl/build/unitree_api/unitree_api__py/CMakeFiles/unitree_api__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : unitree_api__py/CMakeFiles/unitree_api__py.dir/depend
 

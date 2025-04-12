@@ -7,5 +7,6 @@
 #include "unitree_go/msg/detail/uwb_state__struct.hpp"
 #include "unitree_go/msg/detail/uwb_state__builder.hpp"
 #include "unitree_go/msg/detail/uwb_state__traits.hpp"
+#include "unitree_go/msg/detail/uwb_state__type_support.hpp"
 
 #endif  // UNITREE_GO__MSG__UWB_STATE_HPP_

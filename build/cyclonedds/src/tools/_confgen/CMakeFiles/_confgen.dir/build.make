@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds
+CMAKE_SOURCE_DIR = /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds
+CMAKE_BINARY_DIR = /home/legged/Desktop/legged_nav_rl/build/cyclonedds
 
 # Utility rule file for _confgen.
 
@@ -74,10 +74,10 @@ src/tools/_confgen/CMakeFiles/_confgen.dir/build: _confgen
 .PHONY : src/tools/_confgen/CMakeFiles/_confgen.dir/build
 
 src/tools/_confgen/CMakeFiles/_confgen.dir/clean:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/src/tools/_confgen && $(CMAKE_COMMAND) -P CMakeFiles/_confgen.dir/cmake_clean.cmake
+	cd /home/legged/Desktop/legged_nav_rl/build/cyclonedds/src/tools/_confgen && $(CMAKE_COMMAND) -P CMakeFiles/_confgen.dir/cmake_clean.cmake
 .PHONY : src/tools/_confgen/CMakeFiles/_confgen.dir/clean
 
 src/tools/_confgen/CMakeFiles/_confgen.dir/depend:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds/src/tools/_confgen /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/src/tools/_confgen /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/src/tools/_confgen/CMakeFiles/_confgen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/legged/Desktop/legged_nav_rl/build/cyclonedds && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds/src/tools/_confgen /home/legged/Desktop/legged_nav_rl/build/cyclonedds /home/legged/Desktop/legged_nav_rl/build/cyclonedds/src/tools/_confgen /home/legged/Desktop/legged_nav_rl/build/cyclonedds/src/tools/_confgen/CMakeFiles/_confgen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/tools/_confgen/CMakeFiles/_confgen.dir/depend
 

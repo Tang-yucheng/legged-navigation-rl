@@ -7,5 +7,6 @@
 #include "unitree_go/msg/detail/req__struct.hpp"
 #include "unitree_go/msg/detail/req__builder.hpp"
 #include "unitree_go/msg/detail/req__traits.hpp"
+#include "unitree_go/msg/detail/req__type_support.hpp"
 
 #endif  // UNITREE_GO__MSG__REQ_HPP_

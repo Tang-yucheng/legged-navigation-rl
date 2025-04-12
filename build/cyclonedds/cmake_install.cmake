@@ -1,8 +1,8 @@
-# Install script for directory: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds
+# Install script for directory: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds")
+  set(CMAKE_INSTALL_PREFIX "/home/legged/Desktop/legged_nav_rl/install/cyclonedds")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,8 +44,8 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/CycloneDDS" TYPE FILE FILES
-    "/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CycloneDDSConfig.cmake"
-    "/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CycloneDDSConfigVersion.cmake"
+    "/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CycloneDDSConfig.cmake"
+    "/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CycloneDDSConfigVersion.cmake"
     )
 endif()
 
@@ -53,7 +53,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONEN
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/CycloneDDS/CycloneDDSTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/CycloneDDS/CycloneDDSTargets.cmake"
-         "/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/Export/lib/cmake/CycloneDDS/CycloneDDSTargets.cmake")
+         "/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/Export/lib/cmake/CycloneDDS/CycloneDDSTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/CycloneDDS/CycloneDDSTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -62,29 +62,29 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONEN
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/CycloneDDS" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/Export/lib/cmake/CycloneDDS/CycloneDDSTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/CycloneDDS" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/Export/lib/cmake/CycloneDDS/CycloneDDSTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/CycloneDDS" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/Export/lib/cmake/CycloneDDS/CycloneDDSTargets-relwithdebinfo.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/CycloneDDS" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/Export/lib/cmake/CycloneDDS/CycloneDDSTargets-relwithdebinfo.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CycloneDDS.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CycloneDDS.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/compat/cmake_install.cmake")
+  include("/home/legged/Desktop/legged_nav_rl/build/cyclonedds/compat/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/src/cmake_install.cmake")
+  include("/home/legged/Desktop/legged_nav_rl/build/cyclonedds/src/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/docs/cmake_install.cmake")
+  include("/home/legged/Desktop/legged_nav_rl/build/cyclonedds/docs/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -95,5 +95,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/legged/Desktop/legged_nav_rl/build/cyclonedds/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

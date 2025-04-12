@@ -10,8 +10,7 @@ setup(
     version='0.0.0',
     packages=find_packages(exclude=['test']),
     package_data={
-        package_name: ['lib/*.so'],     # 安装 lib 中的 .so 文件
-        package_name: ['policy/*.pt'],  # 安装策略文件
+        package_name: ['lib/*.so', 'policy/*.pt']   # 安装 lib 中的 .so 文件；安装策略文件
     },
     data_files=[
         ('share/ament_index/resource_index/packages',

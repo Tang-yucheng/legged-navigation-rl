@@ -7,5 +7,6 @@
 #include "unitree_go/msg/detail/interface_config__struct.hpp"
 #include "unitree_go/msg/detail/interface_config__builder.hpp"
 #include "unitree_go/msg/detail/interface_config__traits.hpp"
+#include "unitree_go/msg/detail/interface_config__type_support.hpp"
 
 #endif  // UNITREE_GO__MSG__INTERFACE_CONFIG_HPP_

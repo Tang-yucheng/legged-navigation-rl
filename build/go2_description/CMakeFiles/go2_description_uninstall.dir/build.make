@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/src/go2_description
+CMAKE_SOURCE_DIR = /home/legged/Desktop/legged_nav_rl/src/go2_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_description
+CMAKE_BINARY_DIR = /home/legged/Desktop/legged_nav_rl/build/go2_description
 
 # Utility rule file for go2_description_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/go2_description_uninstall.dir/compiler_depend.make
 include CMakeFiles/go2_description_uninstall.dir/progress.make
 
 CMakeFiles/go2_description_uninstall:
-	/usr/bin/cmake -P /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/legged/Desktop/legged_nav_rl/build/go2_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 go2_description_uninstall: CMakeFiles/go2_description_uninstall
 go2_description_uninstall: CMakeFiles/go2_description_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/go2_description_uninstall.dir/clean:
 .PHONY : CMakeFiles/go2_description_uninstall.dir/clean
 
 CMakeFiles/go2_description_uninstall.dir/depend:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tang-yucheng/Desktop/legged_nav_rl/src/go2_description /home/tang-yucheng/Desktop/legged_nav_rl/src/go2_description /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_description /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_description /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_description/CMakeFiles/go2_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/legged/Desktop/legged_nav_rl/build/go2_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/legged/Desktop/legged_nav_rl/src/go2_description /home/legged/Desktop/legged_nav_rl/src/go2_description /home/legged/Desktop/legged_nav_rl/build/go2_description /home/legged/Desktop/legged_nav_rl/build/go2_description /home/legged/Desktop/legged_nav_rl/build/go2_description/CMakeFiles/go2_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/go2_description_uninstall.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds
+CMAKE_SOURCE_DIR = /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds
+CMAKE_BINARY_DIR = /home/legged/Desktop/legged_nav_rl/build/cyclonedds
 
 # Utility rule file for ddsperf_types_generate.
 
@@ -69,10 +69,10 @@ include src/tools/ddsperf/CMakeFiles/ddsperf_types_generate.dir/progress.make
 src/tools/ddsperf/CMakeFiles/ddsperf_types_generate: src/tools/ddsperf/ddsperf_types.c
 src/tools/ddsperf/CMakeFiles/ddsperf_types_generate: src/tools/ddsperf/ddsperf_types.h
 
-src/tools/ddsperf/ddsperf_types.c: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds/src/tools/ddsperf/ddsperf_types.idl
+src/tools/ddsperf/ddsperf_types.c: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds/src/tools/ddsperf/ddsperf_types.idl
 src/tools/ddsperf/ddsperf_types.c: bin/idlc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ddsperf_types.c, ddsperf_types.h"
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/src/tools/ddsperf && ../../../bin/idlc -Wno-implicit-extensibility -o/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/src/tools/ddsperf /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds/src/tools/ddsperf/ddsperf_types.idl
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ddsperf_types.c, ddsperf_types.h"
+	cd /home/legged/Desktop/legged_nav_rl/build/cyclonedds/src/tools/ddsperf && ../../../bin/idlc -Wno-implicit-extensibility -o/home/legged/Desktop/legged_nav_rl/build/cyclonedds/src/tools/ddsperf /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds/src/tools/ddsperf/ddsperf_types.idl
 
 src/tools/ddsperf/ddsperf_types.h: src/tools/ddsperf/ddsperf_types.c
 	@$(CMAKE_COMMAND) -E touch_nocreate src/tools/ddsperf/ddsperf_types.h
@@ -88,10 +88,10 @@ src/tools/ddsperf/CMakeFiles/ddsperf_types_generate.dir/build: ddsperf_types_gen
 .PHONY : src/tools/ddsperf/CMakeFiles/ddsperf_types_generate.dir/build
 
 src/tools/ddsperf/CMakeFiles/ddsperf_types_generate.dir/clean:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/src/tools/ddsperf && $(CMAKE_COMMAND) -P CMakeFiles/ddsperf_types_generate.dir/cmake_clean.cmake
+	cd /home/legged/Desktop/legged_nav_rl/build/cyclonedds/src/tools/ddsperf && $(CMAKE_COMMAND) -P CMakeFiles/ddsperf_types_generate.dir/cmake_clean.cmake
 .PHONY : src/tools/ddsperf/CMakeFiles/ddsperf_types_generate.dir/clean
 
 src/tools/ddsperf/CMakeFiles/ddsperf_types_generate.dir/depend:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds/src/tools/ddsperf /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/src/tools/ddsperf /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/src/tools/ddsperf/CMakeFiles/ddsperf_types_generate.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/legged/Desktop/legged_nav_rl/build/cyclonedds && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds/src/tools/ddsperf /home/legged/Desktop/legged_nav_rl/build/cyclonedds /home/legged/Desktop/legged_nav_rl/build/cyclonedds/src/tools/ddsperf /home/legged/Desktop/legged_nav_rl/build/cyclonedds/src/tools/ddsperf/CMakeFiles/ddsperf_types_generate.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/tools/ddsperf/CMakeFiles/ddsperf_types_generate.dir/depend
 

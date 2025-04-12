@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -Didl_EXPORTS
 
-C_INCLUDES = -I/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds/src/idl/include -I/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds/src/idl/src -I/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/src/idl/include -I/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/src/idl
+C_INCLUDES = -I/home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds/src/idl/include -I/home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds/src/idl/src -I/home/legged/Desktop/legged_nav_rl/build/cyclonedds/src/idl/include -I/home/legged/Desktop/legged_nav_rl/build/cyclonedds/src/idl
 
 C_FLAGS = -O2 -g -DNDEBUG -fPIC -Wall -Wextra -Wconversion -Wmissing-prototypes -std=gnu99
 

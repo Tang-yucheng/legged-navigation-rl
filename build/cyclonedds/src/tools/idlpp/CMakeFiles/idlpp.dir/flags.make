@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DHAVE_CONFIG_H=1
 
-C_INCLUDES = -I/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/src/tools/idlpp/src -I/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds/src/tools/idlpp/src
+C_INCLUDES = -I/home/legged/Desktop/legged_nav_rl/build/cyclonedds/src/tools/idlpp/src -I/home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds/src/tools/idlpp/src
 
 C_FLAGS = -O2 -g -DNDEBUG -fPIC -Wall -Wextra -Wconversion -Wmissing-prototypes -std=gnu99
 

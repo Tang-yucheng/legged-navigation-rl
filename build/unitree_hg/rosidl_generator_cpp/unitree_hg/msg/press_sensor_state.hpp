@@ -7,5 +7,6 @@
 #include "unitree_hg/msg/detail/press_sensor_state__struct.hpp"
 #include "unitree_hg/msg/detail/press_sensor_state__builder.hpp"
 #include "unitree_hg/msg/detail/press_sensor_state__traits.hpp"
+#include "unitree_hg/msg/detail/press_sensor_state__type_support.hpp"
 
 #endif  // UNITREE_HG__MSG__PRESS_SENSOR_STATE_HPP_

@@ -7,5 +7,6 @@
 #include "unitree_go/msg/detail/lidar_state__struct.hpp"
 #include "unitree_go/msg/detail/lidar_state__builder.hpp"
 #include "unitree_go/msg/detail/lidar_state__traits.hpp"
+#include "unitree_go/msg/detail/lidar_state__type_support.hpp"
 
 #endif  // UNITREE_GO__MSG__LIDAR_STATE_HPP_

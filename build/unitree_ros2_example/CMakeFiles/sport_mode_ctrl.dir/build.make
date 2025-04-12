@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src
+CMAKE_SOURCE_DIR = /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_ros2_example
+CMAKE_BINARY_DIR = /home/legged/Desktop/legged_nav_rl/build/unitree_ros2_example
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sport_mode_ctrl.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/sport_mode_ctrl.dir/progress.make
 include CMakeFiles/sport_mode_ctrl.dir/flags.make
 
 CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o: CMakeFiles/sport_mode_ctrl.dir/flags.make
-CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/sport_mode_ctrl.cpp
+CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/sport_mode_ctrl.cpp
 CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o: CMakeFiles/sport_mode_ctrl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_ros2_example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o -MF CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o.d -o CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o -c /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/sport_mode_ctrl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/legged/Desktop/legged_nav_rl/build/unitree_ros2_example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o -MF CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o.d -o CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o -c /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/sport_mode_ctrl.cpp
 
 CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/sport_mode_ctrl.cpp > CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/sport_mode_ctrl.cpp > CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.i
 
 CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/sport_mode_ctrl.cpp -o CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/sport_mode_ctrl.cpp -o CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.s
 
 CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.o: CMakeFiles/sport_mode_ctrl.dir/flags.make
-CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.o: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/common/ros2_sport_client.cpp
+CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.o: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/common/ros2_sport_client.cpp
 CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.o: CMakeFiles/sport_mode_ctrl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_ros2_example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.o -MF CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.o.d -o CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.o -c /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/common/ros2_sport_client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/legged/Desktop/legged_nav_rl/build/unitree_ros2_example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.o -MF CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.o.d -o CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.o -c /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/common/ros2_sport_client.cpp
 
 CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/common/ros2_sport_client.cpp > CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/common/ros2_sport_client.cpp > CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.i
 
 CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/common/ros2_sport_client.cpp -o CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/common/ros2_sport_client.cpp -o CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.s
 
 # Object files for target sport_mode_ctrl
 sport_mode_ctrl_OBJECTS = \
@@ -108,29 +108,29 @@ sport_mode_ctrl_EXTERNAL_OBJECTS =
 sport_mode_ctrl: CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o
 sport_mode_ctrl: CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.o
 sport_mode_ctrl: CMakeFiles/sport_mode_ctrl.dir/build.make
-sport_mode_ctrl: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_fastrtps_c.so
-sport_mode_ctrl: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_fastrtps_cpp.so
-sport_mode_ctrl: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_introspection_c.so
-sport_mode_ctrl: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_introspection_cpp.so
-sport_mode_ctrl: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_cpp.so
-sport_mode_ctrl: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_generator_py.so
-sport_mode_ctrl: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_c.so
-sport_mode_ctrl: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_cpp.so
-sport_mode_ctrl: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_c.so
-sport_mode_ctrl: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_cpp.so
-sport_mode_ctrl: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_cpp.so
-sport_mode_ctrl: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_generator_py.so
-sport_mode_ctrl: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_typesupport_fastrtps_c.so
-sport_mode_ctrl: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_typesupport_fastrtps_cpp.so
-sport_mode_ctrl: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_typesupport_introspection_c.so
-sport_mode_ctrl: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_typesupport_introspection_cpp.so
-sport_mode_ctrl: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_typesupport_cpp.so
-sport_mode_ctrl: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_generator_py.so
+sport_mode_ctrl: /home/legged/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_fastrtps_c.so
+sport_mode_ctrl: /home/legged/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_fastrtps_cpp.so
+sport_mode_ctrl: /home/legged/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_introspection_c.so
+sport_mode_ctrl: /home/legged/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_introspection_cpp.so
+sport_mode_ctrl: /home/legged/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_cpp.so
+sport_mode_ctrl: /home/legged/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_generator_py.so
+sport_mode_ctrl: /home/legged/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_c.so
+sport_mode_ctrl: /home/legged/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_cpp.so
+sport_mode_ctrl: /home/legged/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_c.so
+sport_mode_ctrl: /home/legged/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_cpp.so
+sport_mode_ctrl: /home/legged/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_cpp.so
+sport_mode_ctrl: /home/legged/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_generator_py.so
+sport_mode_ctrl: /home/legged/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_typesupport_fastrtps_c.so
+sport_mode_ctrl: /home/legged/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_typesupport_fastrtps_cpp.so
+sport_mode_ctrl: /home/legged/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_typesupport_introspection_c.so
+sport_mode_ctrl: /home/legged/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_typesupport_introspection_cpp.so
+sport_mode_ctrl: /home/legged/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_typesupport_cpp.so
+sport_mode_ctrl: /home/legged/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_generator_py.so
 sport_mode_ctrl: /opt/ros/humble/lib/librosbag2_cpp.so
-sport_mode_ctrl: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_c.so
-sport_mode_ctrl: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_generator_c.so
-sport_mode_ctrl: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_c.so
-sport_mode_ctrl: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_generator_c.so
+sport_mode_ctrl: /home/legged/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_c.so
+sport_mode_ctrl: /home/legged/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_generator_c.so
+sport_mode_ctrl: /home/legged/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_c.so
+sport_mode_ctrl: /home/legged/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_generator_c.so
 sport_mode_ctrl: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
 sport_mode_ctrl: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 sport_mode_ctrl: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -141,8 +141,8 @@ sport_mode_ctrl: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_intros
 sport_mode_ctrl: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 sport_mode_ctrl: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 sport_mode_ctrl: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
-sport_mode_ctrl: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_typesupport_c.so
-sport_mode_ctrl: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_generator_c.so
+sport_mode_ctrl: /home/legged/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_typesupport_c.so
+sport_mode_ctrl: /home/legged/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_generator_c.so
 sport_mode_ctrl: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 sport_mode_ctrl: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 sport_mode_ctrl: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
@@ -209,7 +209,7 @@ sport_mode_ctrl: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
 sport_mode_ctrl: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 sport_mode_ctrl: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
 sport_mode_ctrl: CMakeFiles/sport_mode_ctrl.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_ros2_example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable sport_mode_ctrl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/legged/Desktop/legged_nav_rl/build/unitree_ros2_example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable sport_mode_ctrl"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sport_mode_ctrl.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -221,6 +221,6 @@ CMakeFiles/sport_mode_ctrl.dir/clean:
 .PHONY : CMakeFiles/sport_mode_ctrl.dir/clean
 
 CMakeFiles/sport_mode_ctrl.dir/depend:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_ros2_example && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_ros2_example /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_ros2_example /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_ros2_example/CMakeFiles/sport_mode_ctrl.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/legged/Desktop/legged_nav_rl/build/unitree_ros2_example && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src /home/legged/Desktop/legged_nav_rl/build/unitree_ros2_example /home/legged/Desktop/legged_nav_rl/build/unitree_ros2_example /home/legged/Desktop/legged_nav_rl/build/unitree_ros2_example/CMakeFiles/sport_mode_ctrl.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sport_mode_ctrl.dir/depend
 

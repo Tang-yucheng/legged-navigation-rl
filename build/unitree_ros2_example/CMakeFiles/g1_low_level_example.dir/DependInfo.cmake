@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/common/motor_crc_hg.cpp" "CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.o" "gcc" "CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.o.d"
-  "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/g1/lowlevel/g1_low_level_example.cpp" "CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.o" "gcc" "CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.o.d"
+  "/home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/common/motor_crc_hg.cpp" "CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.o" "gcc" "CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.o.d"
+  "/home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/g1/lowlevel/g1_low_level_example.cpp" "CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.o" "gcc" "CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.o.d"
   )
 
 # Targets to which this target links.

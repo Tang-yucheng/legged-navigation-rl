@@ -1,22 +1,22 @@
 Determining if the strlcpy exist failed with the following output:
-Change Dir: /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
+Change Dir: /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4771f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4771f.dir/build.make CMakeFiles/cmTC_4771f.dir/build
-gmake[1]: 进入目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_4771f.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_4771f.dir/CheckSymbolExists.c.o -c /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
-/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘strlcpy’ undeclared (first use in this function); did you mean ‘strncpy’?
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7a7f4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7a7f4.dir/build.make CMakeFiles/cmTC_7a7f4.dir/build
+gmake[1]: Entering directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a7f4.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_7a7f4.dir/CheckSymbolExists.c.o -c /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘strlcpy’ undeclared (first use in this function); did you mean ‘strncpy’?
     8 |   return ((int*)(&strlcpy))[argc];
       |                   ^~~~~~~
       |                   strncpy
-/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
-gmake[1]: *** [CMakeFiles/cmTC_4771f.dir/build.make:78：CMakeFiles/cmTC_4771f.dir/CheckSymbolExists.c.o] 错误 1
-gmake[1]: 离开目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
-gmake: *** [Makefile:127：cmTC_4771f/fast] 错误 2
+/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_7a7f4.dir/build.make:78: CMakeFiles/cmTC_7a7f4.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_7a7f4/fast] Error 2
 
 
-File /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <string.h>
 
@@ -31,24 +31,24 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the strlcat exist failed with the following output:
-Change Dir: /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
+Change Dir: /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_13592/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_13592.dir/build.make CMakeFiles/cmTC_13592.dir/build
-gmake[1]: 进入目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_13592.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_13592.dir/CheckSymbolExists.c.o -c /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
-/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘strlcat’ undeclared (first use in this function); did you mean ‘strncat’?
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2a974/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2a974.dir/build.make CMakeFiles/cmTC_2a974.dir/build
+gmake[1]: Entering directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a974.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_2a974.dir/CheckSymbolExists.c.o -c /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘strlcat’ undeclared (first use in this function); did you mean ‘strncat’?
     8 |   return ((int*)(&strlcat))[argc];
       |                   ^~~~~~~
       |                   strncat
-/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
-gmake[1]: *** [CMakeFiles/cmTC_13592.dir/build.make:78：CMakeFiles/cmTC_13592.dir/CheckSymbolExists.c.o] 错误 1
-gmake[1]: 离开目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
-gmake: *** [Makefile:127：cmTC_13592/fast] 错误 2
+/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_2a974.dir/build.make:78: CMakeFiles/cmTC_2a974.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_2a974/fast] Error 2
 
 
-File /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <string.h>
 
@@ -63,17 +63,17 @@ int main(int argc, char** argv)
 #endif
 }
 Performing C SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY failed with the following output:
-Change Dir: /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
+Change Dir: /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b8c0b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b8c0b.dir/build.make CMakeFiles/cmTC_b8c0b.dir/build
-gmake[1]: Entering directory '/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b8c0b.dir/src.c.o
-/usr/bin/cc -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -fvisibility-inlines-hidden -std=gnu99 -o CMakeFiles/cmTC_b8c0b.dir/src.c.o -c /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/src.c
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8af77/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8af77.dir/build.make CMakeFiles/cmTC_8af77.dir/build
+gmake[1]: Entering directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8af77.dir/src.c.o
+/usr/bin/cc -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -fvisibility-inlines-hidden -std=gnu99 -o CMakeFiles/cmTC_8af77.dir/src.c.o -c /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/src.c
 cc1: warning: command-line option '-fvisibility-inlines-hidden' is valid for C++/ObjC++ but not for C
-Linking C executable cmTC_b8c0b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8c0b.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_b8c0b.dir/src.c.o -o cmTC_b8c0b 
-gmake[1]: Leaving directory '/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_8af77
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8af77.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_8af77.dir/src.c.o -o cmTC_8af77 
+gmake[1]: Leaving directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
 
 
 Source file was:

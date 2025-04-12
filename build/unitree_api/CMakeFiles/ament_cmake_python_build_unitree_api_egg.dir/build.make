@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api
+CMAKE_SOURCE_DIR = /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api
+CMAKE_BINARY_DIR = /home/legged/Desktop/legged_nav_rl/build/unitree_api
 
 # Utility rule file for ament_cmake_python_build_unitree_api_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_unitree_api_egg.dir/compiler_depend.
 include CMakeFiles/ament_cmake_python_build_unitree_api_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_unitree_api_egg:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_python/unitree_api && /usr/bin/python3 setup.py egg_info
+	cd /home/legged/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_python/unitree_api && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_unitree_api_egg: CMakeFiles/ament_cmake_python_build_unitree_api_egg
 ament_cmake_python_build_unitree_api_egg: CMakeFiles/ament_cmake_python_build_unitree_api_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_unitree_api_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_unitree_api_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_unitree_api_egg.dir/depend:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/ament_cmake_python_build_unitree_api_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/legged/Desktop/legged_nav_rl/build/unitree_api && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api /home/legged/Desktop/legged_nav_rl/build/unitree_api /home/legged/Desktop/legged_nav_rl/build/unitree_api /home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/ament_cmake_python_build_unitree_api_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_unitree_api_egg.dir/depend
 

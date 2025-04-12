@@ -7,5 +7,6 @@
 #include "unitree_go/msg/detail/height_map__struct.hpp"
 #include "unitree_go/msg/detail/height_map__builder.hpp"
 #include "unitree_go/msg/detail/height_map__traits.hpp"
+#include "unitree_go/msg/detail/height_map__type_support.hpp"
 
 #endif  // UNITREE_GO__MSG__HEIGHT_MAP_HPP_

@@ -7,5 +7,6 @@
 #include "unitree_go/msg/detail/time_spec__struct.hpp"
 #include "unitree_go/msg/detail/time_spec__builder.hpp"
 #include "unitree_go/msg/detail/time_spec__traits.hpp"
+#include "unitree_go/msg/detail/time_spec__type_support.hpp"
 
 #endif  // UNITREE_GO__MSG__TIME_SPEC_HPP_

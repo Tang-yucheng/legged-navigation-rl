@@ -1,6 +1,6 @@
 # generated from ament_cmake_export_dependencies/cmake/ament_cmake_export_dependencies-extras.cmake.in
 
-set(_exported_dependencies "iceoryx_binding_c;CycloneDDS;rcutils;rcpputils;rmw;rosidl_runtime_c;rmw_dds_common;rosidl_typesupport_introspection_c;rosidl_typesupport_introspection_cpp;tracetools")
+set(_exported_dependencies "CycloneDDS;rcutils;rcpputils;rmw;rosidl_runtime_c;rmw_dds_common;rosidl_typesupport_introspection_c;rosidl_typesupport_introspection_cpp;tracetools")
 
 find_package(ament_cmake_libraries QUIET REQUIRED)
 

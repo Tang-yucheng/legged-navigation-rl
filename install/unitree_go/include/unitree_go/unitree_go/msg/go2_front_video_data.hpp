@@ -7,5 +7,6 @@
 #include "unitree_go/msg/detail/go2_front_video_data__struct.hpp"
 #include "unitree_go/msg/detail/go2_front_video_data__builder.hpp"
 #include "unitree_go/msg/detail/go2_front_video_data__traits.hpp"
+#include "unitree_go/msg/detail/go2_front_video_data__type_support.hpp"
 
 #endif  // UNITREE_GO__MSG__GO2_FRONT_VIDEO_DATA_HPP_

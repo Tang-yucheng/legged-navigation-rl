@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go
+CMAKE_SOURCE_DIR = /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go
+CMAKE_BINARY_DIR = /home/legged/Desktop/legged_nav_rl/build/unitree_go
 
 # Utility rule file for unitree_go__cpp.
 
@@ -70,98 +70,123 @@ CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/audio_data__builder.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/audio_data__struct.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/audio_data__traits.hpp
+CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/audio_data__type_support.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/bms_cmd.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/bms_cmd__builder.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/bms_cmd__struct.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/bms_cmd__traits.hpp
+CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/bms_cmd__type_support.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/bms_state.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/bms_state__builder.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/bms_state__struct.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/bms_state__traits.hpp
+CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/bms_state__type_support.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/error.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/error__builder.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/error__struct.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/error__traits.hpp
+CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/error__type_support.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/go2_front_video_data.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/go2_front_video_data__builder.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/go2_front_video_data__struct.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/go2_front_video_data__traits.hpp
+CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/go2_front_video_data__type_support.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/height_map.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/height_map__builder.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/height_map__struct.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/height_map__traits.hpp
+CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/height_map__type_support.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/imu_state.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/imu_state__builder.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/imu_state__struct.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/imu_state__traits.hpp
+CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/imu_state__type_support.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/interface_config.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/interface_config__builder.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/interface_config__struct.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/interface_config__traits.hpp
+CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/interface_config__type_support.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/lidar_state.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/lidar_state__builder.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/lidar_state__struct.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/lidar_state__traits.hpp
+CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/lidar_state__type_support.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/low_cmd.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/low_cmd__builder.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/low_cmd__struct.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/low_cmd__traits.hpp
+CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/low_cmd__type_support.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/low_state.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/low_state__builder.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/low_state__struct.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/low_state__traits.hpp
+CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/low_state__type_support.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/motor_cmd.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_cmd__builder.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_cmd__struct.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_cmd__traits.hpp
+CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_cmd__type_support.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/motor_cmds.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_cmds__builder.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_cmds__struct.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_cmds__traits.hpp
+CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_cmds__type_support.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/motor_state.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_state__builder.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_state__struct.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_state__traits.hpp
+CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_state__type_support.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/motor_states.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_states__builder.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_states__struct.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_states__traits.hpp
+CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_states__type_support.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/path_point.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/path_point__builder.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/path_point__struct.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/path_point__traits.hpp
+CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/path_point__type_support.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/req.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/req__builder.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/req__struct.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/req__traits.hpp
+CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/req__type_support.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/res.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/res__builder.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/res__struct.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/res__traits.hpp
+CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/res__type_support.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/sport_mode_cmd.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/sport_mode_cmd__builder.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/sport_mode_cmd__struct.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/sport_mode_cmd__traits.hpp
+CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/sport_mode_cmd__type_support.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/sport_mode_state.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/sport_mode_state__builder.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/sport_mode_state__struct.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/sport_mode_state__traits.hpp
+CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/sport_mode_state__type_support.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/time_spec.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/time_spec__builder.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/time_spec__struct.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/time_spec__traits.hpp
+CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/time_spec__type_support.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/uwb_state.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/uwb_state__builder.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/uwb_state__struct.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/uwb_state__traits.hpp
+CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/uwb_state__type_support.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/uwb_switch.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/uwb_switch__builder.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/uwb_switch__struct.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/uwb_switch__traits.hpp
+CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/uwb_switch__type_support.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/wireless_controller.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/wireless_controller__builder.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/wireless_controller__struct.hpp
 CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/wireless_controller__traits.hpp
+CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/wireless_controller__type_support.hpp
+CMakeFiles/unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/unitree_go/msg/audio_data.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/unitree_go/msg/audio_data.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -262,8 +287,8 @@ rosidl_generator_cpp/unitree_go/msg/audio_data.hpp: /opt/ros/humble/share/std_ms
 rosidl_generator_cpp/unitree_go/msg/audio_data.hpp: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_generator_cpp/unitree_go/msg/audio_data.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_generator_cpp/unitree_go/msg/audio_data.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/legged/Desktop/legged_nav_rl/build/unitree_go/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/legged/Desktop/legged_nav_rl/build/unitree_go/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/unitree_go/msg/detail/audio_data__builder.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/audio_data__builder.hpp
@@ -273,6 +298,9 @@ rosidl_generator_cpp/unitree_go/msg/detail/audio_data__struct.hpp: rosidl_genera
 
 rosidl_generator_cpp/unitree_go/msg/detail/audio_data__traits.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/audio_data__traits.hpp
+
+rosidl_generator_cpp/unitree_go/msg/detail/audio_data__type_support.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/audio_data__type_support.hpp
 
 rosidl_generator_cpp/unitree_go/msg/bms_cmd.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/bms_cmd.hpp
@@ -286,6 +314,9 @@ rosidl_generator_cpp/unitree_go/msg/detail/bms_cmd__struct.hpp: rosidl_generator
 rosidl_generator_cpp/unitree_go/msg/detail/bms_cmd__traits.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/bms_cmd__traits.hpp
 
+rosidl_generator_cpp/unitree_go/msg/detail/bms_cmd__type_support.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/bms_cmd__type_support.hpp
+
 rosidl_generator_cpp/unitree_go/msg/bms_state.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/bms_state.hpp
 
@@ -297,6 +328,9 @@ rosidl_generator_cpp/unitree_go/msg/detail/bms_state__struct.hpp: rosidl_generat
 
 rosidl_generator_cpp/unitree_go/msg/detail/bms_state__traits.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/bms_state__traits.hpp
+
+rosidl_generator_cpp/unitree_go/msg/detail/bms_state__type_support.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/bms_state__type_support.hpp
 
 rosidl_generator_cpp/unitree_go/msg/error.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/error.hpp
@@ -310,6 +344,9 @@ rosidl_generator_cpp/unitree_go/msg/detail/error__struct.hpp: rosidl_generator_c
 rosidl_generator_cpp/unitree_go/msg/detail/error__traits.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/error__traits.hpp
 
+rosidl_generator_cpp/unitree_go/msg/detail/error__type_support.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/error__type_support.hpp
+
 rosidl_generator_cpp/unitree_go/msg/go2_front_video_data.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/go2_front_video_data.hpp
 
@@ -321,6 +358,9 @@ rosidl_generator_cpp/unitree_go/msg/detail/go2_front_video_data__struct.hpp: ros
 
 rosidl_generator_cpp/unitree_go/msg/detail/go2_front_video_data__traits.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/go2_front_video_data__traits.hpp
+
+rosidl_generator_cpp/unitree_go/msg/detail/go2_front_video_data__type_support.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/go2_front_video_data__type_support.hpp
 
 rosidl_generator_cpp/unitree_go/msg/height_map.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/height_map.hpp
@@ -334,6 +374,9 @@ rosidl_generator_cpp/unitree_go/msg/detail/height_map__struct.hpp: rosidl_genera
 rosidl_generator_cpp/unitree_go/msg/detail/height_map__traits.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/height_map__traits.hpp
 
+rosidl_generator_cpp/unitree_go/msg/detail/height_map__type_support.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/height_map__type_support.hpp
+
 rosidl_generator_cpp/unitree_go/msg/imu_state.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/imu_state.hpp
 
@@ -345,6 +388,9 @@ rosidl_generator_cpp/unitree_go/msg/detail/imu_state__struct.hpp: rosidl_generat
 
 rosidl_generator_cpp/unitree_go/msg/detail/imu_state__traits.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/imu_state__traits.hpp
+
+rosidl_generator_cpp/unitree_go/msg/detail/imu_state__type_support.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/imu_state__type_support.hpp
 
 rosidl_generator_cpp/unitree_go/msg/interface_config.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/interface_config.hpp
@@ -358,6 +404,9 @@ rosidl_generator_cpp/unitree_go/msg/detail/interface_config__struct.hpp: rosidl_
 rosidl_generator_cpp/unitree_go/msg/detail/interface_config__traits.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/interface_config__traits.hpp
 
+rosidl_generator_cpp/unitree_go/msg/detail/interface_config__type_support.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/interface_config__type_support.hpp
+
 rosidl_generator_cpp/unitree_go/msg/lidar_state.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/lidar_state.hpp
 
@@ -369,6 +418,9 @@ rosidl_generator_cpp/unitree_go/msg/detail/lidar_state__struct.hpp: rosidl_gener
 
 rosidl_generator_cpp/unitree_go/msg/detail/lidar_state__traits.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/lidar_state__traits.hpp
+
+rosidl_generator_cpp/unitree_go/msg/detail/lidar_state__type_support.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/lidar_state__type_support.hpp
 
 rosidl_generator_cpp/unitree_go/msg/low_cmd.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/low_cmd.hpp
@@ -382,6 +434,9 @@ rosidl_generator_cpp/unitree_go/msg/detail/low_cmd__struct.hpp: rosidl_generator
 rosidl_generator_cpp/unitree_go/msg/detail/low_cmd__traits.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/low_cmd__traits.hpp
 
+rosidl_generator_cpp/unitree_go/msg/detail/low_cmd__type_support.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/low_cmd__type_support.hpp
+
 rosidl_generator_cpp/unitree_go/msg/low_state.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/low_state.hpp
 
@@ -393,6 +448,9 @@ rosidl_generator_cpp/unitree_go/msg/detail/low_state__struct.hpp: rosidl_generat
 
 rosidl_generator_cpp/unitree_go/msg/detail/low_state__traits.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/low_state__traits.hpp
+
+rosidl_generator_cpp/unitree_go/msg/detail/low_state__type_support.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/low_state__type_support.hpp
 
 rosidl_generator_cpp/unitree_go/msg/motor_cmd.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/motor_cmd.hpp
@@ -406,6 +464,9 @@ rosidl_generator_cpp/unitree_go/msg/detail/motor_cmd__struct.hpp: rosidl_generat
 rosidl_generator_cpp/unitree_go/msg/detail/motor_cmd__traits.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/motor_cmd__traits.hpp
 
+rosidl_generator_cpp/unitree_go/msg/detail/motor_cmd__type_support.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/motor_cmd__type_support.hpp
+
 rosidl_generator_cpp/unitree_go/msg/motor_cmds.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/motor_cmds.hpp
 
@@ -417,6 +478,9 @@ rosidl_generator_cpp/unitree_go/msg/detail/motor_cmds__struct.hpp: rosidl_genera
 
 rosidl_generator_cpp/unitree_go/msg/detail/motor_cmds__traits.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/motor_cmds__traits.hpp
+
+rosidl_generator_cpp/unitree_go/msg/detail/motor_cmds__type_support.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/motor_cmds__type_support.hpp
 
 rosidl_generator_cpp/unitree_go/msg/motor_state.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/motor_state.hpp
@@ -430,6 +494,9 @@ rosidl_generator_cpp/unitree_go/msg/detail/motor_state__struct.hpp: rosidl_gener
 rosidl_generator_cpp/unitree_go/msg/detail/motor_state__traits.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/motor_state__traits.hpp
 
+rosidl_generator_cpp/unitree_go/msg/detail/motor_state__type_support.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/motor_state__type_support.hpp
+
 rosidl_generator_cpp/unitree_go/msg/motor_states.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/motor_states.hpp
 
@@ -441,6 +508,9 @@ rosidl_generator_cpp/unitree_go/msg/detail/motor_states__struct.hpp: rosidl_gene
 
 rosidl_generator_cpp/unitree_go/msg/detail/motor_states__traits.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/motor_states__traits.hpp
+
+rosidl_generator_cpp/unitree_go/msg/detail/motor_states__type_support.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/motor_states__type_support.hpp
 
 rosidl_generator_cpp/unitree_go/msg/path_point.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/path_point.hpp
@@ -454,6 +524,9 @@ rosidl_generator_cpp/unitree_go/msg/detail/path_point__struct.hpp: rosidl_genera
 rosidl_generator_cpp/unitree_go/msg/detail/path_point__traits.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/path_point__traits.hpp
 
+rosidl_generator_cpp/unitree_go/msg/detail/path_point__type_support.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/path_point__type_support.hpp
+
 rosidl_generator_cpp/unitree_go/msg/req.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/req.hpp
 
@@ -465,6 +538,9 @@ rosidl_generator_cpp/unitree_go/msg/detail/req__struct.hpp: rosidl_generator_cpp
 
 rosidl_generator_cpp/unitree_go/msg/detail/req__traits.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/req__traits.hpp
+
+rosidl_generator_cpp/unitree_go/msg/detail/req__type_support.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/req__type_support.hpp
 
 rosidl_generator_cpp/unitree_go/msg/res.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/res.hpp
@@ -478,6 +554,9 @@ rosidl_generator_cpp/unitree_go/msg/detail/res__struct.hpp: rosidl_generator_cpp
 rosidl_generator_cpp/unitree_go/msg/detail/res__traits.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/res__traits.hpp
 
+rosidl_generator_cpp/unitree_go/msg/detail/res__type_support.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/res__type_support.hpp
+
 rosidl_generator_cpp/unitree_go/msg/sport_mode_cmd.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/sport_mode_cmd.hpp
 
@@ -489,6 +568,9 @@ rosidl_generator_cpp/unitree_go/msg/detail/sport_mode_cmd__struct.hpp: rosidl_ge
 
 rosidl_generator_cpp/unitree_go/msg/detail/sport_mode_cmd__traits.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/sport_mode_cmd__traits.hpp
+
+rosidl_generator_cpp/unitree_go/msg/detail/sport_mode_cmd__type_support.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/sport_mode_cmd__type_support.hpp
 
 rosidl_generator_cpp/unitree_go/msg/sport_mode_state.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/sport_mode_state.hpp
@@ -502,6 +584,9 @@ rosidl_generator_cpp/unitree_go/msg/detail/sport_mode_state__struct.hpp: rosidl_
 rosidl_generator_cpp/unitree_go/msg/detail/sport_mode_state__traits.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/sport_mode_state__traits.hpp
 
+rosidl_generator_cpp/unitree_go/msg/detail/sport_mode_state__type_support.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/sport_mode_state__type_support.hpp
+
 rosidl_generator_cpp/unitree_go/msg/time_spec.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/time_spec.hpp
 
@@ -513,6 +598,9 @@ rosidl_generator_cpp/unitree_go/msg/detail/time_spec__struct.hpp: rosidl_generat
 
 rosidl_generator_cpp/unitree_go/msg/detail/time_spec__traits.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/time_spec__traits.hpp
+
+rosidl_generator_cpp/unitree_go/msg/detail/time_spec__type_support.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/time_spec__type_support.hpp
 
 rosidl_generator_cpp/unitree_go/msg/uwb_state.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/uwb_state.hpp
@@ -526,6 +614,9 @@ rosidl_generator_cpp/unitree_go/msg/detail/uwb_state__struct.hpp: rosidl_generat
 rosidl_generator_cpp/unitree_go/msg/detail/uwb_state__traits.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/uwb_state__traits.hpp
 
+rosidl_generator_cpp/unitree_go/msg/detail/uwb_state__type_support.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/uwb_state__type_support.hpp
+
 rosidl_generator_cpp/unitree_go/msg/uwb_switch.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/uwb_switch.hpp
 
@@ -537,6 +628,9 @@ rosidl_generator_cpp/unitree_go/msg/detail/uwb_switch__struct.hpp: rosidl_genera
 
 rosidl_generator_cpp/unitree_go/msg/detail/uwb_switch__traits.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/uwb_switch__traits.hpp
+
+rosidl_generator_cpp/unitree_go/msg/detail/uwb_switch__type_support.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/uwb_switch__type_support.hpp
 
 rosidl_generator_cpp/unitree_go/msg/wireless_controller.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/wireless_controller.hpp
@@ -550,6 +644,9 @@ rosidl_generator_cpp/unitree_go/msg/detail/wireless_controller__struct.hpp: rosi
 rosidl_generator_cpp/unitree_go/msg/detail/wireless_controller__traits.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/wireless_controller__traits.hpp
 
+rosidl_generator_cpp/unitree_go/msg/detail/wireless_controller__type_support.hpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_go/msg/detail/wireless_controller__type_support.hpp
+
 unitree_go__cpp: CMakeFiles/unitree_go__cpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/audio_data.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/bms_cmd.hpp
@@ -557,75 +654,99 @@ unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/bms_state.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/audio_data__builder.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/audio_data__struct.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/audio_data__traits.hpp
+unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/audio_data__type_support.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/bms_cmd__builder.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/bms_cmd__struct.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/bms_cmd__traits.hpp
+unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/bms_cmd__type_support.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/bms_state__builder.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/bms_state__struct.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/bms_state__traits.hpp
+unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/bms_state__type_support.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/error__builder.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/error__struct.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/error__traits.hpp
+unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/error__type_support.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/go2_front_video_data__builder.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/go2_front_video_data__struct.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/go2_front_video_data__traits.hpp
+unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/go2_front_video_data__type_support.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/height_map__builder.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/height_map__struct.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/height_map__traits.hpp
+unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/height_map__type_support.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/imu_state__builder.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/imu_state__struct.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/imu_state__traits.hpp
+unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/imu_state__type_support.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/interface_config__builder.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/interface_config__struct.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/interface_config__traits.hpp
+unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/interface_config__type_support.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/lidar_state__builder.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/lidar_state__struct.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/lidar_state__traits.hpp
+unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/lidar_state__type_support.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/low_cmd__builder.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/low_cmd__struct.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/low_cmd__traits.hpp
+unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/low_cmd__type_support.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/low_state__builder.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/low_state__struct.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/low_state__traits.hpp
+unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/low_state__type_support.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_cmd__builder.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_cmd__struct.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_cmd__traits.hpp
+unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_cmd__type_support.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_cmds__builder.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_cmds__struct.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_cmds__traits.hpp
+unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_cmds__type_support.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_state__builder.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_state__struct.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_state__traits.hpp
+unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_state__type_support.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_states__builder.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_states__struct.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_states__traits.hpp
+unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/motor_states__type_support.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/path_point__builder.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/path_point__struct.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/path_point__traits.hpp
+unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/path_point__type_support.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/req__builder.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/req__struct.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/req__traits.hpp
+unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/req__type_support.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/res__builder.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/res__struct.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/res__traits.hpp
+unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/res__type_support.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/sport_mode_cmd__builder.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/sport_mode_cmd__struct.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/sport_mode_cmd__traits.hpp
+unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/sport_mode_cmd__type_support.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/sport_mode_state__builder.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/sport_mode_state__struct.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/sport_mode_state__traits.hpp
+unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/sport_mode_state__type_support.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/time_spec__builder.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/time_spec__struct.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/time_spec__traits.hpp
+unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/time_spec__type_support.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/uwb_state__builder.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/uwb_state__struct.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/uwb_state__traits.hpp
+unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/uwb_state__type_support.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/uwb_switch__builder.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/uwb_switch__struct.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/uwb_switch__traits.hpp
+unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/uwb_switch__type_support.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/wireless_controller__builder.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/wireless_controller__struct.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/wireless_controller__traits.hpp
+unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/detail/wireless_controller__type_support.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/error.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/go2_front_video_data.hpp
 unitree_go__cpp: rosidl_generator_cpp/unitree_go/msg/height_map.hpp
@@ -659,6 +780,6 @@ CMakeFiles/unitree_go__cpp.dir/clean:
 .PHONY : CMakeFiles/unitree_go__cpp.dir/clean
 
 CMakeFiles/unitree_go__cpp.dir/depend:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go/CMakeFiles/unitree_go__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/legged/Desktop/legged_nav_rl/build/unitree_go && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go /home/legged/Desktop/legged_nav_rl/build/unitree_go /home/legged/Desktop/legged_nav_rl/build/unitree_go /home/legged/Desktop/legged_nav_rl/build/unitree_go/CMakeFiles/unitree_go__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/unitree_go__cpp.dir/depend
 

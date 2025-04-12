@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go
+CMAKE_SOURCE_DIR = /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go
+CMAKE_BINARY_DIR = /home/legged/Desktop/legged_nav_rl/build/unitree_go
 
 # Utility rule file for unitree_go.
 
@@ -66,30 +66,30 @@ include CMakeFiles/unitree_go.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/unitree_go.dir/progress.make
 
-CMakeFiles/unitree_go: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/AudioData.msg
-CMakeFiles/unitree_go: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/BmsCmd.msg
-CMakeFiles/unitree_go: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/BmsState.msg
-CMakeFiles/unitree_go: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/Error.msg
-CMakeFiles/unitree_go: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/Go2FrontVideoData.msg
-CMakeFiles/unitree_go: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/HeightMap.msg
-CMakeFiles/unitree_go: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/IMUState.msg
-CMakeFiles/unitree_go: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/InterfaceConfig.msg
-CMakeFiles/unitree_go: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/LidarState.msg
-CMakeFiles/unitree_go: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/LowCmd.msg
-CMakeFiles/unitree_go: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/LowState.msg
-CMakeFiles/unitree_go: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/MotorCmd.msg
-CMakeFiles/unitree_go: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/MotorCmds.msg
-CMakeFiles/unitree_go: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/MotorState.msg
-CMakeFiles/unitree_go: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/MotorStates.msg
-CMakeFiles/unitree_go: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/PathPoint.msg
-CMakeFiles/unitree_go: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/Req.msg
-CMakeFiles/unitree_go: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/Res.msg
-CMakeFiles/unitree_go: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/SportModeCmd.msg
-CMakeFiles/unitree_go: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/SportModeState.msg
-CMakeFiles/unitree_go: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/TimeSpec.msg
-CMakeFiles/unitree_go: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/UwbState.msg
-CMakeFiles/unitree_go: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/UwbSwitch.msg
-CMakeFiles/unitree_go: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/WirelessController.msg
+CMakeFiles/unitree_go: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/AudioData.msg
+CMakeFiles/unitree_go: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/BmsCmd.msg
+CMakeFiles/unitree_go: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/BmsState.msg
+CMakeFiles/unitree_go: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/Error.msg
+CMakeFiles/unitree_go: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/Go2FrontVideoData.msg
+CMakeFiles/unitree_go: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/HeightMap.msg
+CMakeFiles/unitree_go: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/IMUState.msg
+CMakeFiles/unitree_go: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/InterfaceConfig.msg
+CMakeFiles/unitree_go: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/LidarState.msg
+CMakeFiles/unitree_go: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/LowCmd.msg
+CMakeFiles/unitree_go: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/LowState.msg
+CMakeFiles/unitree_go: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/MotorCmd.msg
+CMakeFiles/unitree_go: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/MotorCmds.msg
+CMakeFiles/unitree_go: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/MotorState.msg
+CMakeFiles/unitree_go: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/MotorStates.msg
+CMakeFiles/unitree_go: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/PathPoint.msg
+CMakeFiles/unitree_go: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/Req.msg
+CMakeFiles/unitree_go: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/Res.msg
+CMakeFiles/unitree_go: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/SportModeCmd.msg
+CMakeFiles/unitree_go: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/SportModeState.msg
+CMakeFiles/unitree_go: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/TimeSpec.msg
+CMakeFiles/unitree_go: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/UwbState.msg
+CMakeFiles/unitree_go: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/UwbSwitch.msg
+CMakeFiles/unitree_go: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go/msg/WirelessController.msg
 CMakeFiles/unitree_go: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
 CMakeFiles/unitree_go: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
 CMakeFiles/unitree_go: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -134,6 +134,6 @@ CMakeFiles/unitree_go.dir/clean:
 .PHONY : CMakeFiles/unitree_go.dir/clean
 
 CMakeFiles/unitree_go.dir/depend:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go/CMakeFiles/unitree_go.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/legged/Desktop/legged_nav_rl/build/unitree_go && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go /home/legged/Desktop/legged_nav_rl/build/unitree_go /home/legged/Desktop/legged_nav_rl/build/unitree_go /home/legged/Desktop/legged_nav_rl/build/unitree_go/CMakeFiles/unitree_go.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/unitree_go.dir/depend
 

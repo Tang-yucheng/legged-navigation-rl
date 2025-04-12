@@ -7,5 +7,6 @@
 #include "unitree_api/msg/detail/request_identity__struct.hpp"
 #include "unitree_api/msg/detail/request_identity__builder.hpp"
 #include "unitree_api/msg/detail/request_identity__traits.hpp"
+#include "unitree_api/msg/detail/request_identity__type_support.hpp"
 
 #endif  // UNITREE_API__MSG__REQUEST_IDENTITY_HPP_

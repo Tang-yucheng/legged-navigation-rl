@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/src/ddsrt/ddsrt-internal/include -I/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds/src/ddsrt/include -I/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds/src/ddsrt/src -I/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/src/ddsrt/include
+C_INCLUDES = -I/home/legged/Desktop/legged_nav_rl/build/cyclonedds/src/ddsrt/ddsrt-internal/include -I/home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds/src/ddsrt/include -I/home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds/src/ddsrt/src -I/home/legged/Desktop/legged_nav_rl/build/cyclonedds/src/ddsrt/include
 
 C_FLAGS = -O2 -g -DNDEBUG -Wall -Wextra -Wconversion -Wmissing-prototypes -std=gnu99
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go
+CMAKE_SOURCE_DIR = /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go
+CMAKE_BINARY_DIR = /home/legged/Desktop/legged_nav_rl/build/unitree_go
 
 # Utility rule file for unitree_go__dds_connext_idl.
 
@@ -181,8 +181,8 @@ rosidl_generator_dds_idl/unitree_go/msg/dds_connext/AudioData_.idl: /opt/ros/hum
 rosidl_generator_dds_idl/unitree_go/msg/dds_connext/AudioData_.idl: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_generator_dds_idl/unitree_go/msg/dds_connext/AudioData_.idl: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_generator_dds_idl/unitree_go/msg/dds_connext/AudioData_.idl: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating DDS interfaces"
-	/usr/bin/python3 /opt/ros/humble/lib/rosidl_generator_dds_idl/rosidl_generator_dds_idl --additional-service-templates --generator-arguments-file /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go/rosidl_generator_dds_idl__dds_connext__arguments.json --subfolders dds_connext --extension
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/legged/Desktop/legged_nav_rl/build/unitree_go/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating DDS interfaces"
+	/usr/bin/python3 /opt/ros/humble/lib/rosidl_generator_dds_idl/rosidl_generator_dds_idl --additional-service-templates --generator-arguments-file /home/legged/Desktop/legged_nav_rl/build/unitree_go/rosidl_generator_dds_idl__dds_connext__arguments.json --subfolders dds_connext --extension
 
 rosidl_generator_dds_idl/unitree_go/msg/dds_connext/BmsCmd_.idl: rosidl_generator_dds_idl/unitree_go/msg/dds_connext/AudioData_.idl
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_dds_idl/unitree_go/msg/dds_connext/BmsCmd_.idl
@@ -290,6 +290,6 @@ CMakeFiles/unitree_go__dds_connext_idl.dir/clean:
 .PHONY : CMakeFiles/unitree_go__dds_connext_idl.dir/clean
 
 CMakeFiles/unitree_go__dds_connext_idl.dir/depend:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go/CMakeFiles/unitree_go__dds_connext_idl.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/legged/Desktop/legged_nav_rl/build/unitree_go && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go /home/legged/Desktop/legged_nav_rl/build/unitree_go /home/legged/Desktop/legged_nav_rl/build/unitree_go /home/legged/Desktop/legged_nav_rl/build/unitree_go/CMakeFiles/unitree_go__dds_connext_idl.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/unitree_go__dds_connext_idl.dir/depend
 

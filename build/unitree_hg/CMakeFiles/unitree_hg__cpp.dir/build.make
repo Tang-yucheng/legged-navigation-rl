@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg
+CMAKE_SOURCE_DIR = /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_hg
+CMAKE_BINARY_DIR = /home/legged/Desktop/legged_nav_rl/build/unitree_hg
 
 # Utility rule file for unitree_hg__cpp.
 
@@ -70,46 +70,58 @@ CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/bms_cmd__builder.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/bms_cmd__struct.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/bms_cmd__traits.hpp
+CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/bms_cmd__type_support.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/bms_state.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/bms_state__builder.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/bms_state__struct.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/bms_state__traits.hpp
+CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/bms_state__type_support.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/hand_cmd.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/hand_cmd__builder.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/hand_cmd__struct.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/hand_cmd__traits.hpp
+CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/hand_cmd__type_support.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/hand_state.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/hand_state__builder.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/hand_state__struct.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/hand_state__traits.hpp
+CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/hand_state__type_support.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/imu_state.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/imu_state__builder.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/imu_state__struct.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/imu_state__traits.hpp
+CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/imu_state__type_support.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/low_cmd.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/low_cmd__builder.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/low_cmd__struct.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/low_cmd__traits.hpp
+CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/low_cmd__type_support.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/low_state.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/low_state__builder.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/low_state__struct.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/low_state__traits.hpp
+CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/low_state__type_support.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/main_board_state.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/main_board_state__builder.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/main_board_state__struct.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/main_board_state__traits.hpp
+CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/main_board_state__type_support.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/motor_cmd.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/motor_cmd__builder.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/motor_cmd__struct.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/motor_cmd__traits.hpp
+CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/motor_cmd__type_support.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/motor_state.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/motor_state__builder.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/motor_state__struct.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/motor_state__traits.hpp
+CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/motor_state__type_support.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/press_sensor_state.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/press_sensor_state__builder.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/press_sensor_state__struct.hpp
 CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/press_sensor_state__traits.hpp
+CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/press_sensor_state__type_support.hpp
+CMakeFiles/unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -197,8 +209,8 @@ rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp: /opt/ros/humble/share/std_msgs/
 rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_hg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_hg/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/legged/Desktop/legged_nav_rl/build/unitree_hg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/legged/Desktop/legged_nav_rl/build/unitree_hg/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/unitree_hg/msg/detail/bms_cmd__builder.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/detail/bms_cmd__builder.hpp
@@ -208,6 +220,9 @@ rosidl_generator_cpp/unitree_hg/msg/detail/bms_cmd__struct.hpp: rosidl_generator
 
 rosidl_generator_cpp/unitree_hg/msg/detail/bms_cmd__traits.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/detail/bms_cmd__traits.hpp
+
+rosidl_generator_cpp/unitree_hg/msg/detail/bms_cmd__type_support.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/detail/bms_cmd__type_support.hpp
 
 rosidl_generator_cpp/unitree_hg/msg/bms_state.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/bms_state.hpp
@@ -221,6 +236,9 @@ rosidl_generator_cpp/unitree_hg/msg/detail/bms_state__struct.hpp: rosidl_generat
 rosidl_generator_cpp/unitree_hg/msg/detail/bms_state__traits.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/detail/bms_state__traits.hpp
 
+rosidl_generator_cpp/unitree_hg/msg/detail/bms_state__type_support.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/detail/bms_state__type_support.hpp
+
 rosidl_generator_cpp/unitree_hg/msg/hand_cmd.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/hand_cmd.hpp
 
@@ -232,6 +250,9 @@ rosidl_generator_cpp/unitree_hg/msg/detail/hand_cmd__struct.hpp: rosidl_generato
 
 rosidl_generator_cpp/unitree_hg/msg/detail/hand_cmd__traits.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/detail/hand_cmd__traits.hpp
+
+rosidl_generator_cpp/unitree_hg/msg/detail/hand_cmd__type_support.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/detail/hand_cmd__type_support.hpp
 
 rosidl_generator_cpp/unitree_hg/msg/hand_state.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/hand_state.hpp
@@ -245,6 +266,9 @@ rosidl_generator_cpp/unitree_hg/msg/detail/hand_state__struct.hpp: rosidl_genera
 rosidl_generator_cpp/unitree_hg/msg/detail/hand_state__traits.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/detail/hand_state__traits.hpp
 
+rosidl_generator_cpp/unitree_hg/msg/detail/hand_state__type_support.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/detail/hand_state__type_support.hpp
+
 rosidl_generator_cpp/unitree_hg/msg/imu_state.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/imu_state.hpp
 
@@ -256,6 +280,9 @@ rosidl_generator_cpp/unitree_hg/msg/detail/imu_state__struct.hpp: rosidl_generat
 
 rosidl_generator_cpp/unitree_hg/msg/detail/imu_state__traits.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/detail/imu_state__traits.hpp
+
+rosidl_generator_cpp/unitree_hg/msg/detail/imu_state__type_support.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/detail/imu_state__type_support.hpp
 
 rosidl_generator_cpp/unitree_hg/msg/low_cmd.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/low_cmd.hpp
@@ -269,6 +296,9 @@ rosidl_generator_cpp/unitree_hg/msg/detail/low_cmd__struct.hpp: rosidl_generator
 rosidl_generator_cpp/unitree_hg/msg/detail/low_cmd__traits.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/detail/low_cmd__traits.hpp
 
+rosidl_generator_cpp/unitree_hg/msg/detail/low_cmd__type_support.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/detail/low_cmd__type_support.hpp
+
 rosidl_generator_cpp/unitree_hg/msg/low_state.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/low_state.hpp
 
@@ -280,6 +310,9 @@ rosidl_generator_cpp/unitree_hg/msg/detail/low_state__struct.hpp: rosidl_generat
 
 rosidl_generator_cpp/unitree_hg/msg/detail/low_state__traits.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/detail/low_state__traits.hpp
+
+rosidl_generator_cpp/unitree_hg/msg/detail/low_state__type_support.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/detail/low_state__type_support.hpp
 
 rosidl_generator_cpp/unitree_hg/msg/main_board_state.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/main_board_state.hpp
@@ -293,6 +326,9 @@ rosidl_generator_cpp/unitree_hg/msg/detail/main_board_state__struct.hpp: rosidl_
 rosidl_generator_cpp/unitree_hg/msg/detail/main_board_state__traits.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/detail/main_board_state__traits.hpp
 
+rosidl_generator_cpp/unitree_hg/msg/detail/main_board_state__type_support.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/detail/main_board_state__type_support.hpp
+
 rosidl_generator_cpp/unitree_hg/msg/motor_cmd.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/motor_cmd.hpp
 
@@ -304,6 +340,9 @@ rosidl_generator_cpp/unitree_hg/msg/detail/motor_cmd__struct.hpp: rosidl_generat
 
 rosidl_generator_cpp/unitree_hg/msg/detail/motor_cmd__traits.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/detail/motor_cmd__traits.hpp
+
+rosidl_generator_cpp/unitree_hg/msg/detail/motor_cmd__type_support.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/detail/motor_cmd__type_support.hpp
 
 rosidl_generator_cpp/unitree_hg/msg/motor_state.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/motor_state.hpp
@@ -317,6 +356,9 @@ rosidl_generator_cpp/unitree_hg/msg/detail/motor_state__struct.hpp: rosidl_gener
 rosidl_generator_cpp/unitree_hg/msg/detail/motor_state__traits.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/detail/motor_state__traits.hpp
 
+rosidl_generator_cpp/unitree_hg/msg/detail/motor_state__type_support.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/detail/motor_state__type_support.hpp
+
 rosidl_generator_cpp/unitree_hg/msg/press_sensor_state.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/press_sensor_state.hpp
 
@@ -329,42 +371,56 @@ rosidl_generator_cpp/unitree_hg/msg/detail/press_sensor_state__struct.hpp: rosid
 rosidl_generator_cpp/unitree_hg/msg/detail/press_sensor_state__traits.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/detail/press_sensor_state__traits.hpp
 
+rosidl_generator_cpp/unitree_hg/msg/detail/press_sensor_state__type_support.hpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/unitree_hg/msg/detail/press_sensor_state__type_support.hpp
+
 unitree_hg__cpp: CMakeFiles/unitree_hg__cpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/bms_cmd.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/bms_state.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/bms_cmd__builder.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/bms_cmd__struct.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/bms_cmd__traits.hpp
+unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/bms_cmd__type_support.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/bms_state__builder.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/bms_state__struct.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/bms_state__traits.hpp
+unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/bms_state__type_support.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/hand_cmd__builder.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/hand_cmd__struct.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/hand_cmd__traits.hpp
+unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/hand_cmd__type_support.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/hand_state__builder.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/hand_state__struct.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/hand_state__traits.hpp
+unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/hand_state__type_support.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/imu_state__builder.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/imu_state__struct.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/imu_state__traits.hpp
+unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/imu_state__type_support.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/low_cmd__builder.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/low_cmd__struct.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/low_cmd__traits.hpp
+unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/low_cmd__type_support.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/low_state__builder.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/low_state__struct.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/low_state__traits.hpp
+unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/low_state__type_support.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/main_board_state__builder.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/main_board_state__struct.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/main_board_state__traits.hpp
+unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/main_board_state__type_support.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/motor_cmd__builder.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/motor_cmd__struct.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/motor_cmd__traits.hpp
+unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/motor_cmd__type_support.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/motor_state__builder.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/motor_state__struct.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/motor_state__traits.hpp
+unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/motor_state__type_support.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/press_sensor_state__builder.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/press_sensor_state__struct.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/press_sensor_state__traits.hpp
+unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/detail/press_sensor_state__type_support.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/hand_cmd.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/hand_state.hpp
 unitree_hg__cpp: rosidl_generator_cpp/unitree_hg/msg/imu_state.hpp
@@ -386,6 +442,6 @@ CMakeFiles/unitree_hg__cpp.dir/clean:
 .PHONY : CMakeFiles/unitree_hg__cpp.dir/clean
 
 CMakeFiles/unitree_hg__cpp.dir/depend:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_hg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_hg /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_hg /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_hg/CMakeFiles/unitree_hg__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/legged/Desktop/legged_nav_rl/build/unitree_hg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg /home/legged/Desktop/legged_nav_rl/build/unitree_hg /home/legged/Desktop/legged_nav_rl/build/unitree_hg /home/legged/Desktop/legged_nav_rl/build/unitree_hg/CMakeFiles/unitree_hg__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/unitree_hg__cpp.dir/depend
 

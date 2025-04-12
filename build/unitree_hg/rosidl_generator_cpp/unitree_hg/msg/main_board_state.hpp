@@ -7,5 +7,6 @@
 #include "unitree_hg/msg/detail/main_board_state__struct.hpp"
 #include "unitree_hg/msg/detail/main_board_state__builder.hpp"
 #include "unitree_hg/msg/detail/main_board_state__traits.hpp"
+#include "unitree_hg/msg/detail/main_board_state__type_support.hpp"
 
 #endif  // UNITREE_HG__MSG__MAIN_BOARD_STATE_HPP_

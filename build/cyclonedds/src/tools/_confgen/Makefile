@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds
+CMAKE_SOURCE_DIR = /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds
+CMAKE_BINARY_DIR = /home/legged/Desktop/legged_nav_rl/build/cyclonedds
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/legged/Desktop/legged_nav_rl/build/cyclonedds && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CPackSourceConfig.cmake
+	cd /home/legged/Desktop/legged_nav_rl/build/cyclonedds && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,14 +152,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds && $(CMAKE_COMMAND) -E cmake_progress_start /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/src/tools/_confgen//CMakeFiles/progress.marks
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/_confgen/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles 0
+	cd /home/legged/Desktop/legged_nav_rl/build/cyclonedds && $(CMAKE_COMMAND) -E cmake_progress_start /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles /home/legged/Desktop/legged_nav_rl/build/cyclonedds/src/tools/_confgen//CMakeFiles/progress.marks
+	cd /home/legged/Desktop/legged_nav_rl/build/cyclonedds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/_confgen/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/_confgen/clean
+	cd /home/legged/Desktop/legged_nav_rl/build/cyclonedds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/_confgen/clean
 .PHONY : clean
 
 # The main clean target
@@ -168,22 +168,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/_confgen/preinstall
+	cd /home/legged/Desktop/legged_nav_rl/build/cyclonedds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/_confgen/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/_confgen/preinstall
+	cd /home/legged/Desktop/legged_nav_rl/build/cyclonedds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/_confgen/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/legged/Desktop/legged_nav_rl/build/cyclonedds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/tools/_confgen/CMakeFiles/_confgen.dir/rule:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/_confgen/CMakeFiles/_confgen.dir/rule
+	cd /home/legged/Desktop/legged_nav_rl/build/cyclonedds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/tools/_confgen/CMakeFiles/_confgen.dir/rule
 .PHONY : src/tools/_confgen/CMakeFiles/_confgen.dir/rule
 
 # Convenience name for target.
@@ -192,7 +192,7 @@ _confgen: src/tools/_confgen/CMakeFiles/_confgen.dir/rule
 
 # fast build rule for target.
 _confgen/fast:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds && $(MAKE) $(MAKESILENT) -f src/tools/_confgen/CMakeFiles/_confgen.dir/build.make src/tools/_confgen/CMakeFiles/_confgen.dir/build
+	cd /home/legged/Desktop/legged_nav_rl/build/cyclonedds && $(MAKE) $(MAKESILENT) -f src/tools/_confgen/CMakeFiles/_confgen.dir/build.make src/tools/_confgen/CMakeFiles/_confgen.dir/build
 .PHONY : _confgen/fast
 
 # Help Target
@@ -221,6 +221,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/legged/Desktop/legged_nav_rl/build/cyclonedds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

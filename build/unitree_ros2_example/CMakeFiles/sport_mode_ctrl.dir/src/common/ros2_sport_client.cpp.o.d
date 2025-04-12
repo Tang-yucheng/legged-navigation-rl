@@ -1,7 +1,7 @@
 CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.o: \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/common/ros2_sport_client.cpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/common/ros2_sport_client.cpp \
  /usr/include/stdc-predef.h \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/common/ros2_sport_client.h \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/common/ros2_sport_client.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -148,7 +148,7 @@ CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/json.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/json.hpp \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_algo.h \
@@ -188,9 +188,9 @@ CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.o: \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/adl_serializer.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/abi_macros.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/conversions/from_json.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/adl_serializer.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/abi_macros.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/conversions/from_json.hpp \
  /usr/include/c++/11/forward_list /usr/include/c++/11/bits/forward_list.h \
  /usr/include/c++/11/bits/forward_list.tcc /usr/include/c++/11/map \
  /usr/include/c++/11/bits/stl_tree.h /usr/include/c++/11/bits/stl_map.h \
@@ -227,26 +227,26 @@ CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.o: \
  /usr/include/c++/11/bits/gslice_array.h \
  /usr/include/c++/11/bits/mask_array.h \
  /usr/include/c++/11/bits/indirect_array.h \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/exceptions.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/value_t.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/macro_scope.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/meta/detected.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/meta/void_t.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/thirdparty/hedley/hedley.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/exceptions.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/value_t.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/macro_scope.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/meta/detected.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/meta/void_t.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/thirdparty/hedley/hedley.hpp \
  /usr/include/c++/11/version /usr/include/c++/11/cassert \
  /usr/include/assert.h \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/string_escape.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/input/position_t.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/meta/cpp_future.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/meta/type_traits.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/iterators/iterator_traits.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/meta/call_std/begin.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/meta/call_std/end.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/json_fwd.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/string_concat.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/string_escape.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/input/position_t.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/meta/cpp_future.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/meta/type_traits.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/iterators/iterator_traits.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/meta/call_std/begin.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/meta/call_std/end.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/json_fwd.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/string_concat.hpp \
  /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/meta/identity_tag.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/meta/std_fs.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/meta/identity_tag.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/meta/std_fs.hpp \
  /usr/include/c++/11/filesystem /usr/include/c++/11/bits/fs_fwd.h \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
@@ -260,46 +260,52 @@ CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.o: \
  /usr/include/c++/11/bits/quoted_string.h /usr/include/c++/11/sstream \
  /usr/include/c++/11/bits/sstream.tcc /usr/include/c++/11/codecvt \
  /usr/include/c++/11/bits/fs_dir.h /usr/include/c++/11/bits/fs_ops.h \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/conversions/to_json.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/iterators/iteration_proxy.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/byte_container_with_subtype.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/hash.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/input/binary_reader.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/input/input_adapters.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/conversions/to_json.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/byte_container_with_subtype.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/hash.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/input/binary_reader.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/input/input_adapters.hpp \
  /usr/include/c++/11/numeric /usr/include/c++/11/bits/stl_numeric.h \
  /usr/include/c++/11/pstl/glue_numeric_defs.h \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/input/json_sax.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/input/lexer.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/meta/is_sax.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/input/parser.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/iterators/internal_iterator.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/iterators/primitive_iterator.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/iterators/iter_impl.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/json_custom_base_class.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/json_pointer.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/json_ref.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/output/binary_writer.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/output/output_adapters.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/output/serializer.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/conversions/to_chars.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/ordered_map.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/input/json_sax.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/input/lexer.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/meta/is_sax.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/input/parser.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/iterators/internal_iterator.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/iterators/iter_impl.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/json_custom_base_class.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/json_pointer.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/json_ref.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/output/binary_writer.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/output/output_adapters.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/output/serializer.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/conversions/to_chars.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/ordered_map.hpp \
  /usr/include/c++/11/any \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/macro_unscope.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/include/unitree_api/unitree_api/msg/request.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__struct.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/detail/macro_unscope.hpp \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
+ /home/legged/Desktop/legged_nav_rl/install/unitree_api/include/unitree_api/unitree_api/msg/request.hpp \
+ /home/legged/Desktop/legged_nav_rl/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__struct.hpp \
  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
- /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__struct.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__struct.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__struct.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__struct.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__builder.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__traits.hpp \
+ /home/legged/Desktop/legged_nav_rl/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__struct.hpp \
+ /home/legged/Desktop/legged_nav_rl/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__struct.hpp \
+ /home/legged/Desktop/legged_nav_rl/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__struct.hpp \
+ /home/legged/Desktop/legged_nav_rl/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__struct.hpp \
+ /home/legged/Desktop/legged_nav_rl/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__builder.hpp \
+ /home/legged/Desktop/legged_nav_rl/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__traits.hpp \
  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__traits.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__traits.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__traits.hpp \
- /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__traits.hpp
+ /home/legged/Desktop/legged_nav_rl/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__traits.hpp \
+ /home/legged/Desktop/legged_nav_rl/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__traits.hpp \
+ /home/legged/Desktop/legged_nav_rl/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__traits.hpp \
+ /home/legged/Desktop/legged_nav_rl/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__traits.hpp \
+ /home/legged/Desktop/legged_nav_rl/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__type_support.hpp \
+ /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+ /home/legged/Desktop/legged_nav_rl/install/unitree_api/include/unitree_api/unitree_api/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h

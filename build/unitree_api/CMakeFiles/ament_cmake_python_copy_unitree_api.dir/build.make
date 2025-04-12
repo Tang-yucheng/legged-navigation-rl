@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api
+CMAKE_SOURCE_DIR = /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api
+CMAKE_BINARY_DIR = /home/legged/Desktop/legged_nav_rl/build/unitree_api
 
 # Utility rule file for ament_cmake_python_copy_unitree_api.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_unitree_api.dir/compiler_depend.make
 include CMakeFiles/ament_cmake_python_copy_unitree_api.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_unitree_api:
-	/usr/bin/cmake -E copy_directory /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/rosidl_generator_py/unitree_api /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_python/unitree_api/unitree_api
+	/usr/bin/cmake -E copy_directory /home/legged/Desktop/legged_nav_rl/build/unitree_api/rosidl_generator_py/unitree_api /home/legged/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_python/unitree_api/unitree_api
 
 ament_cmake_python_copy_unitree_api: CMakeFiles/ament_cmake_python_copy_unitree_api
 ament_cmake_python_copy_unitree_api: CMakeFiles/ament_cmake_python_copy_unitree_api.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_unitree_api.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_unitree_api.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_unitree_api.dir/depend:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/ament_cmake_python_copy_unitree_api.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/legged/Desktop/legged_nav_rl/build/unitree_api && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api /home/legged/Desktop/legged_nav_rl/build/unitree_api /home/legged/Desktop/legged_nav_rl/build/unitree_api /home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/ament_cmake_python_copy_unitree_api.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_unitree_api.dir/depend
 

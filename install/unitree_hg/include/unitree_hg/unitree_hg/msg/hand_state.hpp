@@ -7,5 +7,6 @@
 #include "unitree_hg/msg/detail/hand_state__struct.hpp"
 #include "unitree_hg/msg/detail/hand_state__builder.hpp"
 #include "unitree_hg/msg/detail/hand_state__traits.hpp"
+#include "unitree_hg/msg/detail/hand_state__type_support.hpp"
 
 #endif  // UNITREE_HG__MSG__HAND_STATE_HPP_

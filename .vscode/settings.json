@@ -99,6 +99,22 @@
         "typeinfo": "cpp",
         "variant": "cpp",
         "eigen": "cpp",
-        "core": "cpp"
-    }
+        "core": "cpp",
+        "csetjmp": "cpp",
+        "barrier": "cpp",
+        "charconv": "cpp",
+        "coroutine": "cpp",
+        "cuchar": "cpp",
+        "netfwd": "cpp",
+        "source_location": "cpp",
+        "hash_map": "cpp",
+        "hash_set": "cpp",
+        "rope": "cpp",
+        "slist": "cpp",
+        "latch": "cpp",
+        "scoped_allocator": "cpp",
+        "span": "cpp",
+        "syncstream": "cpp"
+    },
+    "cmake.sourceDirectory": "/home/tang-yucheng/Desktop/legged_nav_rl/build/livox_ros_driver2/livox_interfaces2__py"
 }

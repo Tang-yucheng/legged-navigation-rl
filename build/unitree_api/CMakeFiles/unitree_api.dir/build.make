@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api
+CMAKE_SOURCE_DIR = /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api
+CMAKE_BINARY_DIR = /home/legged/Desktop/legged_nav_rl/build/unitree_api
 
 # Utility rule file for unitree_api.
 
@@ -66,14 +66,14 @@ include CMakeFiles/unitree_api.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/unitree_api.dir/progress.make
 
-CMakeFiles/unitree_api: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/Request.msg
-CMakeFiles/unitree_api: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/RequestHeader.msg
-CMakeFiles/unitree_api: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/RequestIdentity.msg
-CMakeFiles/unitree_api: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/RequestLease.msg
-CMakeFiles/unitree_api: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/RequestPolicy.msg
-CMakeFiles/unitree_api: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/Response.msg
-CMakeFiles/unitree_api: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/ResponseHeader.msg
-CMakeFiles/unitree_api: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/ResponseStatus.msg
+CMakeFiles/unitree_api: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/Request.msg
+CMakeFiles/unitree_api: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/RequestHeader.msg
+CMakeFiles/unitree_api: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/RequestIdentity.msg
+CMakeFiles/unitree_api: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/RequestLease.msg
+CMakeFiles/unitree_api: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/RequestPolicy.msg
+CMakeFiles/unitree_api: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/Response.msg
+CMakeFiles/unitree_api: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/ResponseHeader.msg
+CMakeFiles/unitree_api: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/ResponseStatus.msg
 CMakeFiles/unitree_api: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
 CMakeFiles/unitree_api: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
 CMakeFiles/unitree_api: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -118,6 +118,6 @@ CMakeFiles/unitree_api.dir/clean:
 .PHONY : CMakeFiles/unitree_api.dir/clean
 
 CMakeFiles/unitree_api.dir/depend:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/unitree_api.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/legged/Desktop/legged_nav_rl/build/unitree_api && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api /home/legged/Desktop/legged_nav_rl/build/unitree_api /home/legged/Desktop/legged_nav_rl/build/unitree_api /home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/unitree_api.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/unitree_api.dir/depend
 

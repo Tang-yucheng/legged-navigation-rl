@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg
+CMAKE_SOURCE_DIR = /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_hg
+CMAKE_BINARY_DIR = /home/legged/Desktop/legged_nav_rl/build/unitree_hg
 
 # Utility rule file for unitree_hg.
 
@@ -66,17 +66,17 @@ include CMakeFiles/unitree_hg.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/unitree_hg.dir/progress.make
 
-CMakeFiles/unitree_hg: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/BmsCmd.msg
-CMakeFiles/unitree_hg: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/BmsState.msg
-CMakeFiles/unitree_hg: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/HandCmd.msg
-CMakeFiles/unitree_hg: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/HandState.msg
-CMakeFiles/unitree_hg: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/IMUState.msg
-CMakeFiles/unitree_hg: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/LowCmd.msg
-CMakeFiles/unitree_hg: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/LowState.msg
-CMakeFiles/unitree_hg: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/MainBoardState.msg
-CMakeFiles/unitree_hg: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/MotorCmd.msg
-CMakeFiles/unitree_hg: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/MotorState.msg
-CMakeFiles/unitree_hg: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/PressSensorState.msg
+CMakeFiles/unitree_hg: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/BmsCmd.msg
+CMakeFiles/unitree_hg: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/BmsState.msg
+CMakeFiles/unitree_hg: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/HandCmd.msg
+CMakeFiles/unitree_hg: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/HandState.msg
+CMakeFiles/unitree_hg: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/IMUState.msg
+CMakeFiles/unitree_hg: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/LowCmd.msg
+CMakeFiles/unitree_hg: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/LowState.msg
+CMakeFiles/unitree_hg: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/MainBoardState.msg
+CMakeFiles/unitree_hg: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/MotorCmd.msg
+CMakeFiles/unitree_hg: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/MotorState.msg
+CMakeFiles/unitree_hg: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/PressSensorState.msg
 CMakeFiles/unitree_hg: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
 CMakeFiles/unitree_hg: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
 CMakeFiles/unitree_hg: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -121,6 +121,6 @@ CMakeFiles/unitree_hg.dir/clean:
 .PHONY : CMakeFiles/unitree_hg.dir/clean
 
 CMakeFiles/unitree_hg.dir/depend:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_hg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_hg /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_hg /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_hg/CMakeFiles/unitree_hg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/legged/Desktop/legged_nav_rl/build/unitree_hg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg /home/legged/Desktop/legged_nav_rl/build/unitree_hg /home/legged/Desktop/legged_nav_rl/build/unitree_hg /home/legged/Desktop/legged_nav_rl/build/unitree_hg/CMakeFiles/unitree_hg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/unitree_hg.dir/depend
 

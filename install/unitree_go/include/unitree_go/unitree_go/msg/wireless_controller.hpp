@@ -7,5 +7,6 @@
 #include "unitree_go/msg/detail/wireless_controller__struct.hpp"
 #include "unitree_go/msg/detail/wireless_controller__builder.hpp"
 #include "unitree_go/msg/detail/wireless_controller__traits.hpp"
+#include "unitree_go/msg/detail/wireless_controller__type_support.hpp"
 
 #endif  // UNITREE_GO__MSG__WIRELESS_CONTROLLER_HPP_

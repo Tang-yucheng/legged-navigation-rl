@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/src/go2_interaction
+CMAKE_SOURCE_DIR = /home/legged/Desktop/legged_nav_rl/src/go2_interaction
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_interaction
+CMAKE_BINARY_DIR = /home/legged/Desktop/legged_nav_rl/build/go2_interaction
 
 # Include any dependencies generated for this target.
 include CMakeFiles/go2_interaction.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/go2_interaction.dir/progress.make
 include CMakeFiles/go2_interaction.dir/flags.make
 
 CMakeFiles/go2_interaction.dir/src/legged_interaction_node.cpp.o: CMakeFiles/go2_interaction.dir/flags.make
-CMakeFiles/go2_interaction.dir/src/legged_interaction_node.cpp.o: /home/tang-yucheng/Desktop/legged_nav_rl/src/go2_interaction/src/legged_interaction_node.cpp
+CMakeFiles/go2_interaction.dir/src/legged_interaction_node.cpp.o: /home/legged/Desktop/legged_nav_rl/src/go2_interaction/src/legged_interaction_node.cpp
 CMakeFiles/go2_interaction.dir/src/legged_interaction_node.cpp.o: CMakeFiles/go2_interaction.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tang-yucheng/Desktop/legged_nav_rl/build/go2_interaction/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/go2_interaction.dir/src/legged_interaction_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/go2_interaction.dir/src/legged_interaction_node.cpp.o -MF CMakeFiles/go2_interaction.dir/src/legged_interaction_node.cpp.o.d -o CMakeFiles/go2_interaction.dir/src/legged_interaction_node.cpp.o -c /home/tang-yucheng/Desktop/legged_nav_rl/src/go2_interaction/src/legged_interaction_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/legged/Desktop/legged_nav_rl/build/go2_interaction/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/go2_interaction.dir/src/legged_interaction_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/go2_interaction.dir/src/legged_interaction_node.cpp.o -MF CMakeFiles/go2_interaction.dir/src/legged_interaction_node.cpp.o.d -o CMakeFiles/go2_interaction.dir/src/legged_interaction_node.cpp.o -c /home/legged/Desktop/legged_nav_rl/src/go2_interaction/src/legged_interaction_node.cpp
 
 CMakeFiles/go2_interaction.dir/src/legged_interaction_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/go2_interaction.dir/src/legged_interaction_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tang-yucheng/Desktop/legged_nav_rl/src/go2_interaction/src/legged_interaction_node.cpp > CMakeFiles/go2_interaction.dir/src/legged_interaction_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/legged/Desktop/legged_nav_rl/src/go2_interaction/src/legged_interaction_node.cpp > CMakeFiles/go2_interaction.dir/src/legged_interaction_node.cpp.i
 
 CMakeFiles/go2_interaction.dir/src/legged_interaction_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/go2_interaction.dir/src/legged_interaction_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tang-yucheng/Desktop/legged_nav_rl/src/go2_interaction/src/legged_interaction_node.cpp -o CMakeFiles/go2_interaction.dir/src/legged_interaction_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/legged/Desktop/legged_nav_rl/src/go2_interaction/src/legged_interaction_node.cpp -o CMakeFiles/go2_interaction.dir/src/legged_interaction_node.cpp.s
 
 # Object files for target go2_interaction
 go2_interaction_OBJECTS = \
@@ -100,12 +100,12 @@ libgo2_interaction.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesup
 libgo2_interaction.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so
 libgo2_interaction.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_cpp.so
 libgo2_interaction.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_generator_py.so
-libgo2_interaction.so: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_fastrtps_c.so
-libgo2_interaction.so: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_fastrtps_cpp.so
-libgo2_interaction.so: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_introspection_c.so
-libgo2_interaction.so: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_introspection_cpp.so
-libgo2_interaction.so: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_cpp.so
-libgo2_interaction.so: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_generator_py.so
+libgo2_interaction.so: /home/legged/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_fastrtps_c.so
+libgo2_interaction.so: /home/legged/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_fastrtps_cpp.so
+libgo2_interaction.so: /home/legged/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_introspection_c.so
+libgo2_interaction.so: /home/legged/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_introspection_cpp.so
+libgo2_interaction.so: /home/legged/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_cpp.so
+libgo2_interaction.so: /home/legged/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_generator_py.so
 libgo2_interaction.so: /opt/ros/humble/lib/libclass_loader.so
 libgo2_interaction.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so
 libgo2_interaction.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so
@@ -212,8 +212,8 @@ libgo2_interaction.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_
 libgo2_interaction.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 libgo2_interaction.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 libgo2_interaction.so: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-libgo2_interaction.so: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_c.so
-libgo2_interaction.so: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_generator_c.so
+libgo2_interaction.so: /home/legged/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_c.so
+libgo2_interaction.so: /home/legged/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_generator_c.so
 libgo2_interaction.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 libgo2_interaction.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
 libgo2_interaction.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
@@ -229,7 +229,7 @@ libgo2_interaction.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libgo2_interaction.so: /opt/ros/humble/lib/librcutils.so
 libgo2_interaction.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 libgo2_interaction.so: CMakeFiles/go2_interaction.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tang-yucheng/Desktop/legged_nav_rl/build/go2_interaction/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libgo2_interaction.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/legged/Desktop/legged_nav_rl/build/go2_interaction/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libgo2_interaction.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/go2_interaction.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -241,6 +241,6 @@ CMakeFiles/go2_interaction.dir/clean:
 .PHONY : CMakeFiles/go2_interaction.dir/clean
 
 CMakeFiles/go2_interaction.dir/depend:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_interaction && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tang-yucheng/Desktop/legged_nav_rl/src/go2_interaction /home/tang-yucheng/Desktop/legged_nav_rl/src/go2_interaction /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_interaction /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_interaction /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_interaction/CMakeFiles/go2_interaction.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/legged/Desktop/legged_nav_rl/build/go2_interaction && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/legged/Desktop/legged_nav_rl/src/go2_interaction /home/legged/Desktop/legged_nav_rl/src/go2_interaction /home/legged/Desktop/legged_nav_rl/build/go2_interaction /home/legged/Desktop/legged_nav_rl/build/go2_interaction /home/legged/Desktop/legged_nav_rl/build/go2_interaction/CMakeFiles/go2_interaction.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/go2_interaction.dir/depend
 

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds
+CMAKE_SOURCE_DIR = /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds
+CMAKE_BINARY_DIR = /home/legged/Desktop/legged_nav_rl/build/cyclonedds
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CPackSourceConfig.cmake
+	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,9 +152,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles /home/legged/Desktop/legged_nav_rl/build/cyclonedds//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

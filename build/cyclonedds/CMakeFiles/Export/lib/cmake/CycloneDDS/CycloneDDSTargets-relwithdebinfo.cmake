@@ -57,7 +57,6 @@ list(APPEND _IMPORT_CHECK_FILES_FOR_CycloneDDS::dds_security_crypto "${_IMPORT_P
 # Import target "CycloneDDS::ddsc" for configuration "RelWithDebInfo"
 set_property(TARGET CycloneDDS::ddsc APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(CycloneDDS::ddsc PROPERTIES
-  IMPORTED_LINK_DEPENDENT_LIBRARIES_RELWITHDEBINFO "iceoryx_binding_c::iceoryx_binding_c"
   IMPORTED_LOCATION_RELWITHDEBINFO "${_IMPORT_PREFIX}/lib/libddsc.so.0.10.5"
   IMPORTED_SONAME_RELWITHDEBINFO "libddsc.so.0"
   )

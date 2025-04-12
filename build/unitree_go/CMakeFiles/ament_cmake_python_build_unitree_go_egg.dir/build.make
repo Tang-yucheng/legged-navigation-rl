@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go
+CMAKE_SOURCE_DIR = /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go
+CMAKE_BINARY_DIR = /home/legged/Desktop/legged_nav_rl/build/unitree_go
 
 # Utility rule file for ament_cmake_python_build_unitree_go_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_unitree_go_egg.dir/compiler_depend.m
 include CMakeFiles/ament_cmake_python_build_unitree_go_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_unitree_go_egg:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go/ament_cmake_python/unitree_go && /usr/bin/python3 setup.py egg_info
+	cd /home/legged/Desktop/legged_nav_rl/build/unitree_go/ament_cmake_python/unitree_go && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_unitree_go_egg: CMakeFiles/ament_cmake_python_build_unitree_go_egg
 ament_cmake_python_build_unitree_go_egg: CMakeFiles/ament_cmake_python_build_unitree_go_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_unitree_go_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_unitree_go_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_unitree_go_egg.dir/depend:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_go/CMakeFiles/ament_cmake_python_build_unitree_go_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/legged/Desktop/legged_nav_rl/build/unitree_go && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go /home/legged/Desktop/legged_nav_rl/build/unitree_go /home/legged/Desktop/legged_nav_rl/build/unitree_go /home/legged/Desktop/legged_nav_rl/build/unitree_go/CMakeFiles/ament_cmake_python_build_unitree_go_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_unitree_go_egg.dir/depend
 

@@ -7,5 +7,6 @@
 #include "unitree_api/msg/detail/request__struct.hpp"
 #include "unitree_api/msg/detail/request__builder.hpp"
 #include "unitree_api/msg/detail/request__traits.hpp"
+#include "unitree_api/msg/detail/request__type_support.hpp"
 
 #endif  // UNITREE_API__MSG__REQUEST_HPP_

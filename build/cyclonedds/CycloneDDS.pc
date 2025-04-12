@@ -1,4 +1,4 @@
-prefix=/home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds
+prefix=/home/legged/Desktop/legged_nav_rl/install/cyclonedds
 includedir=${prefix}/include
 libdir=${prefix}/lib
 

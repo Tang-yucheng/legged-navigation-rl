@@ -1,8 +1,8 @@
-# Install script for directory: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api
+# Install script for directory: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api")
+  set(CMAKE_INSTALL_PREFIX "/home/legged/Desktop/legged_nav_rl/install/unitree_api")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,11 +43,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rosidl_interfaces" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/unitree_api")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rosidl_interfaces" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/unitree_api")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/unitree_api/unitree_api" TYPE DIRECTORY FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/rosidl_generator_c/unitree_api/" REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/unitree_api/unitree_api" TYPE DIRECTORY FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/rosidl_generator_c/unitree_api/" REGEX "/[^/]*\\.h$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -55,7 +55,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/environment" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_environment_hooks/library_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/environment" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_environment_hooks/library_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -65,7 +65,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_generator_c.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/libunitree_api__rosidl_generator_c.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/libunitree_api__rosidl_generator_c.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_generator_c.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_generator_c.so")
     file(RPATH_CHANGE
@@ -82,7 +82,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/unitree_api/unitree_api" TYPE DIRECTORY FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/rosidl_typesupport_fastrtps_c/unitree_api/" REGEX "/[^/]*\\.cpp$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/unitree_api/unitree_api" TYPE DIRECTORY FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/rosidl_typesupport_fastrtps_c/unitree_api/" REGEX "/[^/]*\\.cpp$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -92,12 +92,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_typesupport_fastrtps_c.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/libunitree_api__rosidl_typesupport_fastrtps_c.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/libunitree_api__rosidl_typesupport_fastrtps_c.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_typesupport_fastrtps_c.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_typesupport_fastrtps_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_typesupport_fastrtps_c.so"
-         OLD_RPATH "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/legged/Desktop/legged_nav_rl/build/unitree_api:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_typesupport_fastrtps_c.so")
@@ -109,11 +109,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/unitree_api/unitree_api" TYPE DIRECTORY FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/rosidl_generator_cpp/unitree_api/" REGEX "/[^/]*\\.hpp$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/unitree_api/unitree_api" TYPE DIRECTORY FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/rosidl_generator_cpp/unitree_api/" REGEX "/[^/]*\\.hpp$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/unitree_api/unitree_api" TYPE DIRECTORY FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/rosidl_typesupport_fastrtps_cpp/unitree_api/" REGEX "/[^/]*\\.cpp$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/unitree_api/unitree_api" TYPE DIRECTORY FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/rosidl_typesupport_fastrtps_cpp/unitree_api/" REGEX "/[^/]*\\.cpp$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -123,7 +123,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_typesupport_fastrtps_cpp.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/libunitree_api__rosidl_typesupport_fastrtps_cpp.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/libunitree_api__rosidl_typesupport_fastrtps_cpp.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_typesupport_fastrtps_cpp.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_typesupport_fastrtps_cpp.so")
     file(RPATH_CHANGE
@@ -140,7 +140,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/unitree_api/unitree_api" TYPE DIRECTORY FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/rosidl_typesupport_introspection_c/unitree_api/" REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/unitree_api/unitree_api" TYPE DIRECTORY FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/rosidl_typesupport_introspection_c/unitree_api/" REGEX "/[^/]*\\.h$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -150,12 +150,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_typesupport_introspection_c.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/libunitree_api__rosidl_typesupport_introspection_c.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/libunitree_api__rosidl_typesupport_introspection_c.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_typesupport_introspection_c.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_typesupport_introspection_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_typesupport_introspection_c.so"
-         OLD_RPATH "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/legged/Desktop/legged_nav_rl/build/unitree_api:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_typesupport_introspection_c.so")
@@ -173,12 +173,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_typesupport_c.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/libunitree_api__rosidl_typesupport_c.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/libunitree_api__rosidl_typesupport_c.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_typesupport_c.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_typesupport_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_typesupport_c.so"
-         OLD_RPATH "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/legged/Desktop/legged_nav_rl/build/unitree_api:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_typesupport_c.so")
@@ -190,7 +190,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/unitree_api/unitree_api" TYPE DIRECTORY FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/rosidl_typesupport_introspection_cpp/unitree_api/" REGEX "/[^/]*\\.hpp$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/unitree_api/unitree_api" TYPE DIRECTORY FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/rosidl_typesupport_introspection_cpp/unitree_api/" REGEX "/[^/]*\\.hpp$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -200,7 +200,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_typesupport_introspection_cpp.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/libunitree_api__rosidl_typesupport_introspection_cpp.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/libunitree_api__rosidl_typesupport_introspection_cpp.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_typesupport_introspection_cpp.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_typesupport_introspection_cpp.so")
     file(RPATH_CHANGE
@@ -223,7 +223,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_typesupport_cpp.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/libunitree_api__rosidl_typesupport_cpp.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/libunitree_api__rosidl_typesupport_cpp.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_typesupport_cpp.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_typesupport_cpp.so")
     file(RPATH_CHANGE
@@ -240,26 +240,26 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/environment" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_environment_hooks/pythonpath.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/environment" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_environment_hooks/pythonpath.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/environment" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_environment_hooks/pythonpath.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/environment" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_environment_hooks/pythonpath.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/unitree_api-0.0.0-py3.10.egg-info" TYPE DIRECTORY FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_python/unitree_api/unitree_api.egg-info/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/unitree_api-0.0.0-py3.10.egg-info" TYPE DIRECTORY FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_python/unitree_api/unitree_api.egg-info/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/unitree_api" TYPE DIRECTORY FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/rosidl_generator_py/unitree_api/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/unitree_api" TYPE DIRECTORY FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/rosidl_generator_py/unitree_api/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
         "/usr/bin/python3" "-m" "compileall"
-        "/home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api"
+        "/home/legged/Desktop/legged_nav_rl/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api"
       )
 endif()
 
@@ -270,12 +270,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/unitree_api" TYPE SHARED_LIBRARY FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/rosidl_generator_py/unitree_api/unitree_api_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/unitree_api" TYPE SHARED_LIBRARY FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/rosidl_generator_py/unitree_api/unitree_api_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so"
-         OLD_RPATH "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/rosidl_generator_py/unitree_api:/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/legged/Desktop/legged_nav_rl/build/unitree_api/rosidl_generator_py/unitree_api:/home/legged/Desktop/legged_nav_rl/build/unitree_api:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so")
@@ -293,12 +293,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/unitree_api" TYPE SHARED_LIBRARY FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/rosidl_generator_py/unitree_api/unitree_api_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/unitree_api" TYPE SHARED_LIBRARY FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/rosidl_generator_py/unitree_api/unitree_api_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so"
-         OLD_RPATH "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/rosidl_generator_py/unitree_api:/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/legged/Desktop/legged_nav_rl/build/unitree_api/rosidl_generator_py/unitree_api:/home/legged/Desktop/legged_nav_rl/build/unitree_api:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so")
@@ -316,12 +316,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/unitree_api" TYPE SHARED_LIBRARY FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/rosidl_generator_py/unitree_api/unitree_api_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/unitree_api" TYPE SHARED_LIBRARY FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/rosidl_generator_py/unitree_api/unitree_api_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so"
-         OLD_RPATH "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/rosidl_generator_py/unitree_api:/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/legged/Desktop/legged_nav_rl/build/unitree_api/rosidl_generator_py/unitree_api:/home/legged/Desktop/legged_nav_rl/build/unitree_api:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so")
@@ -339,12 +339,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_generator_py.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/rosidl_generator_py/unitree_api/libunitree_api__rosidl_generator_py.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/rosidl_generator_py/unitree_api/libunitree_api__rosidl_generator_py.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_generator_py.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_generator_py.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_generator_py.so"
-         OLD_RPATH "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/legged/Desktop/legged_nav_rl/build/unitree_api:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunitree_api__rosidl_generator_py.so")
@@ -356,79 +356,79 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/rosidl_adapter/unitree_api/msg/Request.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/rosidl_adapter/unitree_api/msg/Request.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/rosidl_adapter/unitree_api/msg/RequestHeader.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/rosidl_adapter/unitree_api/msg/RequestHeader.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/rosidl_adapter/unitree_api/msg/RequestIdentity.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/rosidl_adapter/unitree_api/msg/RequestIdentity.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/rosidl_adapter/unitree_api/msg/RequestLease.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/rosidl_adapter/unitree_api/msg/RequestLease.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/rosidl_adapter/unitree_api/msg/RequestPolicy.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/rosidl_adapter/unitree_api/msg/RequestPolicy.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/rosidl_adapter/unitree_api/msg/Response.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/rosidl_adapter/unitree_api/msg/Response.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/rosidl_adapter/unitree_api/msg/ResponseHeader.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/rosidl_adapter/unitree_api/msg/ResponseHeader.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/rosidl_adapter/unitree_api/msg/ResponseStatus.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/rosidl_adapter/unitree_api/msg/ResponseStatus.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/Request.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/Request.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/RequestHeader.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/RequestHeader.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/RequestIdentity.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/RequestIdentity.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/RequestLease.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/RequestLease.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/RequestPolicy.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/RequestPolicy.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/Response.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/ResponseHeader.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/ResponseHeader.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/ResponseStatus.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/ResponseStatus.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg/dds_connext" TYPE DIRECTORY FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/rosidl_generator_dds_idl/unitree_api/msg/dds_connext/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/msg/dds_connext" TYPE DIRECTORY FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/rosidl_generator_dds_idl/unitree_api/msg/dds_connext/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/unitree_api")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/unitree_api")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/unitree_api")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/unitree_api")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -436,7 +436,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/environment" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/environment" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -444,38 +444,38 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/environment" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/environment" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_index/share/ament_index/resource_index/packages/unitree_api")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_index/share/ament_index/resource_index/packages/unitree_api")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake/export_unitree_api__rosidl_generator_cExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake/export_unitree_api__rosidl_generator_cExport.cmake"
-         "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/export_unitree_api__rosidl_generator_cExport.cmake")
+         "/home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/export_unitree_api__rosidl_generator_cExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake/export_unitree_api__rosidl_generator_cExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -484,9 +484,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/export_unitree_api__rosidl_generator_cExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/export_unitree_api__rosidl_generator_cExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/export_unitree_api__rosidl_generator_cExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/export_unitree_api__rosidl_generator_cExport-noconfig.cmake")
   endif()
 endif()
 
@@ -494,7 +494,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake/export_unitree_api__rosidl_typesupport_fastrtps_cExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake/export_unitree_api__rosidl_typesupport_fastrtps_cExport.cmake"
-         "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/export_unitree_api__rosidl_typesupport_fastrtps_cExport.cmake")
+         "/home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/export_unitree_api__rosidl_typesupport_fastrtps_cExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake/export_unitree_api__rosidl_typesupport_fastrtps_cExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -503,9 +503,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/export_unitree_api__rosidl_typesupport_fastrtps_cExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/export_unitree_api__rosidl_typesupport_fastrtps_cExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/export_unitree_api__rosidl_typesupport_fastrtps_cExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/export_unitree_api__rosidl_typesupport_fastrtps_cExport-noconfig.cmake")
   endif()
 endif()
 
@@ -513,7 +513,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake/export_unitree_api__rosidl_generator_cppExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake/export_unitree_api__rosidl_generator_cppExport.cmake"
-         "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/export_unitree_api__rosidl_generator_cppExport.cmake")
+         "/home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/export_unitree_api__rosidl_generator_cppExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake/export_unitree_api__rosidl_generator_cppExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -522,14 +522,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/export_unitree_api__rosidl_generator_cppExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/export_unitree_api__rosidl_generator_cppExport.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake/export_unitree_api__rosidl_typesupport_fastrtps_cppExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake/export_unitree_api__rosidl_typesupport_fastrtps_cppExport.cmake"
-         "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/export_unitree_api__rosidl_typesupport_fastrtps_cppExport.cmake")
+         "/home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/export_unitree_api__rosidl_typesupport_fastrtps_cppExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake/export_unitree_api__rosidl_typesupport_fastrtps_cppExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -538,9 +538,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/export_unitree_api__rosidl_typesupport_fastrtps_cppExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/export_unitree_api__rosidl_typesupport_fastrtps_cppExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/export_unitree_api__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/export_unitree_api__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake")
   endif()
 endif()
 
@@ -548,7 +548,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake/unitree_api__rosidl_typesupport_introspection_cExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake/unitree_api__rosidl_typesupport_introspection_cExport.cmake"
-         "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/unitree_api__rosidl_typesupport_introspection_cExport.cmake")
+         "/home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/unitree_api__rosidl_typesupport_introspection_cExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake/unitree_api__rosidl_typesupport_introspection_cExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -557,9 +557,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/unitree_api__rosidl_typesupport_introspection_cExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/unitree_api__rosidl_typesupport_introspection_cExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/unitree_api__rosidl_typesupport_introspection_cExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/unitree_api__rosidl_typesupport_introspection_cExport-noconfig.cmake")
   endif()
 endif()
 
@@ -567,7 +567,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake/unitree_api__rosidl_typesupport_cExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake/unitree_api__rosidl_typesupport_cExport.cmake"
-         "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/unitree_api__rosidl_typesupport_cExport.cmake")
+         "/home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/unitree_api__rosidl_typesupport_cExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake/unitree_api__rosidl_typesupport_cExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -576,9 +576,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/unitree_api__rosidl_typesupport_cExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/unitree_api__rosidl_typesupport_cExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/unitree_api__rosidl_typesupport_cExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/unitree_api__rosidl_typesupport_cExport-noconfig.cmake")
   endif()
 endif()
 
@@ -586,7 +586,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake/unitree_api__rosidl_typesupport_introspection_cppExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake/unitree_api__rosidl_typesupport_introspection_cppExport.cmake"
-         "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/unitree_api__rosidl_typesupport_introspection_cppExport.cmake")
+         "/home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/unitree_api__rosidl_typesupport_introspection_cppExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake/unitree_api__rosidl_typesupport_introspection_cppExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -595,9 +595,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/unitree_api__rosidl_typesupport_introspection_cppExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/unitree_api__rosidl_typesupport_introspection_cppExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/unitree_api__rosidl_typesupport_introspection_cppExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/unitree_api__rosidl_typesupport_introspection_cppExport-noconfig.cmake")
   endif()
 endif()
 
@@ -605,7 +605,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake/unitree_api__rosidl_typesupport_cppExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake/unitree_api__rosidl_typesupport_cppExport.cmake"
-         "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/unitree_api__rosidl_typesupport_cppExport.cmake")
+         "/home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/unitree_api__rosidl_typesupport_cppExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake/unitree_api__rosidl_typesupport_cppExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -614,9 +614,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/unitree_api__rosidl_typesupport_cppExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/unitree_api__rosidl_typesupport_cppExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/unitree_api__rosidl_typesupport_cppExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/unitree_api__rosidl_typesupport_cppExport-noconfig.cmake")
   endif()
 endif()
 
@@ -624,7 +624,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake/export_unitree_api__rosidl_generator_pyExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake/export_unitree_api__rosidl_generator_pyExport.cmake"
-         "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/export_unitree_api__rosidl_generator_pyExport.cmake")
+         "/home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/export_unitree_api__rosidl_generator_pyExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake/export_unitree_api__rosidl_generator_pyExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -633,54 +633,54 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/export_unitree_api__rosidl_generator_pyExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/export_unitree_api__rosidl_generator_pyExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/export_unitree_api__rosidl_generator_pyExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/CMakeFiles/Export/share/unitree_api/cmake/export_unitree_api__rosidl_generator_pyExport-noconfig.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/rosidl_cmake/rosidl_cmake-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/rosidl_cmake/rosidl_cmake-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/build/unitree_api/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api/cmake" TYPE FILE FILES
-    "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_core/unitree_apiConfig.cmake"
-    "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_core/unitree_apiConfig-version.cmake"
+    "/home/legged/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_core/unitree_apiConfig.cmake"
+    "/home/legged/Desktop/legged_nav_rl/build/unitree_api/ament_cmake_core/unitree_apiConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api" TYPE FILE FILES "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_api" TYPE FILE FILES "/home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/unitree_api__py/cmake_install.cmake")
+  include("/home/legged/Desktop/legged_nav_rl/build/unitree_api/unitree_api__py/cmake_install.cmake")
 
 endif()
 
@@ -692,5 +692,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_api/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/legged/Desktop/legged_nav_rl/build/unitree_api/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

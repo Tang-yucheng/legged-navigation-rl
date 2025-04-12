@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/common/ros2_sport_client.cpp" "CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.o" "gcc" "CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.o.d"
-  "/home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/sport_mode_ctrl.cpp" "CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o" "gcc" "CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o.d"
+  "/home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/common/ros2_sport_client.cpp" "CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.o" "gcc" "CMakeFiles/sport_mode_ctrl.dir/src/common/ros2_sport_client.cpp.o.d"
+  "/home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/sport_mode_ctrl.cpp" "CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o" "gcc" "CMakeFiles/sport_mode_ctrl.dir/src/sport_mode_ctrl.cpp.o.d"
   )
 
 # Targets to which this target links.

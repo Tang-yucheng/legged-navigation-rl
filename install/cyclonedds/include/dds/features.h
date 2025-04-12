@@ -37,6 +37,6 @@
 #define DDS_HAS_TOPIC_DISCOVERY 1
 
 /* Whether or not support for Iceoryx support is included */
-#define DDS_HAS_SHM 1
+/* #undef DDS_HAS_SHM */
 
 #endif

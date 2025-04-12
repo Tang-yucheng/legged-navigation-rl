@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/src/go2_interaction
+CMAKE_SOURCE_DIR = /home/legged/Desktop/legged_nav_rl/src/go2_interaction
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_interaction
+CMAKE_BINARY_DIR = /home/legged/Desktop/legged_nav_rl/build/go2_interaction
 
 # Utility rule file for go2_interaction_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/go2_interaction_uninstall.dir/compiler_depend.make
 include CMakeFiles/go2_interaction_uninstall.dir/progress.make
 
 CMakeFiles/go2_interaction_uninstall:
-	/usr/bin/cmake -P /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_interaction/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/legged/Desktop/legged_nav_rl/build/go2_interaction/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 go2_interaction_uninstall: CMakeFiles/go2_interaction_uninstall
 go2_interaction_uninstall: CMakeFiles/go2_interaction_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/go2_interaction_uninstall.dir/clean:
 .PHONY : CMakeFiles/go2_interaction_uninstall.dir/clean
 
 CMakeFiles/go2_interaction_uninstall.dir/depend:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_interaction && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tang-yucheng/Desktop/legged_nav_rl/src/go2_interaction /home/tang-yucheng/Desktop/legged_nav_rl/src/go2_interaction /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_interaction /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_interaction /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_interaction/CMakeFiles/go2_interaction_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/legged/Desktop/legged_nav_rl/build/go2_interaction && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/legged/Desktop/legged_nav_rl/src/go2_interaction /home/legged/Desktop/legged_nav_rl/src/go2_interaction /home/legged/Desktop/legged_nav_rl/build/go2_interaction /home/legged/Desktop/legged_nav_rl/build/go2_interaction /home/legged/Desktop/legged_nav_rl/build/go2_interaction/CMakeFiles/go2_interaction_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/go2_interaction_uninstall.dir/depend
 

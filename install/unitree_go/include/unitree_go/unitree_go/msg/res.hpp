@@ -7,5 +7,6 @@
 #include "unitree_go/msg/detail/res__struct.hpp"
 #include "unitree_go/msg/detail/res__builder.hpp"
 #include "unitree_go/msg/detail/res__traits.hpp"
+#include "unitree_go/msg/detail/res__type_support.hpp"
 
 #endif  // UNITREE_GO__MSG__RES_HPP_

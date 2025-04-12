@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg
+CMAKE_SOURCE_DIR = /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_hg
+CMAKE_BINARY_DIR = /home/legged/Desktop/legged_nav_rl/build/unitree_hg
 
 # Utility rule file for unitree_hg_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/unitree_hg_uninstall.dir/compiler_depend.make
 include CMakeFiles/unitree_hg_uninstall.dir/progress.make
 
 CMakeFiles/unitree_hg_uninstall:
-	/usr/bin/cmake -P /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_hg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/legged/Desktop/legged_nav_rl/build/unitree_hg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 unitree_hg_uninstall: CMakeFiles/unitree_hg_uninstall
 unitree_hg_uninstall: CMakeFiles/unitree_hg_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/unitree_hg_uninstall.dir/clean:
 .PHONY : CMakeFiles/unitree_hg_uninstall.dir/clean
 
 CMakeFiles/unitree_hg_uninstall.dir/depend:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_hg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_hg /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_hg /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_hg/CMakeFiles/unitree_hg_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/legged/Desktop/legged_nav_rl/build/unitree_hg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg /home/legged/Desktop/legged_nav_rl/build/unitree_hg /home/legged/Desktop/legged_nav_rl/build/unitree_hg /home/legged/Desktop/legged_nav_rl/build/unitree_hg/CMakeFiles/unitree_hg_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/unitree_hg_uninstall.dir/depend
 

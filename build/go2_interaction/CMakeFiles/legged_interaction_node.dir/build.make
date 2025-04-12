@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/src/go2_interaction
+CMAKE_SOURCE_DIR = /home/legged/Desktop/legged_nav_rl/src/go2_interaction
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_interaction
+CMAKE_BINARY_DIR = /home/legged/Desktop/legged_nav_rl/build/go2_interaction
 
 # Include any dependencies generated for this target.
 include CMakeFiles/legged_interaction_node.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/legged_interaction_node.dir/flags.make
 CMakeFiles/legged_interaction_node.dir/rclcpp_components/node_main_legged_interaction_node.cpp.o: CMakeFiles/legged_interaction_node.dir/flags.make
 CMakeFiles/legged_interaction_node.dir/rclcpp_components/node_main_legged_interaction_node.cpp.o: rclcpp_components/node_main_legged_interaction_node.cpp
 CMakeFiles/legged_interaction_node.dir/rclcpp_components/node_main_legged_interaction_node.cpp.o: CMakeFiles/legged_interaction_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tang-yucheng/Desktop/legged_nav_rl/build/go2_interaction/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/legged_interaction_node.dir/rclcpp_components/node_main_legged_interaction_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/legged_interaction_node.dir/rclcpp_components/node_main_legged_interaction_node.cpp.o -MF CMakeFiles/legged_interaction_node.dir/rclcpp_components/node_main_legged_interaction_node.cpp.o.d -o CMakeFiles/legged_interaction_node.dir/rclcpp_components/node_main_legged_interaction_node.cpp.o -c /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_interaction/rclcpp_components/node_main_legged_interaction_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/legged/Desktop/legged_nav_rl/build/go2_interaction/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/legged_interaction_node.dir/rclcpp_components/node_main_legged_interaction_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/legged_interaction_node.dir/rclcpp_components/node_main_legged_interaction_node.cpp.o -MF CMakeFiles/legged_interaction_node.dir/rclcpp_components/node_main_legged_interaction_node.cpp.o.d -o CMakeFiles/legged_interaction_node.dir/rclcpp_components/node_main_legged_interaction_node.cpp.o -c /home/legged/Desktop/legged_nav_rl/build/go2_interaction/rclcpp_components/node_main_legged_interaction_node.cpp
 
 CMakeFiles/legged_interaction_node.dir/rclcpp_components/node_main_legged_interaction_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legged_interaction_node.dir/rclcpp_components/node_main_legged_interaction_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_interaction/rclcpp_components/node_main_legged_interaction_node.cpp > CMakeFiles/legged_interaction_node.dir/rclcpp_components/node_main_legged_interaction_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/legged/Desktop/legged_nav_rl/build/go2_interaction/rclcpp_components/node_main_legged_interaction_node.cpp > CMakeFiles/legged_interaction_node.dir/rclcpp_components/node_main_legged_interaction_node.cpp.i
 
 CMakeFiles/legged_interaction_node.dir/rclcpp_components/node_main_legged_interaction_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legged_interaction_node.dir/rclcpp_components/node_main_legged_interaction_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_interaction/rclcpp_components/node_main_legged_interaction_node.cpp -o CMakeFiles/legged_interaction_node.dir/rclcpp_components/node_main_legged_interaction_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/legged/Desktop/legged_nav_rl/build/go2_interaction/rclcpp_components/node_main_legged_interaction_node.cpp -o CMakeFiles/legged_interaction_node.dir/rclcpp_components/node_main_legged_interaction_node.cpp.s
 
 # Object files for target legged_interaction_node
 legged_interaction_node_OBJECTS = \
@@ -158,7 +158,7 @@ legged_interaction_node: /opt/ros/humble/lib/librosidl_runtime_c.so
 legged_interaction_node: /opt/ros/humble/lib/librcutils.so
 legged_interaction_node: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 legged_interaction_node: CMakeFiles/legged_interaction_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tang-yucheng/Desktop/legged_nav_rl/build/go2_interaction/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable legged_interaction_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/legged/Desktop/legged_nav_rl/build/go2_interaction/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable legged_interaction_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/legged_interaction_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -170,6 +170,6 @@ CMakeFiles/legged_interaction_node.dir/clean:
 .PHONY : CMakeFiles/legged_interaction_node.dir/clean
 
 CMakeFiles/legged_interaction_node.dir/depend:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_interaction && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tang-yucheng/Desktop/legged_nav_rl/src/go2_interaction /home/tang-yucheng/Desktop/legged_nav_rl/src/go2_interaction /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_interaction /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_interaction /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_interaction/CMakeFiles/legged_interaction_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/legged/Desktop/legged_nav_rl/build/go2_interaction && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/legged/Desktop/legged_nav_rl/src/go2_interaction /home/legged/Desktop/legged_nav_rl/src/go2_interaction /home/legged/Desktop/legged_nav_rl/build/go2_interaction /home/legged/Desktop/legged_nav_rl/build/go2_interaction /home/legged/Desktop/legged_nav_rl/build/go2_interaction/CMakeFiles/legged_interaction_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/legged_interaction_node.dir/depend
 

@@ -7,5 +7,6 @@
 #include "unitree_go/msg/detail/sport_mode_state__struct.hpp"
 #include "unitree_go/msg/detail/sport_mode_state__builder.hpp"
 #include "unitree_go/msg/detail/sport_mode_state__traits.hpp"
+#include "unitree_go/msg/detail/sport_mode_state__type_support.hpp"
 
 #endif  // UNITREE_GO__MSG__SPORT_MODE_STATE_HPP_

@@ -1,8 +1,8 @@
-# Install script for directory: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds/src
+# Install script for directory: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds")
+  set(CMAKE_INSTALL_PREFIX "/home/legged/Desktop/legged_nav_rl/install/cyclonedds")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,26 +44,26 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/src/tools/cmake_install.cmake")
+  include("/home/legged/Desktop/legged_nav_rl/build/cyclonedds/src/tools/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/src/ddsrt/cmake_install.cmake")
+  include("/home/legged/Desktop/legged_nav_rl/build/cyclonedds/src/ddsrt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/src/idl/cmake_install.cmake")
+  include("/home/legged/Desktop/legged_nav_rl/build/cyclonedds/src/idl/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/src/security/cmake_install.cmake")
+  include("/home/legged/Desktop/legged_nav_rl/build/cyclonedds/src/security/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/src/core/cmake_install.cmake")
+  include("/home/legged/Desktop/legged_nav_rl/build/cyclonedds/src/core/cmake_install.cmake")
 endif()
 

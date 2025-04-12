@@ -1,5 +1,5 @@
 src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/avl.c.o: \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds/src/ddsrt/src/avl.c \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds/src/ddsrt/src/avl.c \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -31,8 +31,8 @@ src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/avl.c.o: \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds/src/ddsrt/include/dds/ddsrt/attributes.h \
- /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds/src/ddsrt/include/dds/ddsrt/avl.h \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds/src/ddsrt/include/dds/ddsrt/attributes.h \
+ /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds/src/ddsrt/include/dds/ddsrt/avl.h \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -62,4 +62,4 @@ src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/avl.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
- /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/src/core/include/dds/export.h
+ /home/legged/Desktop/legged_nav_rl/build/cyclonedds/src/core/include/dds/export.h

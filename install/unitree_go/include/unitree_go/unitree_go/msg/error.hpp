@@ -7,5 +7,6 @@
 #include "unitree_go/msg/detail/error__struct.hpp"
 #include "unitree_go/msg/detail/error__builder.hpp"
 #include "unitree_go/msg/detail/error__traits.hpp"
+#include "unitree_go/msg/detail/error__type_support.hpp"
 
 #endif  // UNITREE_GO__MSG__ERROR_HPP_

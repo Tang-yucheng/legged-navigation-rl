@@ -7,5 +7,6 @@
 #include "unitree_go/msg/detail/motor_cmd__struct.hpp"
 #include "unitree_go/msg/detail/motor_cmd__builder.hpp"
 #include "unitree_go/msg/detail/motor_cmd__traits.hpp"
+#include "unitree_go/msg/detail/motor_cmd__type_support.hpp"
 
 #endif  // UNITREE_GO__MSG__MOTOR_CMD_HPP_

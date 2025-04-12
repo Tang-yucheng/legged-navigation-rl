@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/src/go2_interaction
+CMAKE_SOURCE_DIR = /home/legged/Desktop/legged_nav_rl/src/go2_interaction
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_interaction
+CMAKE_BINARY_DIR = /home/legged/Desktop/legged_nav_rl/build/go2_interaction
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_interaction && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tang-yucheng/Desktop/legged_nav_rl/src/go2_interaction /home/tang-yucheng/Desktop/legged_nav_rl/src/go2_interaction /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_interaction /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_interaction /home/tang-yucheng/Desktop/legged_nav_rl/build/go2_interaction/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/legged/Desktop/legged_nav_rl/build/go2_interaction && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/legged/Desktop/legged_nav_rl/src/go2_interaction /home/legged/Desktop/legged_nav_rl/src/go2_interaction /home/legged/Desktop/legged_nav_rl/build/go2_interaction /home/legged/Desktop/legged_nav_rl/build/go2_interaction /home/legged/Desktop/legged_nav_rl/build/go2_interaction/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

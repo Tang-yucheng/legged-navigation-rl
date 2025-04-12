@@ -1,8 +1,8 @@
-# Install script for directory: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds/src/tools
+# Install script for directory: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/cyclonedds_ws/cyclonedds/src/tools
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tang-yucheng/Desktop/legged_nav_rl/install/cyclonedds")
+  set(CMAKE_INSTALL_PREFIX "/home/legged/Desktop/legged_nav_rl/install/cyclonedds")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,21 +44,21 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/src/tools/_confgen/cmake_install.cmake")
+  include("/home/legged/Desktop/legged_nav_rl/build/cyclonedds/src/tools/_confgen/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/src/tools/idlpp/cmake_install.cmake")
+  include("/home/legged/Desktop/legged_nav_rl/build/cyclonedds/src/tools/idlpp/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/src/tools/idlc/cmake_install.cmake")
+  include("/home/legged/Desktop/legged_nav_rl/build/cyclonedds/src/tools/idlc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/src/tools/ddsperf/cmake_install.cmake")
+  include("/home/legged/Desktop/legged_nav_rl/build/cyclonedds/src/tools/ddsperf/cmake_install.cmake")
 endif()
 

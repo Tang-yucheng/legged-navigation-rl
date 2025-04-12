@@ -6,6 +6,7 @@ import numpy as np
 
 from unitree_go.msg import LowCmd
 from unitree_go.msg import LowState
+from geometry_msgs.msg import Twist
 
 from .common.crc import CRC
 from .common.config import Config
@@ -55,6 +56,7 @@ class Controller:
         # Initializing process variables
         self.low_cmd = LowCmd()
         self.low_state = LowState()
+        self.cmd_vel = Twist()
         
         self.qj = np.zeros(config.num_actions, dtype=np.float32)
         self.dqj = np.zeros(config.num_actions, dtype=np.float32)
@@ -145,6 +147,9 @@ class Controller:
         self.low_state = msg
         self.remote_controller.set(self.low_state.wireless_remote)
 
+    def set_cmdvel(self, msg: Twist):
+        self.cmd_vel = msg
+
     def get_lowcmd(self) -> LowCmd:
         self.low_cmd.crc = CRC().Crc(self.low_cmd)
         return self.low_cmd
@@ -205,14 +210,20 @@ class Controller:
         dqj_obs = dqj_obs * self.config.dof_vel_scale
         ang_vel = ang_vel * self.config.ang_vel_scale
 
-        self.cmd[0] = self.remote_controller.ly
-        self.cmd[1] = self.remote_controller.lx * -1
-        self.cmd[2] = self.remote_controller.rx * -1
+        # # 通过遥控器控制
+        # self.cmd[0] = self.remote_controller.ly
+        # self.cmd[1] = self.remote_controller.lx * -1
+        # self.cmd[2] = self.remote_controller.rx * -1
+        # self.cmd *= self.config.max_cmd
+        # 通过cmd_vel控制
+        self.cmd[0] = self.cmd_vel.linear.x
+        self.cmd[1] = self.cmd_vel.linear.y
+        self.cmd[2] = self.cmd_vel.angular.z
 
         num_actions = self.config.num_actions
         # self.obs[:3] = ang_vel
         # self.obs[3:6] = gravity_orientation
-        # self.obs[6:9] = self.cmd * self.config.cmd_scale * self.config.max_cmd
+        # self.obs[6:9] = self.cmd * self.config.cmd_scale
         # self.obs[9 : 9 + num_actions] = qj_obs
         # self.obs[9 + num_actions : 9 + num_actions * 2] = dqj_obs
         # self.obs[9 + num_actions * 2 : 9 + num_actions * 3] = self.action
@@ -220,7 +231,10 @@ class Controller:
         # obs_tensor = torch.from_numpy(self.obs).unsqueeze(0)
         # self.action = self.policy(obs_tensor).detach().numpy().squeeze()
 
-        self.obs[:3] = self.cmd * self.config.cmd_scale * self.config.max_cmd
+        self.obs[:3] = self.cmd * self.config.cmd_scale
+        print(self.cmd, flush=True)
+        self.cmd[:] = 0
+
         self.obs[3:6] = ang_vel
         self.obs[6:9] = gravity_orientation
         self.obs[9 : 9 + num_actions] = qj_obs

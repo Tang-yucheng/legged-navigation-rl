@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src
+CMAKE_SOURCE_DIR = /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_ros2_example
+CMAKE_BINARY_DIR = /home/legged/Desktop/legged_nav_rl/build/unitree_ros2_example
 
 # Include any dependencies generated for this target.
 include CMakeFiles/g1_low_level_example.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/g1_low_level_example.dir/progress.make
 include CMakeFiles/g1_low_level_example.dir/flags.make
 
 CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.o: CMakeFiles/g1_low_level_example.dir/flags.make
-CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.o: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/g1/lowlevel/g1_low_level_example.cpp
+CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.o: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/g1/lowlevel/g1_low_level_example.cpp
 CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.o: CMakeFiles/g1_low_level_example.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_ros2_example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.o -MF CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.o.d -o CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.o -c /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/g1/lowlevel/g1_low_level_example.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/legged/Desktop/legged_nav_rl/build/unitree_ros2_example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.o -MF CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.o.d -o CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.o -c /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/g1/lowlevel/g1_low_level_example.cpp
 
 CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/g1/lowlevel/g1_low_level_example.cpp > CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/g1/lowlevel/g1_low_level_example.cpp > CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.i
 
 CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/g1/lowlevel/g1_low_level_example.cpp -o CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/g1/lowlevel/g1_low_level_example.cpp -o CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.s
 
 CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.o: CMakeFiles/g1_low_level_example.dir/flags.make
-CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.o: /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/common/motor_crc_hg.cpp
+CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.o: /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/common/motor_crc_hg.cpp
 CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.o: CMakeFiles/g1_low_level_example.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_ros2_example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.o -MF CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.o.d -o CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.o -c /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/common/motor_crc_hg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/legged/Desktop/legged_nav_rl/build/unitree_ros2_example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.o -MF CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.o.d -o CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.o -c /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/common/motor_crc_hg.cpp
 
 CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/common/motor_crc_hg.cpp > CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/common/motor_crc_hg.cpp > CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.i
 
 CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/common/motor_crc_hg.cpp -o CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src/src/common/motor_crc_hg.cpp -o CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.s
 
 # Object files for target g1_low_level_example
 g1_low_level_example_OBJECTS = \
@@ -108,29 +108,29 @@ g1_low_level_example_EXTERNAL_OBJECTS =
 g1_low_level_example: CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.o
 g1_low_level_example: CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.o
 g1_low_level_example: CMakeFiles/g1_low_level_example.dir/build.make
-g1_low_level_example: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_fastrtps_c.so
-g1_low_level_example: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_fastrtps_cpp.so
-g1_low_level_example: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_introspection_c.so
-g1_low_level_example: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_introspection_cpp.so
-g1_low_level_example: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_cpp.so
-g1_low_level_example: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_generator_py.so
-g1_low_level_example: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_c.so
-g1_low_level_example: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_cpp.so
-g1_low_level_example: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_c.so
-g1_low_level_example: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_cpp.so
-g1_low_level_example: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_cpp.so
-g1_low_level_example: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_generator_py.so
-g1_low_level_example: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_typesupport_fastrtps_c.so
-g1_low_level_example: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_typesupport_fastrtps_cpp.so
-g1_low_level_example: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_typesupport_introspection_c.so
-g1_low_level_example: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_typesupport_introspection_cpp.so
-g1_low_level_example: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_typesupport_cpp.so
-g1_low_level_example: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_generator_py.so
+g1_low_level_example: /home/legged/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_fastrtps_c.so
+g1_low_level_example: /home/legged/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_fastrtps_cpp.so
+g1_low_level_example: /home/legged/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_introspection_c.so
+g1_low_level_example: /home/legged/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_introspection_cpp.so
+g1_low_level_example: /home/legged/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_cpp.so
+g1_low_level_example: /home/legged/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_generator_py.so
+g1_low_level_example: /home/legged/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_c.so
+g1_low_level_example: /home/legged/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_cpp.so
+g1_low_level_example: /home/legged/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_c.so
+g1_low_level_example: /home/legged/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_cpp.so
+g1_low_level_example: /home/legged/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_cpp.so
+g1_low_level_example: /home/legged/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_generator_py.so
+g1_low_level_example: /home/legged/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_typesupport_fastrtps_c.so
+g1_low_level_example: /home/legged/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_typesupport_fastrtps_cpp.so
+g1_low_level_example: /home/legged/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_typesupport_introspection_c.so
+g1_low_level_example: /home/legged/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_typesupport_introspection_cpp.so
+g1_low_level_example: /home/legged/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_typesupport_cpp.so
+g1_low_level_example: /home/legged/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_generator_py.so
 g1_low_level_example: /opt/ros/humble/lib/librosbag2_cpp.so
-g1_low_level_example: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_c.so
-g1_low_level_example: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_generator_c.so
-g1_low_level_example: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_c.so
-g1_low_level_example: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_generator_c.so
+g1_low_level_example: /home/legged/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_typesupport_c.so
+g1_low_level_example: /home/legged/Desktop/legged_nav_rl/install/unitree_go/lib/libunitree_go__rosidl_generator_c.so
+g1_low_level_example: /home/legged/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_c.so
+g1_low_level_example: /home/legged/Desktop/legged_nav_rl/install/unitree_hg/lib/libunitree_hg__rosidl_generator_c.so
 g1_low_level_example: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
 g1_low_level_example: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 g1_low_level_example: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -141,8 +141,8 @@ g1_low_level_example: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_i
 g1_low_level_example: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 g1_low_level_example: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 g1_low_level_example: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
-g1_low_level_example: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_typesupport_c.so
-g1_low_level_example: /home/tang-yucheng/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_generator_c.so
+g1_low_level_example: /home/legged/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_typesupport_c.so
+g1_low_level_example: /home/legged/Desktop/legged_nav_rl/install/unitree_api/lib/libunitree_api__rosidl_generator_c.so
 g1_low_level_example: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 g1_low_level_example: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 g1_low_level_example: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
@@ -209,7 +209,7 @@ g1_low_level_example: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
 g1_low_level_example: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 g1_low_level_example: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
 g1_low_level_example: CMakeFiles/g1_low_level_example.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_ros2_example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable g1_low_level_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/legged/Desktop/legged_nav_rl/build/unitree_ros2_example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable g1_low_level_example"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/g1_low_level_example.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -221,6 +221,6 @@ CMakeFiles/g1_low_level_example.dir/clean:
 .PHONY : CMakeFiles/g1_low_level_example.dir/clean
 
 CMakeFiles/g1_low_level_example.dir/depend:
-	cd /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_ros2_example && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src /home/tang-yucheng/Desktop/legged_nav_rl/src/unitree_ros2/example/src /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_ros2_example /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_ros2_example /home/tang-yucheng/Desktop/legged_nav_rl/build/unitree_ros2_example/CMakeFiles/g1_low_level_example.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/legged/Desktop/legged_nav_rl/build/unitree_ros2_example && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src /home/legged/Desktop/legged_nav_rl/src/unitree_ros2/example/src /home/legged/Desktop/legged_nav_rl/build/unitree_ros2_example /home/legged/Desktop/legged_nav_rl/build/unitree_ros2_example /home/legged/Desktop/legged_nav_rl/build/unitree_ros2_example/CMakeFiles/g1_low_level_example.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/g1_low_level_example.dir/depend
 

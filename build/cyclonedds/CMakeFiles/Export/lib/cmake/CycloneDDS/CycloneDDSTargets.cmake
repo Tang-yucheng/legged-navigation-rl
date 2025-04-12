@@ -87,7 +87,7 @@ add_library(CycloneDDS::ddsc SHARED IMPORTED)
 set_target_properties(CycloneDDS::ddsc PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
   INTERFACE_SOURCES "${_IMPORT_PREFIX}/include/dds//dds.h;${_IMPORT_PREFIX}/include/dds//ddsc/dds_public_error.h;${_IMPORT_PREFIX}/include/dds//ddsc/dds_public_impl.h;${_IMPORT_PREFIX}/include/dds//ddsc/dds_public_listener.h;${_IMPORT_PREFIX}/include/dds//ddsc/dds_public_qos.h;${_IMPORT_PREFIX}/include/dds//ddsc/dds_public_qosdefs.h;${_IMPORT_PREFIX}/include/dds//ddsc/dds_public_status.h;${_IMPORT_PREFIX}/include/dds//ddsc/dds_statistics.h;${_IMPORT_PREFIX}/include/dds//ddsc/dds_rhc.h;${_IMPORT_PREFIX}/include/dds//ddsc/dds_internal_api.h;${_IMPORT_PREFIX}/include/dds//ddsc/dds_opcodes.h;${_IMPORT_PREFIX}/include/dds//ddsc/dds_data_allocator.h;${_IMPORT_PREFIX}/include/dds//ddsc/dds_loan_api.h;${_IMPORT_PREFIX}/include/dds/export.h"
-  SHM_SUPPORT_IS_AVAILABLE "1"
+  SHM_SUPPORT_IS_AVAILABLE "0"
   TOPIC_DISCOVERY_IS_AVAILABLE "ON"
   TYPE_DISCOVERY_IS_AVAILABLE "ON"
 )

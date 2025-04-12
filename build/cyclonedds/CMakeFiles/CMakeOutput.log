@@ -1,4 +1,4 @@
-The system is: Linux - 6.8.0-52-generic - x86_64
+The system is: Linux - 6.8.0-57-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,15 +10,15 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/3.22.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/3.22.1/CompilerIdC/a.out"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
+Change Dir: /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_04c80/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_04c80.dir/build.make CMakeFiles/cmTC_04c80.dir/build
-gmake[1]: Entering directory '/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_04c80.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -v -o CMakeFiles/cmTC_04c80.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5f439/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5f439.dir/build.make CMakeFiles/cmTC_5f439.dir/build
+gmake[1]: Entering directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f439.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_5f439.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -28,8 +28,8 @@ Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~2
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_04c80.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_04c80.dir/'
- /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_04c80.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccr1eAfz.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5f439.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5f439.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_5f439.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc2dkPqv.s
 GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
 	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -49,15 +49,15 @@ GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_04c80.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_04c80.dir/'
- as -v --64 -o CMakeFiles/cmTC_04c80.dir/CMakeCCompilerABI.c.o /tmp/ccr1eAfz.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5f439.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5f439.dir/'
+ as -v --64 -o CMakeFiles/cmTC_5f439.dir/CMakeCCompilerABI.c.o /tmp/cc2dkPqv.s
 GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_04c80.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_04c80.dir/CMakeCCompilerABI.c.'
-Linking C executable cmTC_04c80
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04c80.dir/link.txt --verbose=1
-/usr/bin/cc  -v CMakeFiles/cmTC_04c80.dir/CMakeCCompilerABI.c.o -o cmTC_04c80 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5f439.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5f439.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_5f439
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f439.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_5f439.dir/CMakeCCompilerABI.c.o -o cmTC_5f439 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
@@ -70,10 +70,10 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_04c80' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_04c80.'
- /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6t9rGk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_04c80 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_04c80.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_04c80' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_04c80.'
-gmake[1]: Leaving directory '/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5f439' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5f439.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMf709F.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5f439 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_5f439.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5f439' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5f439.'
+gmake[1]: Leaving directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
 
 
 
@@ -94,12 +94,12 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_04c80/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_04c80.dir/build.make CMakeFiles/cmTC_04c80.dir/build]
-  ignore line: [gmake[1]: Entering directory '/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_04c80.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_04c80.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5f439/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5f439.dir/build.make CMakeFiles/cmTC_5f439.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_5f439.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_5f439.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -109,8 +109,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_04c80.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_04c80.dir/']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_04c80.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccr1eAfz.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5f439.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5f439.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_5f439.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc2dkPqv.s]
   ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -130,15 +130,15 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_04c80.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_04c80.dir/']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_04c80.dir/CMakeCCompilerABI.c.o /tmp/ccr1eAfz.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5f439.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5f439.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_5f439.dir/CMakeCCompilerABI.c.o /tmp/cc2dkPqv.s]
   ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_04c80.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_04c80.dir/CMakeCCompilerABI.c.']
-  ignore line: [Linking C executable cmTC_04c80]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04c80.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_04c80.dir/CMakeCCompilerABI.c.o -o cmTC_04c80 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5f439.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5f439.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_5f439]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f439.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_5f439.dir/CMakeCCompilerABI.c.o -o cmTC_5f439 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
@@ -151,13 +151,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_04c80' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_04c80.']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6t9rGk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_04c80 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_04c80.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5f439' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5f439.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMf709F.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5f439 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_5f439.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc6t9rGk.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccMf709F.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -175,7 +175,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_04c80] ==> ignore
+    arg [cmTC_5f439] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
@@ -187,7 +187,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
-    arg [CMakeFiles/cmTC_04c80.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_5f439.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -219,117 +219,117 @@ Parsed C implicit link information from above output:
 
 
 Determining if the include file getopt.h exists passed with the following output:
-Change Dir: /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
+Change Dir: /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5d6c4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5d6c4.dir/build.make CMakeFiles/cmTC_5d6c4.dir/build
-gmake[1]: 进入目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_5d6c4.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_5d6c4.dir/CheckIncludeFile.c.o -c /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_5d6c4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d6c4.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_5d6c4.dir/CheckIncludeFile.c.o -o cmTC_5d6c4 
-gmake[1]: 离开目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e90cd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e90cd.dir/build.make CMakeFiles/cmTC_e90cd.dir/build
+gmake[1]: Entering directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e90cd.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_e90cd.dir/CheckIncludeFile.c.o -c /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e90cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e90cd.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e90cd.dir/CheckIncludeFile.c.o -o cmTC_e90cd 
+gmake[1]: Leaving directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file stdint.h exists passed with the following output:
-Change Dir: /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
+Change Dir: /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6c06f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6c06f.dir/build.make CMakeFiles/cmTC_6c06f.dir/build
-gmake[1]: 进入目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_6c06f.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_6c06f.dir/CheckIncludeFile.c.o -c /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_6c06f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c06f.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_6c06f.dir/CheckIncludeFile.c.o -o cmTC_6c06f 
-gmake[1]: 离开目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9dc21/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9dc21.dir/build.make CMakeFiles/cmTC_9dc21.dir/build
+gmake[1]: Entering directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9dc21.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_9dc21.dir/CheckIncludeFile.c.o -c /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9dc21
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dc21.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_9dc21.dir/CheckIncludeFile.c.o -o cmTC_9dc21 
+gmake[1]: Leaving directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file inttypes.h exists passed with the following output:
-Change Dir: /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
+Change Dir: /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d6c1f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d6c1f.dir/build.make CMakeFiles/cmTC_d6c1f.dir/build
-gmake[1]: 进入目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_d6c1f.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_d6c1f.dir/CheckIncludeFile.c.o -c /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_d6c1f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6c1f.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_d6c1f.dir/CheckIncludeFile.c.o -o cmTC_d6c1f 
-gmake[1]: 离开目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d8a22/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d8a22.dir/build.make CMakeFiles/cmTC_d8a22.dir/build
+gmake[1]: Entering directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8a22.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_d8a22.dir/CheckIncludeFile.c.o -c /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d8a22
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8a22.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_d8a22.dir/CheckIncludeFile.c.o -o cmTC_d8a22 
+gmake[1]: Leaving directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file sys/types.h exists passed with the following output:
-Change Dir: /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
+Change Dir: /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3e3be/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3e3be.dir/build.make CMakeFiles/cmTC_3e3be.dir/build
-gmake[1]: 进入目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_3e3be.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_3e3be.dir/CheckIncludeFile.c.o -c /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_3e3be
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e3be.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_3e3be.dir/CheckIncludeFile.c.o -o cmTC_3e3be 
-gmake[1]: 离开目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3d47b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3d47b.dir/build.make CMakeFiles/cmTC_3d47b.dir/build
+gmake[1]: Entering directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3d47b.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_3d47b.dir/CheckIncludeFile.c.o -c /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3d47b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d47b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_3d47b.dir/CheckIncludeFile.c.o -o cmTC_3d47b 
+gmake[1]: Leaving directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file stdint.h exists passed with the following output:
-Change Dir: /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
+Change Dir: /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_efcb6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_efcb6.dir/build.make CMakeFiles/cmTC_efcb6.dir/build
-gmake[1]: 进入目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_efcb6.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_efcb6.dir/CheckIncludeFile.c.o -c /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_efcb6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efcb6.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_efcb6.dir/CheckIncludeFile.c.o -o cmTC_efcb6 
-gmake[1]: 离开目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_64f87/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_64f87.dir/build.make CMakeFiles/cmTC_64f87.dir/build
+gmake[1]: Entering directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64f87.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_64f87.dir/CheckIncludeFile.c.o -c /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_64f87
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64f87.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_64f87.dir/CheckIncludeFile.c.o -o cmTC_64f87 
+gmake[1]: Leaving directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file stddef.h exists passed with the following output:
-Change Dir: /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
+Change Dir: /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2c200/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2c200.dir/build.make CMakeFiles/cmTC_2c200.dir/build
-gmake[1]: 进入目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_2c200.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_2c200.dir/CheckIncludeFile.c.o -c /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_2c200
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c200.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_2c200.dir/CheckIncludeFile.c.o -o cmTC_2c200 
-gmake[1]: 离开目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_048db/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_048db.dir/build.make CMakeFiles/cmTC_048db.dir/build
+gmake[1]: Entering directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_048db.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_048db.dir/CheckIncludeFile.c.o -c /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_048db
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_048db.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_048db.dir/CheckIncludeFile.c.o -o cmTC_048db 
+gmake[1]: Leaving directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
 
 
 
 Determining size of intmax_t passed with the following output:
-Change Dir: /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
+Change Dir: /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b1ce0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b1ce0.dir/build.make CMakeFiles/cmTC_b1ce0.dir/build
-gmake[1]: 进入目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_b1ce0.dir/_size.c.o
-/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_b1ce0.dir/_size.c.o -c /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CheckTypeSize/_size.c
-Linking C executable cmTC_b1ce0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1ce0.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_b1ce0.dir/_size.c.o -o cmTC_b1ce0 
-gmake[1]: 离开目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4ce2a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4ce2a.dir/build.make CMakeFiles/cmTC_4ce2a.dir/build
+gmake[1]: Entering directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ce2a.dir/_size.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_4ce2a.dir/_size.c.o -c /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CheckTypeSize/_size.c
+Linking C executable cmTC_4ce2a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ce2a.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_4ce2a.dir/_size.c.o -o cmTC_4ce2a 
+gmake[1]: Leaving directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the stpcpy exist passed with the following output:
-Change Dir: /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
+Change Dir: /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_61cd1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_61cd1.dir/build.make CMakeFiles/cmTC_61cd1.dir/build
-gmake[1]: 进入目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_61cd1.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_61cd1.dir/CheckSymbolExists.c.o -c /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_61cd1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61cd1.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_61cd1.dir/CheckSymbolExists.c.o -o cmTC_61cd1 
-gmake[1]: 离开目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c17b2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c17b2.dir/build.make CMakeFiles/cmTC_c17b2.dir/build
+gmake[1]: Entering directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c17b2.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_c17b2.dir/CheckSymbolExists.c.o -c /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c17b2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c17b2.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c17b2.dir/CheckSymbolExists.c.o -o cmTC_c17b2 
+gmake[1]: Leaving directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
 
 
-File /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <string.h>
 
@@ -344,57 +344,57 @@ int main(int argc, char** argv)
 #endif
 }
 Performing C SOURCE FILE Test COMPILER_HAS_HIDDEN_VISIBILITY succeeded with the following output:
-Change Dir: /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
+Change Dir: /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d7e39/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d7e39.dir/build.make CMakeFiles/cmTC_d7e39.dir/build
-gmake[1]: Entering directory '/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d7e39.dir/src.c.o
-/usr/bin/cc -DCOMPILER_HAS_HIDDEN_VISIBILITY  -fvisibility=hidden -std=gnu99 -o CMakeFiles/cmTC_d7e39.dir/src.c.o -c /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_d7e39
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7e39.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_d7e39.dir/src.c.o -o cmTC_d7e39 
-gmake[1]: Leaving directory '/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_26c64/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_26c64.dir/build.make CMakeFiles/cmTC_26c64.dir/build
+gmake[1]: Entering directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26c64.dir/src.c.o
+/usr/bin/cc -DCOMPILER_HAS_HIDDEN_VISIBILITY  -fvisibility=hidden -std=gnu99 -o CMakeFiles/cmTC_26c64.dir/src.c.o -c /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_26c64
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26c64.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_26c64.dir/src.c.o -o cmTC_26c64 
+gmake[1]: Leaving directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR succeeded with the following output:
-Change Dir: /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
+Change Dir: /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5f225/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5f225.dir/build.make CMakeFiles/cmTC_5f225.dir/build
-gmake[1]: 进入目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_5f225.dir/src.c.o
-/usr/bin/cc -DCOMPILER_HAS_DEPRECATED_ATTR  -std=gnu99 -o CMakeFiles/cmTC_5f225.dir/src.c.o -c /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/src.c
-/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
-/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/src.c:2:5: warning: ‘somefunc’ is deprecated [-Wdeprecated-declarations]
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bb680/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bb680.dir/build.make CMakeFiles/cmTC_bb680.dir/build
+gmake[1]: Entering directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb680.dir/src.c.o
+/usr/bin/cc -DCOMPILER_HAS_DEPRECATED_ATTR  -std=gnu99 -o CMakeFiles/cmTC_bb680.dir/src.c.o -c /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/src.c
+/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/src.c:2:5: warning: ‘somefunc’ is deprecated [-Wdeprecated-declarations]
     2 |     int main() { return somefunc();}
       |     ^~~
-/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/src.c:1:37: note: declared here
+/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/src.c:1:37: note: declared here
     1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
       |                                     ^~~~~~~~
-Linking C executable cmTC_5f225
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f225.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_5f225.dir/src.c.o -o cmTC_5f225 
-gmake[1]: 离开目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
+Linking C executable cmTC_bb680
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb680.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_bb680.dir/src.c.o -o cmTC_bb680 
+gmake[1]: Leaving directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 __attribute__((__deprecated__)) int somefunc() { return 0; }
     int main() { return somefunc();}
 Determining if the gethostname exist passed with the following output:
-Change Dir: /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
+Change Dir: /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_18191/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_18191.dir/build.make CMakeFiles/cmTC_18191.dir/build
-gmake[1]: 进入目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_18191.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_18191.dir/CheckSymbolExists.c.o -c /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_18191
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18191.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_18191.dir/CheckSymbolExists.c.o -o cmTC_18191 
-gmake[1]: 离开目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_86364/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_86364.dir/build.make CMakeFiles/cmTC_86364.dir/build
+gmake[1]: Entering directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_86364.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_86364.dir/CheckSymbolExists.c.o -c /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_86364
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86364.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_86364.dir/CheckSymbolExists.c.o -o cmTC_86364 
+gmake[1]: Leaving directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
 
 
-File /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <unistd.h>
 
@@ -409,19 +409,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the inet_ntop exist passed with the following output:
-Change Dir: /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
+Change Dir: /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_20f9f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_20f9f.dir/build.make CMakeFiles/cmTC_20f9f.dir/build
-gmake[1]: 进入目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_20f9f.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_20f9f.dir/CheckSymbolExists.c.o -c /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_20f9f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20f9f.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_20f9f.dir/CheckSymbolExists.c.o -o cmTC_20f9f 
-gmake[1]: 离开目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_73f65/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_73f65.dir/build.make CMakeFiles/cmTC_73f65.dir/build
+gmake[1]: Entering directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73f65.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_73f65.dir/CheckSymbolExists.c.o -c /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_73f65
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73f65.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_73f65.dir/CheckSymbolExists.c.o -o cmTC_73f65 
+gmake[1]: Leaving directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
 
 
-File /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <arpa/inet.h>
 
@@ -436,19 +436,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the inet_pton exist passed with the following output:
-Change Dir: /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
+Change Dir: /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_91af3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_91af3.dir/build.make CMakeFiles/cmTC_91af3.dir/build
-gmake[1]: 进入目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_91af3.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_91af3.dir/CheckSymbolExists.c.o -c /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_91af3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91af3.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_91af3.dir/CheckSymbolExists.c.o -o cmTC_91af3 
-gmake[1]: 离开目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3f359/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3f359.dir/build.make CMakeFiles/cmTC_3f359.dir/build
+gmake[1]: Entering directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3f359.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_3f359.dir/CheckSymbolExists.c.o -c /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3f359
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f359.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_3f359.dir/CheckSymbolExists.c.o -o cmTC_3f359 
+gmake[1]: Leaving directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
 
 
-File /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <arpa/inet.h>
 
@@ -463,19 +463,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the getaddrinfo exist passed with the following output:
-Change Dir: /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
+Change Dir: /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_84fa8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_84fa8.dir/build.make CMakeFiles/cmTC_84fa8.dir/build
-gmake[1]: 进入目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_84fa8.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_84fa8.dir/CheckSymbolExists.c.o -c /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_84fa8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84fa8.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_84fa8.dir/CheckSymbolExists.c.o -o cmTC_84fa8 
-gmake[1]: 离开目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6d4bc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6d4bc.dir/build.make CMakeFiles/cmTC_6d4bc.dir/build
+gmake[1]: Entering directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d4bc.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_6d4bc.dir/CheckSymbolExists.c.o -c /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6d4bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d4bc.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_6d4bc.dir/CheckSymbolExists.c.o -o cmTC_6d4bc 
+gmake[1]: Leaving directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
 
 
-File /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <netdb.h>
 
@@ -490,19 +490,19 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the gethostbyname_r exist passed with the following output:
-Change Dir: /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
+Change Dir: /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_82533/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_82533.dir/build.make CMakeFiles/cmTC_82533.dir/build
-gmake[1]: 进入目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_82533.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_82533.dir/CheckSymbolExists.c.o -c /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_82533
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82533.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_82533.dir/CheckSymbolExists.c.o -o cmTC_82533 
-gmake[1]: 离开目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_22748/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_22748.dir/build.make CMakeFiles/cmTC_22748.dir/build
+gmake[1]: Entering directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22748.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_22748.dir/CheckSymbolExists.c.o -c /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_22748
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22748.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_22748.dir/CheckSymbolExists.c.o -o cmTC_22748 
+gmake[1]: Leaving directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
 
 
-File /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <netdb.h>
 
@@ -517,44 +517,44 @@ int main(int argc, char** argv)
 #endif
 }
 Determining size of struct sockaddr_in6 passed with the following output:
-Change Dir: /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
+Change Dir: /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_44fc2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_44fc2.dir/build.make CMakeFiles/cmTC_44fc2.dir/build
-gmake[1]: 进入目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_44fc2.dir/SIZEOF_SOCKADDR_IN6.c.o
-/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_44fc2.dir/SIZEOF_SOCKADDR_IN6.c.o -c /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CheckTypeSize/SIZEOF_SOCKADDR_IN6.c
-Linking C executable cmTC_44fc2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44fc2.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_44fc2.dir/SIZEOF_SOCKADDR_IN6.c.o -o cmTC_44fc2 
-gmake[1]: 离开目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c832d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c832d.dir/build.make CMakeFiles/cmTC_c832d.dir/build
+gmake[1]: Entering directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c832d.dir/SIZEOF_SOCKADDR_IN6.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_c832d.dir/SIZEOF_SOCKADDR_IN6.c.o -c /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CheckTypeSize/SIZEOF_SOCKADDR_IN6.c
+Linking C executable cmTC_c832d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c832d.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c832d.dir/SIZEOF_SOCKADDR_IN6.c.o -o cmTC_c832d 
+gmake[1]: Leaving directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
+Change Dir: /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0f0bb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0f0bb.dir/build.make CMakeFiles/cmTC_0f0bb.dir/build
-gmake[1]: 进入目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_0f0bb.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_0f0bb.dir/CheckIncludeFile.c.o -c /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_0f0bb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f0bb.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_0f0bb.dir/CheckIncludeFile.c.o -o cmTC_0f0bb 
-gmake[1]: 离开目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4ddd9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4ddd9.dir/build.make CMakeFiles/cmTC_4ddd9.dir/build
+gmake[1]: Entering directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ddd9.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_4ddd9.dir/CheckIncludeFile.c.o -c /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4ddd9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ddd9.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_4ddd9.dir/CheckIncludeFile.c.o -o cmTC_4ddd9 
+gmake[1]: Leaving directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
 
 
 
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
-Change Dir: /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
+Change Dir: /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b6ed4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b6ed4.dir/build.make CMakeFiles/cmTC_b6ed4.dir/build
-gmake[1]: 进入目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_b6ed4.dir/src.c.o
-/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu99 -o CMakeFiles/cmTC_b6ed4.dir/src.c.o -c /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_b6ed4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6ed4.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_b6ed4.dir/src.c.o -o cmTC_b6ed4 
-gmake[1]: 离开目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_40bb2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_40bb2.dir/build.make CMakeFiles/cmTC_40bb2.dir/build
+gmake[1]: Entering directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40bb2.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu99 -o CMakeFiles/cmTC_40bb2.dir/src.c.o -c /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_40bb2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40bb2.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_40bb2.dir/src.c.o -o cmTC_40bb2 
+gmake[1]: Leaving directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
 
 
 Source file was:
@@ -579,16 +579,16 @@ int main(void)
 }
 
 Determining if the function clock_gettime exists in the c passed with the following output:
-Change Dir: /home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
+Change Dir: /home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9f6b8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9f6b8.dir/build.make CMakeFiles/cmTC_9f6b8.dir/build
-gmake[1]: 进入目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_9f6b8.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime -std=gnu99 -o CMakeFiles/cmTC_9f6b8.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
-Linking C executable cmTC_9f6b8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f6b8.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime CMakeFiles/cmTC_9f6b8.dir/CheckFunctionExists.c.o -o cmTC_9f6b8  -lc 
-gmake[1]: 离开目录“/home/tang-yucheng/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp”
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dca86/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dca86.dir/build.make CMakeFiles/cmTC_dca86.dir/build
+gmake[1]: Entering directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dca86.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime -std=gnu99 -o CMakeFiles/cmTC_dca86.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dca86
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dca86.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime CMakeFiles/cmTC_dca86.dir/CheckFunctionExists.c.o -o cmTC_dca86  -lc 
+gmake[1]: Leaving directory '/home/legged/Desktop/legged_nav_rl/build/cyclonedds/CMakeFiles/CMakeTmp'
 
 
 

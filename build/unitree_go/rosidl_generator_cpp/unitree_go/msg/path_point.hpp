@@ -7,5 +7,6 @@
 #include "unitree_go/msg/detail/path_point__struct.hpp"
 #include "unitree_go/msg/detail/path_point__builder.hpp"
 #include "unitree_go/msg/detail/path_point__traits.hpp"
+#include "unitree_go/msg/detail/path_point__type_support.hpp"
 
 #endif  // UNITREE_GO__MSG__PATH_POINT_HPP_
