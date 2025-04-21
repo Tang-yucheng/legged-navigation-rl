@@ -1,0 +1,25 @@
+elevation_mapping:
+  # 错误拼写：ros__parameter，正确拼写：ros__parameters
+  ros__parameters:
+    inputs: ['ground_truth_cloud'] # A name to identify the input source
+    ground_truth_cloud:
+      type: pointcloud # Supported types: pointcloud
+      topic: /cloud_registered
+      queue_size: 10
+      publish_on_update: true # Whether to publish the elevation map after a callback from this source.
+      sensor_processor:
+        type: perfect
+        # type: laser
+        # min_radius: 0.01
+        # beam_angle: 0.02
+        # beam_constant: 0.01
+        ignore_points_above: 1.0
+    
+    map_frame_id: "world"
+    robot_base_frame_id: "base"
+    robot_pose_with_covariance_topic: "" # Leaving this empty skipps pose covariance updates.
+    robot_pose_cache_size: 200
+    track_point_frame_id: "base"
+    track_point_x: 0.0
+    track_point_y: 0.0
+    track_point_z: 0.0

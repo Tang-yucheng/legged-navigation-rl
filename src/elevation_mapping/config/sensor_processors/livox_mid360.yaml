@@ -1,0 +1,7 @@
+/**:
+  ros__parameters:
+    sensor_processor:
+      type: laser
+      min_radius: 0.01
+      beam_angle: 0.02
+      beam_constant: 0.01

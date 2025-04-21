@@ -75,8 +75,8 @@ def generate_launch_description():
     return LaunchDescription([
         user_debug,
         robot_state_publisher,
-        joint_state_publisher_gui,
+        # joint_state_publisher_gui,
         # legged_interaction_container_delay,
-        # legged_interaction_container,
-        rviz_node
+        legged_interaction_container,
+        # rviz_node
     ])

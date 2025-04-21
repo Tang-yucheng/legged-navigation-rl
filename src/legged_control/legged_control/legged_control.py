@@ -9,6 +9,7 @@ from rclpy.qos import qos_profile_sensor_data
 # msg
 from unitree_go.msg import LowCmd
 from unitree_go.msg import LowState
+from geometry_msgs.msg import Twist
 
 # 第三方库
 import time
@@ -31,6 +32,7 @@ class Legged_Control(Node):
         # 创建发布者、订阅者、服务端对象
         self.pub_lowcmd = self.create_publisher(LowCmd, '/lowcmd', 5)
         self.sub_lowstate = self.create_subscription(LowState, '/lowstate', self.lowstate_callback, qos_profile_sensor_data)
+        self.sub_cmdvel = self.create_subscription(Twist, '/cmd_vel', self.cmdvel_callback, 10)
 
         # 加载控制器
         self.controller = Controller(self.config)
@@ -42,6 +44,9 @@ class Legged_Control(Node):
 
     def lowstate_callback(self, msg):
         self.controller.set_lowstate(msg)
+
+    def cmdvel_callback(self, msg):
+        self.controller.set_cmdvel(msg)
 
     def control_callback(self):
         # 计算实际频率

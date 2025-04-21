@@ -42,6 +42,7 @@ Stephen Brawner (brawner@gmail.com)
       </geometry>
     </collision>
   </link>
+  
   <!-- 负载 -->
   <link name="back_payload">
     <visual>
@@ -73,6 +74,39 @@ Stephen Brawner (brawner@gmail.com)
     <parent link="base"/>
     <child link="back_payload"/>
     <origin xyz="-0.03 0 0.132" rpy="0 0 0"/>
+  </joint>
+
+  <!-- MID360 -->
+  <link name="lidar_mid360">
+    <visual>
+      <geometry>
+        <box size="0.065 0.065 0.06"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/> <!-- 中心位置在方块底面中心 -->
+      <material name="gray">
+        <color rgba="0.5 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.065 0.065 0.06"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/> <!-- 中心位置在方块底面中心 -->
+    </collision>
+    <inertial>
+      <mass value="0.265"/> <!-- 可按实际质量设置 -->
+      <origin xyz="0 0 0"/>
+      <inertia
+      ixx="0.000173" ixy="0.0" ixz="0.0"
+      iyy="0.000173" iyz="0.0"
+      izz="0.000187"/>
+    </inertial>
+  </link>
+  <!-- MID360连接 -->
+  <joint name="lidar_mid360_joint" type="fixed">
+    <parent link="base"/>
+    <child link="lidar_mid360"/>
+    <origin xyz="0.31 0 0.18" rpy="0 0.7853981634 0"/>
   </joint>
 
   <link

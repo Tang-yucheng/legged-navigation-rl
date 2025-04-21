@@ -337,6 +337,9 @@ ENABLE_TOPIC_DISCOVERY:BOOL=ON
 //Enable Type Discovery support
 ENABLE_TYPE_DISCOVERY:BOOL=ON
 
+//No help, variable specified on the command line.
+HUMBLE_ROS:UNINITIALIZED=humble
+
 //Path to a library.
 OPENSSL_CRYPTO_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
 
@@ -351,6 +354,9 @@ PKG_CONFIG_ARGN:STRING=
 
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
+
+//No help, variable specified on the command line.
+ROS_EDITION:UNINITIALIZED=ROS2
 
 //Sanitizers to enable on the build.
 SANITIZER:STRING=

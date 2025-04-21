@@ -14,8 +14,6 @@ def generate_launch_description():
     ])
 
     return LaunchDescription([
-
-        # 主节点：pointlio_mapping
         Node(
             package='legged_control',
             executable='legged_control',
