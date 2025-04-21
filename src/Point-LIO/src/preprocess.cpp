@@ -355,7 +355,7 @@ void Preprocess::avia_handler(const livox_ros_driver2::msg::CustomMsg::SharedPtr
         double dist =
           pl_full[i].x * pl_full[i].x + pl_full[i].y * pl_full[i].y + pl_full[i].z * pl_full[i].z;
         if (dist < blind * blind || dist > det_range * det_range) continue;
-        if (atan2(pl_full[i].y, pl_full[i].x) < -M_PI / 2 || atan2(pl_full[i].y, pl_full[i].x) > M_PI / 2) continue;  // 过滤掉 ±90° 以外的点
+        // if (atan2(pl_full[i].y, pl_full[i].x) < -M_PI / 2 || atan2(pl_full[i].y, pl_full[i].x) > M_PI / 2) continue;  // 过滤掉 ±90° 以外的点
         if (((abs(pl_full[i].x - pl_full[i - 1].x) > 1e-7) ||
              (abs(pl_full[i].y - pl_full[i - 1].y) > 1e-7) ||
              (abs(pl_full[i].z - pl_full[i - 1].z) > 1e-7))) {
