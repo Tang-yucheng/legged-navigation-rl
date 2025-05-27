@@ -69,7 +69,7 @@ def generate_launch_description():
             'sensor_model/max_range': 20.0,  # 可选：设置最大感知范围
             'resolution': 0.1,  # 地图分辨率
             'latch': True,
-            "point_cloud_max_z": 1.5,
+            "point_cloud_max_z": 1.2,
             "point_cloud_min_z": 0.15
         }],
         remappings=[

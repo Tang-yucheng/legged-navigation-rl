@@ -27,5 +27,5 @@ def generate_launch_description():
         lidar_driver_launch,
         mapping_launch,
         go2_description_launch,
-        # legged_control_launch,
+        legged_control_launch,
     ])
